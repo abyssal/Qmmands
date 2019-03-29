@@ -1765,19 +1765,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.IgnoresExtraArguments
   nameWithType: CommandService.IgnoresExtraArguments
-- uid: Qmmands.CommandService.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_IsCaseSensitive
-  commentId: P:Qmmands.CommandService.IsCaseSensitive
-  fullName: Qmmands.CommandService.IsCaseSensitive
-  nameWithType: CommandService.IsCaseSensitive
-- uid: Qmmands.CommandService.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_IsCaseSensitive_
-  commentId: Overload:Qmmands.CommandService.IsCaseSensitive
-  isSpec: "True"
-  fullName: Qmmands.CommandService.IsCaseSensitive
-  nameWithType: CommandService.IsCaseSensitive
 - uid: Qmmands.CommandService.NullableNouns
   name: NullableNouns
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_NullableNouns
@@ -1885,6 +1872,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.SeparatorRequirement
   nameWithType: CommandService.SeparatorRequirement
+- uid: Qmmands.CommandService.StringComparison
+  name: StringComparison
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_StringComparison
+  commentId: P:Qmmands.CommandService.StringComparison
+  fullName: Qmmands.CommandService.StringComparison
+  nameWithType: CommandService.StringComparison
+- uid: Qmmands.CommandService.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_StringComparison_
+  commentId: Overload:Qmmands.CommandService.StringComparison
+  isSpec: "True"
+  fullName: Qmmands.CommandService.StringComparison
+  nameWithType: CommandService.StringComparison
 - uid: Qmmands.CommandServiceConfiguration
   name: CommandServiceConfiguration
   href: api/Qmmands.CommandServiceConfiguration.html
@@ -1969,19 +1969,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.IgnoresExtraArguments
   nameWithType: CommandServiceConfiguration.IgnoresExtraArguments
-- uid: Qmmands.CommandServiceConfiguration.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_IsCaseSensitive
-  commentId: P:Qmmands.CommandServiceConfiguration.IsCaseSensitive
-  fullName: Qmmands.CommandServiceConfiguration.IsCaseSensitive
-  nameWithType: CommandServiceConfiguration.IsCaseSensitive
-- uid: Qmmands.CommandServiceConfiguration.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_IsCaseSensitive_
-  commentId: Overload:Qmmands.CommandServiceConfiguration.IsCaseSensitive
-  isSpec: "True"
-  fullName: Qmmands.CommandServiceConfiguration.IsCaseSensitive
-  nameWithType: CommandServiceConfiguration.IsCaseSensitive
 - uid: Qmmands.CommandServiceConfiguration.NullableNouns
   name: NullableNouns
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_NullableNouns
@@ -2034,6 +2021,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.SeparatorRequirement
   nameWithType: CommandServiceConfiguration.SeparatorRequirement
+- uid: Qmmands.CommandServiceConfiguration.StringComparison
+  name: StringComparison
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_StringComparison
+  commentId: P:Qmmands.CommandServiceConfiguration.StringComparison
+  fullName: Qmmands.CommandServiceConfiguration.StringComparison
+  nameWithType: CommandServiceConfiguration.StringComparison
+- uid: Qmmands.CommandServiceConfiguration.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_StringComparison_
+  commentId: Overload:Qmmands.CommandServiceConfiguration.StringComparison
+  isSpec: "True"
+  fullName: Qmmands.CommandServiceConfiguration.StringComparison
+  nameWithType: CommandServiceConfiguration.StringComparison
 - uid: Qmmands.CommandUtilities
   name: CommandUtilities
   href: api/Qmmands.CommandUtilities.html
@@ -2249,12 +2249,12 @@ references:
   commentId: M:Qmmands.ContainsAttribute.#ctor(System.String)
   fullName: Qmmands.ContainsAttribute.ContainsAttribute(System.String)
   nameWithType: ContainsAttribute.ContainsAttribute(String)
-- uid: Qmmands.ContainsAttribute.#ctor(System.String,System.Boolean)
-  name: ContainsAttribute(String, Boolean)
-  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute__ctor_System_String_System_Boolean_
-  commentId: M:Qmmands.ContainsAttribute.#ctor(System.String,System.Boolean)
-  fullName: Qmmands.ContainsAttribute.ContainsAttribute(System.String, System.Boolean)
-  nameWithType: ContainsAttribute.ContainsAttribute(String, Boolean)
+- uid: Qmmands.ContainsAttribute.#ctor(System.String,System.StringComparison)
+  name: ContainsAttribute(String, StringComparison)
+  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute__ctor_System_String_System_StringComparison_
+  commentId: M:Qmmands.ContainsAttribute.#ctor(System.String,System.StringComparison)
+  fullName: Qmmands.ContainsAttribute.ContainsAttribute(System.String, System.StringComparison)
+  nameWithType: ContainsAttribute.ContainsAttribute(String, StringComparison)
 - uid: Qmmands.ContainsAttribute.#ctor*
   name: ContainsAttribute
   href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute__ctor_
@@ -2275,19 +2275,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ContainsAttribute.CheckAsync
   nameWithType: ContainsAttribute.CheckAsync
-- uid: Qmmands.ContainsAttribute.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_IsCaseSensitive
-  commentId: P:Qmmands.ContainsAttribute.IsCaseSensitive
-  fullName: Qmmands.ContainsAttribute.IsCaseSensitive
-  nameWithType: ContainsAttribute.IsCaseSensitive
-- uid: Qmmands.ContainsAttribute.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_IsCaseSensitive_
-  commentId: Overload:Qmmands.ContainsAttribute.IsCaseSensitive
+- uid: Qmmands.ContainsAttribute.StringComparison
+  name: StringComparison
+  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_StringComparison
+  commentId: P:Qmmands.ContainsAttribute.StringComparison
+  fullName: Qmmands.ContainsAttribute.StringComparison
+  nameWithType: ContainsAttribute.StringComparison
+- uid: Qmmands.ContainsAttribute.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_StringComparison_
+  commentId: Overload:Qmmands.ContainsAttribute.StringComparison
   isSpec: "True"
-  fullName: Qmmands.ContainsAttribute.IsCaseSensitive
-  nameWithType: ContainsAttribute.IsCaseSensitive
+  fullName: Qmmands.ContainsAttribute.StringComparison
+  nameWithType: ContainsAttribute.StringComparison
 - uid: Qmmands.ContainsAttribute.Value
   name: Value
   href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_Value
@@ -2565,12 +2565,12 @@ references:
   commentId: M:Qmmands.EndsWithAttribute.#ctor(System.String)
   fullName: Qmmands.EndsWithAttribute.EndsWithAttribute(System.String)
   nameWithType: EndsWithAttribute.EndsWithAttribute(String)
-- uid: Qmmands.EndsWithAttribute.#ctor(System.String,System.Boolean)
-  name: EndsWithAttribute(String, Boolean)
-  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute__ctor_System_String_System_Boolean_
-  commentId: M:Qmmands.EndsWithAttribute.#ctor(System.String,System.Boolean)
-  fullName: Qmmands.EndsWithAttribute.EndsWithAttribute(System.String, System.Boolean)
-  nameWithType: EndsWithAttribute.EndsWithAttribute(String, Boolean)
+- uid: Qmmands.EndsWithAttribute.#ctor(System.String,System.StringComparison)
+  name: EndsWithAttribute(String, StringComparison)
+  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute__ctor_System_String_System_StringComparison_
+  commentId: M:Qmmands.EndsWithAttribute.#ctor(System.String,System.StringComparison)
+  fullName: Qmmands.EndsWithAttribute.EndsWithAttribute(System.String, System.StringComparison)
+  nameWithType: EndsWithAttribute.EndsWithAttribute(String, StringComparison)
 - uid: Qmmands.EndsWithAttribute.#ctor*
   name: EndsWithAttribute
   href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute__ctor_
@@ -2591,19 +2591,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.EndsWithAttribute.CheckAsync
   nameWithType: EndsWithAttribute.CheckAsync
-- uid: Qmmands.EndsWithAttribute.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_IsCaseSensitive
-  commentId: P:Qmmands.EndsWithAttribute.IsCaseSensitive
-  fullName: Qmmands.EndsWithAttribute.IsCaseSensitive
-  nameWithType: EndsWithAttribute.IsCaseSensitive
-- uid: Qmmands.EndsWithAttribute.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_IsCaseSensitive_
-  commentId: Overload:Qmmands.EndsWithAttribute.IsCaseSensitive
+- uid: Qmmands.EndsWithAttribute.StringComparison
+  name: StringComparison
+  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_StringComparison
+  commentId: P:Qmmands.EndsWithAttribute.StringComparison
+  fullName: Qmmands.EndsWithAttribute.StringComparison
+  nameWithType: EndsWithAttribute.StringComparison
+- uid: Qmmands.EndsWithAttribute.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_StringComparison_
+  commentId: Overload:Qmmands.EndsWithAttribute.StringComparison
   isSpec: "True"
-  fullName: Qmmands.EndsWithAttribute.IsCaseSensitive
-  nameWithType: EndsWithAttribute.IsCaseSensitive
+  fullName: Qmmands.EndsWithAttribute.StringComparison
+  nameWithType: EndsWithAttribute.StringComparison
 - uid: Qmmands.EndsWithAttribute.Value
   name: Value
   href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_Value
@@ -3019,19 +3019,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.IgnoresExtraArguments
   nameWithType: ICommandService.IgnoresExtraArguments
-- uid: Qmmands.ICommandService.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_IsCaseSensitive
-  commentId: P:Qmmands.ICommandService.IsCaseSensitive
-  fullName: Qmmands.ICommandService.IsCaseSensitive
-  nameWithType: ICommandService.IsCaseSensitive
-- uid: Qmmands.ICommandService.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_IsCaseSensitive_
-  commentId: Overload:Qmmands.ICommandService.IsCaseSensitive
-  isSpec: "True"
-  fullName: Qmmands.ICommandService.IsCaseSensitive
-  nameWithType: ICommandService.IsCaseSensitive
 - uid: Qmmands.ICommandService.NullableNouns
   name: NullableNouns
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_NullableNouns
@@ -3139,6 +3126,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.SeparatorRequirement
   nameWithType: ICommandService.SeparatorRequirement
+- uid: Qmmands.ICommandService.StringComparison
+  name: StringComparison
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_StringComparison
+  commentId: P:Qmmands.ICommandService.StringComparison
+  fullName: Qmmands.ICommandService.StringComparison
+  nameWithType: ICommandService.StringComparison
+- uid: Qmmands.ICommandService.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_StringComparison_
+  commentId: Overload:Qmmands.ICommandService.StringComparison
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.StringComparison
+  nameWithType: ICommandService.StringComparison
 - uid: Qmmands.IgnoreExtraArgumentsAttribute
   name: IgnoreExtraArgumentsAttribute
   href: api/Qmmands.IgnoreExtraArgumentsAttribute.html
@@ -4609,15 +4609,15 @@ references:
   commentId: T:Qmmands.ParameterCheckAttribute
   fullName: Qmmands.ParameterCheckAttribute
   nameWithType: ParameterCheckAttribute
-- uid: Qmmands.ParameterCheckAttribute.#ctor(System.Collections.Generic.IEnumerable{System.Type})
-  name: ParameterCheckAttribute(IEnumerable<Type>)
-  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute__ctor_System_Collections_Generic_IEnumerable_System_Type__
-  commentId: M:Qmmands.ParameterCheckAttribute.#ctor(System.Collections.Generic.IEnumerable{System.Type})
-  name.vb: ParameterCheckAttribute(IEnumerable(Of Type))
-  fullName: Qmmands.ParameterCheckAttribute.ParameterCheckAttribute(System.Collections.Generic.IEnumerable<System.Type>)
-  fullName.vb: Qmmands.ParameterCheckAttribute.ParameterCheckAttribute(System.Collections.Generic.IEnumerable(Of System.Type))
-  nameWithType: ParameterCheckAttribute.ParameterCheckAttribute(IEnumerable<Type>)
-  nameWithType.vb: ParameterCheckAttribute.ParameterCheckAttribute(IEnumerable(Of Type))
+- uid: Qmmands.ParameterCheckAttribute.#ctor(System.Predicate{System.Type})
+  name: ParameterCheckAttribute(Predicate<Type>)
+  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute__ctor_System_Predicate_System_Type__
+  commentId: M:Qmmands.ParameterCheckAttribute.#ctor(System.Predicate{System.Type})
+  name.vb: ParameterCheckAttribute(Predicate(Of Type))
+  fullName: Qmmands.ParameterCheckAttribute.ParameterCheckAttribute(System.Predicate<System.Type>)
+  fullName.vb: Qmmands.ParameterCheckAttribute.ParameterCheckAttribute(System.Predicate(Of System.Type))
+  nameWithType: ParameterCheckAttribute.ParameterCheckAttribute(Predicate<Type>)
+  nameWithType.vb: ParameterCheckAttribute.ParameterCheckAttribute(Predicate(Of Type))
 - uid: Qmmands.ParameterCheckAttribute.#ctor*
   name: ParameterCheckAttribute
   href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute__ctor_
@@ -4664,19 +4664,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ParameterCheckAttribute.Parameter
   nameWithType: ParameterCheckAttribute.Parameter
-- uid: Qmmands.ParameterCheckAttribute.SupportedTypes
-  name: SupportedTypes
-  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_SupportedTypes
-  commentId: P:Qmmands.ParameterCheckAttribute.SupportedTypes
-  fullName: Qmmands.ParameterCheckAttribute.SupportedTypes
-  nameWithType: ParameterCheckAttribute.SupportedTypes
-- uid: Qmmands.ParameterCheckAttribute.SupportedTypes*
-  name: SupportedTypes
-  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_SupportedTypes_
-  commentId: Overload:Qmmands.ParameterCheckAttribute.SupportedTypes
+- uid: Qmmands.ParameterCheckAttribute.Predicate
+  name: Predicate
+  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_Predicate
+  commentId: P:Qmmands.ParameterCheckAttribute.Predicate
+  fullName: Qmmands.ParameterCheckAttribute.Predicate
+  nameWithType: ParameterCheckAttribute.Predicate
+- uid: Qmmands.ParameterCheckAttribute.Predicate*
+  name: Predicate
+  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_Predicate_
+  commentId: Overload:Qmmands.ParameterCheckAttribute.Predicate
   isSpec: "True"
-  fullName: Qmmands.ParameterCheckAttribute.SupportedTypes
-  nameWithType: ParameterCheckAttribute.SupportedTypes
+  fullName: Qmmands.ParameterCheckAttribute.Predicate
+  nameWithType: ParameterCheckAttribute.Predicate
 - uid: Qmmands.ParameterChecksFailedResult
   name: ParameterChecksFailedResult
   href: api/Qmmands.ParameterChecksFailedResult.html
@@ -5032,12 +5032,12 @@ references:
   commentId: M:Qmmands.StartsWithAttribute.#ctor(System.String)
   fullName: Qmmands.StartsWithAttribute.StartsWithAttribute(System.String)
   nameWithType: StartsWithAttribute.StartsWithAttribute(String)
-- uid: Qmmands.StartsWithAttribute.#ctor(System.String,System.Boolean)
-  name: StartsWithAttribute(String, Boolean)
-  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute__ctor_System_String_System_Boolean_
-  commentId: M:Qmmands.StartsWithAttribute.#ctor(System.String,System.Boolean)
-  fullName: Qmmands.StartsWithAttribute.StartsWithAttribute(System.String, System.Boolean)
-  nameWithType: StartsWithAttribute.StartsWithAttribute(String, Boolean)
+- uid: Qmmands.StartsWithAttribute.#ctor(System.String,System.StringComparison)
+  name: StartsWithAttribute(String, StringComparison)
+  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute__ctor_System_String_System_StringComparison_
+  commentId: M:Qmmands.StartsWithAttribute.#ctor(System.String,System.StringComparison)
+  fullName: Qmmands.StartsWithAttribute.StartsWithAttribute(System.String, System.StringComparison)
+  nameWithType: StartsWithAttribute.StartsWithAttribute(String, StringComparison)
 - uid: Qmmands.StartsWithAttribute.#ctor*
   name: StartsWithAttribute
   href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute__ctor_
@@ -5058,19 +5058,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.StartsWithAttribute.CheckAsync
   nameWithType: StartsWithAttribute.CheckAsync
-- uid: Qmmands.StartsWithAttribute.IsCaseSensitive
-  name: IsCaseSensitive
-  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_IsCaseSensitive
-  commentId: P:Qmmands.StartsWithAttribute.IsCaseSensitive
-  fullName: Qmmands.StartsWithAttribute.IsCaseSensitive
-  nameWithType: StartsWithAttribute.IsCaseSensitive
-- uid: Qmmands.StartsWithAttribute.IsCaseSensitive*
-  name: IsCaseSensitive
-  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_IsCaseSensitive_
-  commentId: Overload:Qmmands.StartsWithAttribute.IsCaseSensitive
+- uid: Qmmands.StartsWithAttribute.StringComparison
+  name: StringComparison
+  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_StringComparison
+  commentId: P:Qmmands.StartsWithAttribute.StringComparison
+  fullName: Qmmands.StartsWithAttribute.StringComparison
+  nameWithType: StartsWithAttribute.StringComparison
+- uid: Qmmands.StartsWithAttribute.StringComparison*
+  name: StringComparison
+  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_StringComparison_
+  commentId: Overload:Qmmands.StartsWithAttribute.StringComparison
   isSpec: "True"
-  fullName: Qmmands.StartsWithAttribute.IsCaseSensitive
-  nameWithType: StartsWithAttribute.IsCaseSensitive
+  fullName: Qmmands.StartsWithAttribute.StringComparison
+  nameWithType: StartsWithAttribute.StringComparison
 - uid: Qmmands.StartsWithAttribute.Value
   name: Value
   href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_Value

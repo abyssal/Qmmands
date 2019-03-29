@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CommandUtilities
    ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.41.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -540,7 +540,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IEnumerable&lt;char&gt; prefixes, bool ignoreCase, out char prefix, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IEnumerable&lt;char&gt; prefixes, bool isCaseSensitive, out char prefix, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -566,8 +566,8 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreCase</span></td>
-        <td><p>Whether to ignore casing or not.</p>
+        <td><span class="parametername">isCaseSensitive</span></td>
+        <td><p>Whether the check is case-sensitive.</p>
 </td>
       </tr>
       <tr>
@@ -801,7 +801,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IEnumerable&lt;string&gt; prefixes, StringComparison stringComparison, out string prefix, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IEnumerable&lt;string&gt; prefixes, StringComparison comparison, out string prefix, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -827,7 +827,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
       </tr>
       <tr>
         <td><span class="xref">System.StringComparison</span></td>
-        <td><span class="parametername">stringComparison</span></td>
+        <td><span class="parametername">comparison</span></td>
         <td><p>The <span class="xref">System.StringComparison</span> to use when checking for the prefix.</p>
 </td>
       </tr>
@@ -892,7 +892,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IReadOnlyList&lt;char&gt; prefixes, bool ignoreCase, out char prefix, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IReadOnlyList&lt;char&gt; prefixes, bool isCaseSensitive, out char prefix, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -918,8 +918,8 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreCase</span></td>
-        <td><p>Whether to ignore casing or not.</p>
+        <td><span class="parametername">isCaseSensitive</span></td>
+        <td><p>Whether the check is case-sensitive.</p>
 </td>
       </tr>
       <tr>
@@ -1153,7 +1153,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IReadOnlyList&lt;string&gt; prefixes, StringComparison stringComparison, out string prefix, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasAnyPrefix(string input, IReadOnlyList&lt;string&gt; prefixes, StringComparison comparison, out string prefix, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1179,7 +1179,7 @@ If it does, returns <span class="xref">true</span>, the found <code data-dev-com
       </tr>
       <tr>
         <td><span class="xref">System.StringComparison</span></td>
-        <td><span class="parametername">stringComparison</span></td>
+        <td><span class="parametername">comparison</span></td>
         <td><p>The <span class="xref">System.StringComparison</span> to use when checking for the prefix.</p>
 </td>
       </tr>
@@ -1244,7 +1244,7 @@ If it does, returns <span class="xref">true</span> and the trimmed <code data-de
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasPrefix(string input, char prefix, bool ignoreCase, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasPrefix(string input, char prefix, bool isCaseSensitive, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1270,8 +1270,8 @@ If it does, returns <span class="xref">true</span> and the trimmed <code data-de
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreCase</span></td>
-        <td><p>Whether to ignore casing or not.</p>
+        <td><span class="parametername">isCaseSensitive</span></td>
+        <td><p>Whether the check is case-sensitive.</p>
 </td>
       </tr>
       <tr>
@@ -1477,7 +1477,7 @@ If it does, returns <span class="xref">true</span> and the trimmed <code data-de
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool HasPrefix(string input, string prefix, StringComparison stringComparison, out string output)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasPrefix(string input, string prefix, StringComparison comparison, out string output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1503,7 +1503,7 @@ If it does, returns <span class="xref">true</span> and the trimmed <code data-de
       </tr>
       <tr>
         <td><span class="xref">System.StringComparison</span></td>
-        <td><span class="parametername">stringComparison</span></td>
+        <td><span class="parametername">comparison</span></td>
         <td><p>The <span class="xref">System.StringComparison</span> to use when checking for the prefix.</p>
 </td>
       </tr>

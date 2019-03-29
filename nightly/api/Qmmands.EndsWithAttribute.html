@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EndsWithAttribute
    ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.41.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -86,7 +86,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_SupportedTypes">ParameterCheckAttribute.SupportedTypes</a>
+      <a class="xref" href="Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_Predicate">ParameterCheckAttribute.Predicate</a>
     </div>
     <div>
       <a class="xref" href="Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_Parameter">ParameterCheckAttribute.Parameter</a>
@@ -107,7 +107,7 @@
   
   <a id="Qmmands_EndsWithAttribute__ctor_" data-uid="Qmmands.EndsWithAttribute.#ctor*"></a>
   <h4 id="Qmmands_EndsWithAttribute__ctor_System_String_" data-uid="Qmmands.EndsWithAttribute.#ctor(System.String)">EndsWithAttribute(String)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.EndsWithAttribute.html">EndsWithAttribute</a> with the specified string value and as case-sensitive.</p>
+  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.EndsWithAttribute.html">EndsWithAttribute</a> with the specified string value and <span class="xref">System.StringComparison.OrdinalIgnoreCase</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -135,13 +135,13 @@
   
   
   <a id="Qmmands_EndsWithAttribute__ctor_" data-uid="Qmmands.EndsWithAttribute.#ctor*"></a>
-  <h4 id="Qmmands_EndsWithAttribute__ctor_System_String_System_Boolean_" data-uid="Qmmands.EndsWithAttribute.#ctor(System.String,System.Boolean)">EndsWithAttribute(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.EndsWithAttribute.html">EndsWithAttribute</a> with the specified string value and case sensitivity.</p>
+  <h4 id="Qmmands_EndsWithAttribute__ctor_System_String_System_StringComparison_" data-uid="Qmmands.EndsWithAttribute.#ctor(System.String,System.StringComparison)">EndsWithAttribute(String, StringComparison)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.EndsWithAttribute.html">EndsWithAttribute</a> with the specified string value and <span class="xref">System.StringComparison</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EndsWithAttribute(string value, bool isCaseSensitive)</code></pre>
+    <pre><code class="lang-csharp hljs">public EndsWithAttribute(string value, StringComparison comparison)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,9 +160,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isCaseSensitive</span></td>
-        <td><p>Whether this check is case-sensitive.</p>
+        <td><span class="xref">System.StringComparison</span></td>
+        <td><span class="parametername">comparison</span></td>
+        <td><p>The <span class="xref">System.StringComparison</span> used for comparison.</p>
 </td>
       </tr>
     </tbody>
@@ -171,14 +171,14 @@
   </h3>
   
   
-  <a id="Qmmands_EndsWithAttribute_IsCaseSensitive_" data-uid="Qmmands.EndsWithAttribute.IsCaseSensitive*"></a>
-  <h4 id="Qmmands_EndsWithAttribute_IsCaseSensitive" data-uid="Qmmands.EndsWithAttribute.IsCaseSensitive">IsCaseSensitive</h4>
-  <div class="markdown level1 summary"><p>Gets whether this check is case-sensitive.</p>
+  <a id="Qmmands_EndsWithAttribute_StringComparison_" data-uid="Qmmands.EndsWithAttribute.StringComparison*"></a>
+  <h4 id="Qmmands_EndsWithAttribute_StringComparison" data-uid="Qmmands.EndsWithAttribute.StringComparison">StringComparison</h4>
+  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.StringComparison</span> used for comparison.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCaseSensitive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StringComparison StringComparison { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,7 +190,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.StringComparison</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CommandServiceConfiguration
    ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.41.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -238,36 +238,9 @@ provided should be ignored. Defaults to <span class="xref">false</span>.</p>
   </table>
   
   
-  <a id="Qmmands_CommandServiceConfiguration_IsCaseSensitive_" data-uid="Qmmands.CommandServiceConfiguration.IsCaseSensitive*"></a>
-  <h4 id="Qmmands_CommandServiceConfiguration_IsCaseSensitive" data-uid="Qmmands.CommandServiceConfiguration.IsCaseSensitive">IsCaseSensitive</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.Boolean</span> which determines whether the commands should
-be case sensitive or not. Defaults to <span class="xref">false</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCaseSensitive { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Qmmands_CommandServiceConfiguration_NullableNouns_" data-uid="Qmmands.CommandServiceConfiguration.NullableNouns*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_NullableNouns" data-uid="Qmmands.CommandServiceConfiguration.NullableNouns">NullableNouns</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the collection of nouns to use for nullable value type parsing.
+  <div class="markdown level1 summary"><p>Gets or sets the collection of nouns to use for <span class="xref">System.Nullable&lt;T&gt;</span> parsing.
 If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_DefaultNullableNouns">DefaultNullableNouns</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -384,6 +357,33 @@ Defaults to <a class="xref" href="Qmmands.SeparatorRequirement.html#Qmmands_Sepa
         <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
         <td><p><span class="xref">langword_csharp_value</span> must be a valid <a class="xref" href="Qmmands.SeparatorRequirement.html">SeparatorRequirement</a> value.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Qmmands_CommandServiceConfiguration_StringComparison_" data-uid="Qmmands.CommandServiceConfiguration.StringComparison*"></a>
+  <h4 id="Qmmands_CommandServiceConfiguration_StringComparison" data-uid="Qmmands.CommandServiceConfiguration.StringComparison">StringComparison</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.StringComparison</span> used for finding <a class="xref" href="Qmmands.Command.html">Command</a>s and <a class="xref" href="Qmmands.Module.html">Module</a>s,
+used by the default <span class="xref">langword_csharp_enum</span> parsers, and comparing <a class="xref" href="Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_NullableNouns">NullableNouns</a>. Defaults to <span class="xref">System.StringComparison.OrdinalIgnoreCase</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StringComparison StringComparison { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.StringComparison</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

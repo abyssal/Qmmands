@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ParameterCheckAttribute
    ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.41.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -101,13 +101,13 @@ public abstract class ParameterCheckAttribute : Attribute, _Attribute</code></pr
   
   
   <a id="Qmmands_ParameterCheckAttribute__ctor_" data-uid="Qmmands.ParameterCheckAttribute.#ctor*"></a>
-  <h4 id="Qmmands_ParameterCheckAttribute__ctor_System_Collections_Generic_IEnumerable_System_Type__" data-uid="Qmmands.ParameterCheckAttribute.#ctor(System.Collections.Generic.IEnumerable{System.Type})">ParameterCheckAttribute(IEnumerable&lt;Type&gt;)</h4>
+  <h4 id="Qmmands_ParameterCheckAttribute__ctor_System_Predicate_System_Type__" data-uid="Qmmands.ParameterCheckAttribute.#ctor(System.Predicate{System.Type})">ParameterCheckAttribute(Predicate&lt;Type&gt;)</h4>
   <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.ParameterCheckAttribute.html">ParameterCheckAttribute</a> with the enumerable of supported <span class="xref">System.Type</span>s.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected ParameterCheckAttribute(IEnumerable&lt;Type&gt; types)</code></pre>
+    <pre><code class="lang-csharp hljs">protected ParameterCheckAttribute(Predicate&lt;Type&gt; predicate = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,9 +120,9 @@ public abstract class ParameterCheckAttribute : Attribute, _Attribute</code></pr
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
-        <td><span class="parametername">types</span></td>
-        <td><p>The supported <span class="xref">System.Type</span>s.</p>
+        <td><span class="xref">System.Predicate</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>The optional <span class="xref">System.Predicate&lt;T&gt;</span> that determines what types are supported.</p>
 </td>
       </tr>
     </tbody>
@@ -186,14 +186,15 @@ public abstract class ParameterCheckAttribute : Attribute, _Attribute</code></pr
   </table>
   
   
-  <a id="Qmmands_ParameterCheckAttribute_SupportedTypes_" data-uid="Qmmands.ParameterCheckAttribute.SupportedTypes*"></a>
-  <h4 id="Qmmands_ParameterCheckAttribute_SupportedTypes" data-uid="Qmmands.ParameterCheckAttribute.SupportedTypes">SupportedTypes</h4>
-  <div class="markdown level1 summary"><p>Gets the types supported by this <a class="xref" href="Qmmands.ParameterCheckAttribute.html">ParameterCheckAttribute</a>.</p>
+  <a id="Qmmands_ParameterCheckAttribute_Predicate_" data-uid="Qmmands.ParameterCheckAttribute.Predicate*"></a>
+  <h4 id="Qmmands_ParameterCheckAttribute_Predicate" data-uid="Qmmands.ParameterCheckAttribute.Predicate">Predicate</h4>
+  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.Predicate&lt;T&gt;</span> that determines which types are supported by this <a class="xref" href="Qmmands.ParameterCheckAttribute.html">ParameterCheckAttribute</a>.
+If <span class="xref">null</span>, any <span class="xref">System.Type</span> of parameters are accepted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Type&gt; SupportedTypes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Predicate&lt;Type&gt; Predicate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,7 +206,7 @@ public abstract class ParameterCheckAttribute : Attribute, _Attribute</code></pr
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td><span class="xref">System.Predicate</span>&lt;<span class="xref">System.Type</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
