@@ -77,10 +77,10 @@
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Qmmands.dll</h6>
   <h5 id="Qmmands_CommandCallbackDelegate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate Task&lt;IResult&gt; CommandCallbackDelegate(CommandContext context, IServiceProvider provider);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate ValueTask&lt;IResult&gt; CommandCallbackDelegate(CommandContext context, IServiceProvider provider);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -95,13 +95,13 @@
       <tr>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used for execution.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used for execution. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>The <span class="xref">System.IServiceProvider</span> used for execution.</p>
+        <td><p>The <span class="xref">System.IServiceProvider</span> used for execution. </p>
 </td>
       </tr>
     </tbody>
@@ -116,7 +116,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Qmmands.IResult.html">IResult</a>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<a class="xref" href="Qmmands.IResult.html">IResult</a>&gt;</td>
         <td><p>An <a class="xref" href="Qmmands.IResult.html">IResult</a>.</p>
 </td>
       </tr>
@@ -129,6 +129,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandCallbackDelegate.md&amp;value=---%0Auid%3A%20Qmmands.CommandCallbackDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Delegates.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

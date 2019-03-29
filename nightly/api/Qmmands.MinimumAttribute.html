@@ -96,15 +96,20 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Qmmands.dll</h6>
   <h5 id="Qmmands_MinimumAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class MinimumAttribute : ParameterCheckAttribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MinimumAttribute : ParameterCheckAttribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_MinimumAttribute__ctor_System_Double_.md&amp;value=---%0Auid%3A%20Qmmands.MinimumAttribute.%23ctor(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/Bundled/MinimumCheckAttribute.cs/#L20">View Source</a>
+  </span>
   <a id="Qmmands_MinimumAttribute__ctor_" data-uid="Qmmands.MinimumAttribute.#ctor*"></a>
   <h4 id="Qmmands_MinimumAttribute__ctor_System_Double_" data-uid="Qmmands.MinimumAttribute.#ctor(System.Double)">MinimumAttribute(Double)</h4>
   <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.MinimumAttribute.html">MinimumAttribute</a> with the specified minimum value.</p>
@@ -127,15 +132,20 @@
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">minimum</span></td>
-        <td><p>The minimum value.</p>
+        <td><p>The minimum value. </p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_MinimumAttribute_Minimum.md&amp;value=---%0Auid%3A%20Qmmands.MinimumAttribute.Minimum%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/Bundled/MinimumCheckAttribute.cs/#L14">View Source</a>
+  </span>
   <a id="Qmmands_MinimumAttribute_Minimum_" data-uid="Qmmands.MinimumAttribute.Minimum*"></a>
   <h4 id="Qmmands_MinimumAttribute_Minimum" data-uid="Qmmands.MinimumAttribute.Minimum">Minimum</h4>
   <div class="markdown level1 summary"><p>Gets the minimum value required.</p>
@@ -162,8 +172,13 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_MinimumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_.md&amp;value=---%0Auid%3A%20Qmmands.MinimumAttribute.CheckAsync(System.Object%2CQmmands.CommandContext%2CSystem.IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/Bundled/MinimumCheckAttribute.cs/#L27">View Source</a>
+  </span>
   <a id="Qmmands_MinimumAttribute_CheckAsync_" data-uid="Qmmands.MinimumAttribute.CheckAsync*"></a>
   <h4 id="Qmmands_MinimumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_" data-uid="Qmmands.MinimumAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)">CheckAsync(Object, CommandContext, IServiceProvider)</h4>
   <div class="markdown level1 summary"><p>Determines whether the <code data-dev-comment-type="paramref" class="paramref">argument</code> is valid for the <a class="xref" href="Qmmands.Parameter.html">Parameter</a> in given circumstances.</p>
@@ -171,7 +186,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;CheckResult&gt; CheckAsync(object argument, CommandContext context, IServiceProvider provider)</code></pre>
+    <pre><code class="lang-csharp hljs">public override ValueTask&lt;CheckResult&gt; CheckAsync(object argument, CommandContext context, IServiceProvider provider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,19 +201,19 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">argument</span></td>
-        <td><p>The value given to this <a class="xref" href="Qmmands.Parameter.html">Parameter</a>.</p>
+        <td><p>The value given to this <a class="xref" href="Qmmands.Parameter.html">Parameter</a>. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used during execution.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used during execution. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>The <span class="xref">System.IServiceProvider</span> used during execution.</p>
+        <td><p>The <span class="xref">System.IServiceProvider</span> used during execution. </p>
 </td>
       </tr>
     </tbody>
@@ -213,7 +228,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Qmmands.CheckResult.html">CheckResult</a>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.ValueTask</span>&lt;<a class="xref" href="Qmmands.CheckResult.html">CheckResult</a>&gt;</td>
         <td><p>A <a class="xref" href="Qmmands.CheckResult.html">CheckResult</a> which determines whether this <a class="xref" href="Qmmands.ParameterCheckAttribute.html">ParameterCheckAttribute</a> succeeded or not.</p>
 </td>
       </tr>
@@ -228,6 +243,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_MinimumAttribute.md&amp;value=---%0Auid%3A%20Qmmands.MinimumAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/Bundled/MinimumCheckAttribute.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

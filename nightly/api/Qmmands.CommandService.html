@@ -86,15 +86,20 @@
     <div><a class="xref" href="Qmmands.ICommandService.html">ICommandService</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: Qmmands.dll</h6>
   <h5 id="Qmmands_CommandService_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class CommandService : ICommandService</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService__ctor.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L182">View Source</a>
+  </span>
   <a id="Qmmands_CommandService__ctor_" data-uid="Qmmands.CommandService.#ctor*"></a>
   <h4 id="Qmmands_CommandService__ctor" data-uid="Qmmands.CommandService.#ctor">CommandService()</h4>
   <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.CommandService.html">CommandService</a> with the default <a class="xref" href="Qmmands.CommandServiceConfiguration.html">CommandServiceConfiguration</a>.</p>
@@ -104,8 +109,13 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CommandService()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService__ctor_Qmmands_CommandServiceConfiguration_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.%23ctor(Qmmands.CommandServiceConfiguration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L140">View Source</a>
+  </span>
   <a id="Qmmands_CommandService__ctor_" data-uid="Qmmands.CommandService.#ctor*"></a>
   <h4 id="Qmmands_CommandService__ctor_Qmmands_CommandServiceConfiguration_" data-uid="Qmmands.CommandService.#ctor(Qmmands.CommandServiceConfiguration)">CommandService(CommandServiceConfiguration)</h4>
   <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.CommandService.html">CommandService</a> with the specified <a class="xref" href="Qmmands.CommandServiceConfiguration.html">CommandServiceConfiguration</a>.</p>
@@ -128,7 +138,7 @@
       <tr>
         <td><a class="xref" href="Qmmands.CommandServiceConfiguration.html">CommandServiceConfiguration</a></td>
         <td><span class="parametername">configuration</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandServiceConfiguration.html">CommandServiceConfiguration</a> to use.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandServiceConfiguration.html">CommandServiceConfiguration</a> to use. </p>
 </td>
       </tr>
     </tbody>
@@ -151,8 +161,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_ArgumentParser.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.ArgumentParser%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L47">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_ArgumentParser_" data-uid="Qmmands.CommandService.ArgumentParser*"></a>
   <h4 id="Qmmands_CommandService_ArgumentParser" data-uid="Qmmands.CommandService.ArgumentParser">ArgumentParser</h4>
   <div class="markdown level1 summary"><p>Gets the argument parser.</p>
@@ -177,60 +192,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Qmmands_CommandService_CommandErroredHandlers_" data-uid="Qmmands.CommandService.CommandErroredHandlers*"></a>
-  <h4 id="Qmmands_CommandService_CommandErroredHandlers" data-uid="Qmmands.CommandService.CommandErroredHandlers">CommandErroredHandlers</h4>
-  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Qmmands.CommandService.html#Qmmands_CommandService_CommandErroredHandlers">CommandErroredHandlers</a> event handlers.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImmutableArray&lt;CommandErroredDelegate&gt; CommandErroredHandlers { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ImmutableArray</span>&lt;<a class="xref" href="Qmmands.CommandErroredDelegate.html">CommandErroredDelegate</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Qmmands_CommandService_CommandExecutedHandlers_" data-uid="Qmmands.CommandService.CommandExecutedHandlers*"></a>
-  <h4 id="Qmmands_CommandService_CommandExecutedHandlers" data-uid="Qmmands.CommandService.CommandExecutedHandlers">CommandExecutedHandlers</h4>
-  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Qmmands.CommandService.html#Qmmands_CommandService_CommandExecuted">CommandExecuted</a> event handlers.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImmutableArray&lt;CommandExecutedDelegate&gt; CommandExecutedHandlers { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ImmutableArray</span>&lt;<a class="xref" href="Qmmands.CommandExecutedDelegate.html">CommandExecutedDelegate</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_CooldownBucketKeyGenerator.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.CooldownBucketKeyGenerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L52">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_CooldownBucketKeyGenerator_" data-uid="Qmmands.CommandService.CooldownBucketKeyGenerator*"></a>
   <h4 id="Qmmands_CommandService_CooldownBucketKeyGenerator" data-uid="Qmmands.CommandService.CooldownBucketKeyGenerator">CooldownBucketKeyGenerator</h4>
   <div class="markdown level1 summary"><p>Gets the generator <span class="xref">langword_csharp_delegate</span> to use for <a class="xref" href="Qmmands.Cooldown.html">Cooldown</a> bucket keys.</p>
@@ -255,8 +223,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_DefaultRunMode.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.DefaultRunMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L27">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_DefaultRunMode_" data-uid="Qmmands.CommandService.DefaultRunMode*"></a>
   <h4 id="Qmmands_CommandService_DefaultRunMode" data-uid="Qmmands.CommandService.DefaultRunMode">DefaultRunMode</h4>
   <div class="markdown level1 summary"><p>Gets the default <a class="xref" href="Qmmands.RunMode.html">RunMode</a> for commands and modules.</p>
@@ -281,8 +254,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_IgnoresExtraArguments.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.IgnoresExtraArguments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L32">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_IgnoresExtraArguments_" data-uid="Qmmands.CommandService.IgnoresExtraArguments*"></a>
   <h4 id="Qmmands_CommandService_IgnoresExtraArguments" data-uid="Qmmands.CommandService.IgnoresExtraArguments">IgnoresExtraArguments</h4>
   <div class="markdown level1 summary"><p>Gets whether commands should ignore extra arguments by default or not.</p>
@@ -307,8 +285,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_NullableNouns.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.NullableNouns%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L62">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_NullableNouns_" data-uid="Qmmands.CommandService.NullableNouns*"></a>
   <h4 id="Qmmands_CommandService_NullableNouns" data-uid="Qmmands.CommandService.NullableNouns">NullableNouns</h4>
   <div class="markdown level1 summary"><p>Gets the collection of nouns used for nullable value type parsing.</p>
@@ -333,8 +316,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_QuotationMarkMap.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.QuotationMarkMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L57">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_QuotationMarkMap_" data-uid="Qmmands.CommandService.QuotationMarkMap*"></a>
   <h4 id="Qmmands_CommandService_QuotationMarkMap" data-uid="Qmmands.CommandService.QuotationMarkMap">QuotationMarkMap</h4>
   <div class="markdown level1 summary"><p>Gets the quotation mark map used for non-remainder multi word arguments.</p>
@@ -359,11 +347,16 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_Separator.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.Separator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L37">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_Separator_" data-uid="Qmmands.CommandService.Separator*"></a>
   <h4 id="Qmmands_CommandService_Separator" data-uid="Qmmands.CommandService.Separator">Separator</h4>
-  <div class="markdown level1 summary"><p>Gets the separator.</p>
+  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.String</span> separator used between groups and commands.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -385,8 +378,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_SeparatorRequirement.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.SeparatorRequirement%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L42">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_SeparatorRequirement_" data-uid="Qmmands.CommandService.SeparatorRequirement*"></a>
   <h4 id="Qmmands_CommandService_SeparatorRequirement" data-uid="Qmmands.CommandService.SeparatorRequirement">SeparatorRequirement</h4>
   <div class="markdown level1 summary"><p>Gets the separator requirement.</p>
@@ -411,8 +409,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_StringComparison.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.StringComparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L22">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_StringComparison_" data-uid="Qmmands.CommandService.StringComparison*"></a>
   <h4 id="Qmmands_CommandService_StringComparison" data-uid="Qmmands.CommandService.StringComparison">StringComparison</h4>
   <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.StringComparison</span> used for finding <a class="xref" href="Qmmands.Command.html">Command</a>s and <a class="xref" href="Qmmands.Module.html">Module</a>s,
@@ -440,8 +443,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddModule_Qmmands_Module_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddModule(Qmmands.Module)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L530">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddModule_" data-uid="Qmmands.CommandService.AddModule*"></a>
   <h4 id="Qmmands_CommandService_AddModule_Qmmands_Module_" data-uid="Qmmands.CommandService.AddModule(Qmmands.Module)">AddModule(Module)</h4>
   <div class="markdown level1 summary"><p>Adds the specified <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
@@ -464,7 +472,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.Module.html">Module</a></td>
         <td><span class="parametername">module</span></td>
-        <td><p>The <a class="xref" href="Qmmands.Module.html">Module</a> to add.</p>
+        <td><p>The <a class="xref" href="Qmmands.Module.html">Module</a> to add. </p>
 </td>
       </tr>
     </tbody>
@@ -505,8 +513,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddModule_System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddModule(System.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L499">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddModule_" data-uid="Qmmands.CommandService.AddModule*"></a>
   <h4 id="Qmmands_CommandService_AddModule_System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.CommandService.AddModule(System.Action{Qmmands.ModuleBuilder})">AddModule(Action&lt;ModuleBuilder&gt;)</h4>
   <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and build a <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a> into a <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
@@ -529,7 +542,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td><p>The action to perform on the builder.</p>
+        <td><p>The action to perform on the builder. </p>
 </td>
       </tr>
     </tbody>
@@ -581,11 +594,16 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddModule_System_Type_System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddModule(System.Type%2CSystem.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L587">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddModule_" data-uid="Qmmands.CommandService.AddModule*"></a>
   <h4 id="Qmmands_CommandService_AddModule_System_Type_System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.CommandService.AddModule(System.Type,System.Action{Qmmands.ModuleBuilder})">AddModule(Type, Action&lt;ModuleBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Attempts to add the specified <span class="xref">System.Type</span> as a <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
+  <div class="markdown level1 summary"><p>Attempts to add the specified <span class="xref">System.Type</span> as a <a class="xref" href="Qmmands.Module.html">Module</a>. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -605,13 +623,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">type</span></td>
-        <td><p>The <span class="xref">System.Type</span> to add.</p>
+        <td><p>The <span class="xref">System.Type</span> to add. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a> before it is built.</p>
+        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a> before it is built. </p>
 </td>
       </tr>
     </tbody>
@@ -668,11 +686,16 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddModule__1_System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddModule%60%601(System.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L561">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddModule_" data-uid="Qmmands.CommandService.AddModule*"></a>
   <h4 id="Qmmands_CommandService_AddModule__1_System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.CommandService.AddModule``1(System.Action{Qmmands.ModuleBuilder})">AddModule&lt;TModule&gt;(Action&lt;ModuleBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Attempts to add the specified <code data-dev-comment-type="typeparamref" class="typeparamref">TModule</code> <span class="xref">System.Type</span> as a <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
+  <div class="markdown level1 summary"><p>Attempts to add the specified <code data-dev-comment-type="typeparamref" class="typeparamref">TModule</code> <span class="xref">System.Type</span> as a <a class="xref" href="Qmmands.Module.html">Module</a>. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -692,7 +715,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a> before it is built.</p>
+        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a> before it is built. </p>
 </td>
       </tr>
     </tbody>
@@ -724,7 +747,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     <tbody>
       <tr>
         <td><span class="parametername">TModule</span></td>
-        <td><p>The <span class="xref">System.Type</span> to add.</p>
+        <td><p>The <span class="xref">System.Type</span> to add. </p>
 </td>
       </tr>
     </tbody>
@@ -760,8 +783,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddModules_System_Reflection_Assembly_System_Predicate_System_Reflection_TypeInfo__System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddModules(System.Reflection.Assembly%2CSystem.Predicate%7BSystem.Reflection.TypeInfo%7D%2CSystem.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L458">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddModules_" data-uid="Qmmands.CommandService.AddModules*"></a>
   <h4 id="Qmmands_CommandService_AddModules_System_Reflection_Assembly_System_Predicate_System_Reflection_TypeInfo__System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.CommandService.AddModules(System.Reflection.Assembly,System.Predicate{System.Reflection.TypeInfo},System.Action{Qmmands.ModuleBuilder})">AddModules(Assembly, Predicate&lt;TypeInfo&gt;, Action&lt;ModuleBuilder&gt;)</h4>
   <div class="markdown level1 summary"><p>Attempts to add all valid <a class="xref" href="Qmmands.Module.html">Module</a>s and <a class="xref" href="Qmmands.Command.html">Command</a>s found in the provided <span class="xref">System.Reflection.Assembly</span>.</p>
@@ -784,19 +812,19 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assembly</span></td>
-        <td><p>The assembly to search.</p>
+        <td><p>The assembly to search. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Predicate</span>&lt;<span class="xref">System.Reflection.TypeInfo</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
-        <td><p>The optional <span class="xref">System.Predicate&lt;T&gt;</span> delegate that defines the conditions of the <span class="xref">System.Type</span>s to add as <a class="xref" href="Qmmands.Module.html">Module</a>s.</p>
+        <td><p>The optional <span class="xref">System.Predicate&lt;T&gt;</span> delegate that defines the conditions of the <span class="xref">System.Type</span>s to add as <a class="xref" href="Qmmands.Module.html">Module</a>s. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>&gt;</td>
         <td><span class="parametername">action</span></td>
-        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>s before they are built.</p>
+        <td><p>The optional <span class="xref">System.Action&lt;T&gt;</span> delegate that allows for mutation of the <a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a>s before they are built. </p>
 </td>
       </tr>
     </tbody>
@@ -848,8 +876,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_AddTypeParser__1_Qmmands_TypeParser___0__System_Boolean_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.AddTypeParser%60%601(Qmmands.TypeParser%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L296">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_AddTypeParser_" data-uid="Qmmands.CommandService.AddTypeParser*"></a>
   <h4 id="Qmmands_CommandService_AddTypeParser__1_Qmmands_TypeParser___0__System_Boolean_" data-uid="Qmmands.CommandService.AddTypeParser``1(Qmmands.TypeParser{``0},System.Boolean)">AddTypeParser&lt;T&gt;(TypeParser&lt;T&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> for the specified <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> <span class="xref">System.Type</span>.</p>
@@ -872,13 +905,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.TypeParser-1.html">TypeParser</a>&lt;T&gt;</td>
         <td><span class="parametername">parser</span></td>
-        <td><p>The <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> to add for the <span class="xref">System.Type</span>.</p>
+        <td><p>The <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> to add for the <span class="xref">System.Type</span>. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">replacePrimitive</span></td>
-        <td><p>Whether to replace the primitive parser.</p>
+        <td><p>Whether to replace the primitive parser. </p>
 </td>
       </tr>
     </tbody>
@@ -894,7 +927,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type to add the <code data-dev-comment-type="paramref" class="paramref">parser</code> for.</p>
+        <td><p>The type to add the <code data-dev-comment-type="paramref" class="paramref">parser</code> for. </p>
 </td>
       </tr>
     </tbody>
@@ -920,8 +953,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_System_IServiceProvider_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.ExecuteAsync(Qmmands.Command%2CSystem.Collections.Generic.IEnumerable%7BSystem.Object%7D%2CQmmands.CommandContext%2CSystem.IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L909">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_ExecuteAsync_" data-uid="Qmmands.CommandService.ExecuteAsync*"></a>
   <h4 id="Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_System_IServiceProvider_" data-uid="Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext,System.IServiceProvider)">ExecuteAsync(Command, IEnumerable&lt;Object&gt;, CommandContext, IServiceProvider)</h4>
   <div class="markdown level1 summary"><p>Attempts to execute the given <a class="xref" href="Qmmands.Command.html">Command</a> with the provided arguments.</p>
@@ -944,25 +982,25 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.Command.html">Command</a></td>
         <td><span class="parametername">command</span></td>
-        <td><p>The <a class="xref" href="Qmmands.Command.html">Command</a> to execute.</p>
+        <td><p>The <a class="xref" href="Qmmands.Command.html">Command</a> to execute. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">arguments</span></td>
-        <td><p>The arguments to use for this <a class="xref" href="Qmmands.Command.html">Command</a>'s parameters.</p>
+        <td><p>The arguments to use for this <a class="xref" href="Qmmands.Command.html">Command</a>&apos;s parameters. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution.</p>
+        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution. </p>
 </td>
       </tr>
     </tbody>
@@ -1009,8 +1047,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_System_IServiceProvider_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.ExecuteAsync(Qmmands.Command%2CSystem.String%2CQmmands.CommandContext%2CSystem.IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L827">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_ExecuteAsync_" data-uid="Qmmands.CommandService.ExecuteAsync*"></a>
   <h4 id="Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_System_IServiceProvider_" data-uid="Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext,System.IServiceProvider)">ExecuteAsync(Command, String, CommandContext, IServiceProvider)</h4>
   <div class="markdown level1 summary"><p>Attempts to parse the arguments for the provided <a class="xref" href="Qmmands.Command.html">Command</a> and execute it.</p>
@@ -1033,25 +1076,25 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.Command.html">Command</a></td>
         <td><span class="parametername">command</span></td>
-        <td><p>The <a class="xref" href="Qmmands.Command.html">Command</a> to execute.</p>
+        <td><p>The <a class="xref" href="Qmmands.Command.html">Command</a> to execute. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">rawArguments</span></td>
-        <td><p>The raw arguments to use for this <a class="xref" href="Qmmands.Command.html">Command</a>'s parameters.</p>
+        <td><p>The raw arguments to use for this <a class="xref" href="Qmmands.Command.html">Command</a>&apos;s parameters. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution.</p>
+        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution. </p>
 </td>
       </tr>
     </tbody>
@@ -1098,8 +1141,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_ExecuteAsync_System_String_Qmmands_CommandContext_System_IServiceProvider_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.ExecuteAsync(System.String%2CQmmands.CommandContext%2CSystem.IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L696">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_ExecuteAsync_" data-uid="Qmmands.CommandService.ExecuteAsync*"></a>
   <h4 id="Qmmands_CommandService_ExecuteAsync_System_String_Qmmands_CommandContext_System_IServiceProvider_" data-uid="Qmmands.CommandService.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)">ExecuteAsync(String, CommandContext, IServiceProvider)</h4>
   <div class="markdown level1 summary"><p>Attempts to find <a class="xref" href="Qmmands.Command.html">Command</a>s matching the input and executes the most suitable one.</p>
@@ -1122,19 +1170,19 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">input</span></td>
-        <td><p>The input.</p>
+        <td><p>The input. </p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
-        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution.</p>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> to use during execution. </p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
-        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution.</p>
+        <td><p>The <span class="xref">System.IServiceProvider</span> to use during execution. </p>
 </td>
       </tr>
     </tbody>
@@ -1176,8 +1224,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_FindCommands_System_String_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.FindCommands(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L247">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_FindCommands_" data-uid="Qmmands.CommandService.FindCommands*"></a>
   <h4 id="Qmmands_CommandService_FindCommands_System_String_" data-uid="Qmmands.CommandService.FindCommands(System.String)">FindCommands(String)</h4>
   <div class="markdown level1 summary"><p>Attempts to find <a class="xref" href="Qmmands.Command.html">Command</a>s matching the provided path.</p>
@@ -1200,7 +1253,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">path</span></td>
-        <td><p>The path to use for searching.</p>
+        <td><p>The path to use for searching. </p>
 </td>
       </tr>
     </tbody>
@@ -1221,8 +1274,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_FindModules_System_String_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.FindModules(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L271">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_FindModules_" data-uid="Qmmands.CommandService.FindModules*"></a>
   <h4 id="Qmmands_CommandService_FindModules_System_String_" data-uid="Qmmands.CommandService.FindModules(System.String)">FindModules(String)</h4>
   <div class="markdown level1 summary"><p>Attempts to find <a class="xref" href="Qmmands.Module.html">Module</a>s matching the provided path.</p>
@@ -1245,7 +1303,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">path</span></td>
-        <td><p>The path to use for searching.</p>
+        <td><p>The path to use for searching. </p>
 </td>
       </tr>
     </tbody>
@@ -1282,8 +1340,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_GetAllCommands.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.GetAllCommands%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L191">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_GetAllCommands_" data-uid="Qmmands.CommandService.GetAllCommands*"></a>
   <h4 id="Qmmands_CommandService_GetAllCommands" data-uid="Qmmands.CommandService.GetAllCommands">GetAllCommands()</h4>
   <div class="markdown level1 summary"><p>Gets all of the added <a class="xref" href="Qmmands.Command.html">Command</a>s.</p>
@@ -1309,8 +1372,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_GetAllModules.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.GetAllModules%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L213">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_GetAllModules_" data-uid="Qmmands.CommandService.GetAllModules*"></a>
   <h4 id="Qmmands_CommandService_GetAllModules" data-uid="Qmmands.CommandService.GetAllModules">GetAllModules()</h4>
   <div class="markdown level1 summary"><p>Gets all of the added <a class="xref" href="Qmmands.Module.html">Module</a>s.</p>
@@ -1336,8 +1404,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_GetSpecificTypeParser__2.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.GetSpecificTypeParser%60%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L393">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_GetSpecificTypeParser_" data-uid="Qmmands.CommandService.GetSpecificTypeParser*"></a>
   <h4 id="Qmmands_CommandService_GetSpecificTypeParser__2" data-uid="Qmmands.CommandService.GetSpecificTypeParser``2">GetSpecificTypeParser&lt;T, TParser&gt;()</h4>
   <div class="markdown level1 summary"><p>Retrieves a <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> of the specified <code data-dev-comment-type="typeparamref" class="typeparamref">TParser</code> <span class="xref">System.Type</span>.</p>
@@ -1375,18 +1448,23 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">System.Type</span> the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> is for.</p>
+        <td><p>The <span class="xref">System.Type</span> the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> is for. </p>
 </td>
       </tr>
       <tr>
         <td><span class="parametername">TParser</span></td>
-        <td><p>The <span class="xref">System.Type</span> of the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a>.</p>
+        <td><p>The <span class="xref">System.Type</span> of the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a>. </p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_GetTypeParser__1_System_Boolean_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.GetTypeParser%60%601(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L382">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_GetTypeParser_" data-uid="Qmmands.CommandService.GetTypeParser*"></a>
   <h4 id="Qmmands_CommandService_GetTypeParser__1_System_Boolean_" data-uid="Qmmands.CommandService.GetTypeParser``1(System.Boolean)">GetTypeParser&lt;T&gt;(Boolean)</h4>
   <div class="markdown level1 summary"><p>Retrieves a <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> from the added non-primitive parsers for the specified <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> <span class="xref">System.Type</span>.</p>
@@ -1409,7 +1487,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">replacingPrimitive</span></td>
-        <td><p>Whether the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> replaces one of the primitive parsers or not.</p>
+        <td><p>Whether the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> replaces one of the primitive parsers or not. </p>
 </td>
       </tr>
     </tbody>
@@ -1441,13 +1519,18 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">System.Type</span> the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> is for.</p>
+        <td><p>The <span class="xref">System.Type</span> the <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> is for. </p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_RemoveAllModules.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.RemoveAllModules%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L647">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_RemoveAllModules_" data-uid="Qmmands.CommandService.RemoveAllModules*"></a>
   <h4 id="Qmmands_CommandService_RemoveAllModules" data-uid="Qmmands.CommandService.RemoveAllModules">RemoveAllModules()</h4>
   <div class="markdown level1 summary"><p>Removes all added <a class="xref" href="Qmmands.Module.html">Module</a>s.</p>
@@ -1457,8 +1540,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RemoveAllModules()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_RemoveAllTypeParsers.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.RemoveAllTypeParsers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L368">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_RemoveAllTypeParsers_" data-uid="Qmmands.CommandService.RemoveAllTypeParsers*"></a>
   <h4 id="Qmmands_CommandService_RemoveAllTypeParsers" data-uid="Qmmands.CommandService.RemoveAllTypeParsers">RemoveAllTypeParsers()</h4>
   <div class="markdown level1 summary"><p>Removes all added <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a>s. This does not affect primitive type parsers.</p>
@@ -1468,8 +1556,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RemoveAllTypeParsers()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_RemoveModule_Qmmands_Module_.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.RemoveModule(Qmmands.Module)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L636">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_RemoveModule_" data-uid="Qmmands.CommandService.RemoveModule*"></a>
   <h4 id="Qmmands_CommandService_RemoveModule_Qmmands_Module_" data-uid="Qmmands.CommandService.RemoveModule(Qmmands.Module)">RemoveModule(Module)</h4>
   <div class="markdown level1 summary"><p>Removes the specified <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
@@ -1492,7 +1585,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.Module.html">Module</a></td>
         <td><span class="parametername">module</span></td>
-        <td><p>The <a class="xref" href="Qmmands.Module.html">Module</a> to remove.</p>
+        <td><p>The <a class="xref" href="Qmmands.Module.html">Module</a> to remove. </p>
 </td>
       </tr>
     </tbody>
@@ -1518,8 +1611,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_RemoveTypeParser__1_Qmmands_TypeParser___0__.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.RemoveTypeParser%60%601(Qmmands.TypeParser%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L352">View Source</a>
+  </span>
   <a id="Qmmands_CommandService_RemoveTypeParser_" data-uid="Qmmands.CommandService.RemoveTypeParser*"></a>
   <h4 id="Qmmands_CommandService_RemoveTypeParser__1_Qmmands_TypeParser___0__" data-uid="Qmmands.CommandService.RemoveTypeParser``1(Qmmands.TypeParser{``0})">RemoveTypeParser&lt;T&gt;(TypeParser&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes a <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> for the specified <span class="xref">System.Type</span>.</p>
@@ -1542,7 +1640,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       <tr>
         <td><a class="xref" href="Qmmands.TypeParser-1.html">TypeParser</a>&lt;T&gt;</td>
         <td><span class="parametername">parser</span></td>
-        <td><p>The <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> to remove for the <span class="xref">System.Type</span>.</p>
+        <td><p>The <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> to remove for the <span class="xref">System.Type</span>. </p>
 </td>
       </tr>
     </tbody>
@@ -1558,7 +1656,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">System.Type</span> to remove the <code data-dev-comment-type="paramref" class="paramref">parser</code> for.</p>
+        <td><p>The <span class="xref">System.Type</span> to remove the <code data-dev-comment-type="paramref" class="paramref">parser</code> for. </p>
 </td>
       </tr>
     </tbody>
@@ -1586,8 +1684,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
   </table>
   <h3 id="events">Events
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_CommandErrored.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.CommandErrored%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L96">View Source</a>
+  </span>
   <h4 id="Qmmands_CommandService_CommandErrored" data-uid="Qmmands.CommandService.CommandErrored">CommandErrored</h4>
   <div class="markdown level1 summary"><p>Fires when a command fails to execute. Use this to handle <a class="xref" href="Qmmands.RunMode.html#Qmmands_RunMode_Parallel">Parallel</a> commands.</p>
 </div>
@@ -1611,8 +1714,13 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService_CommandExecuted.md&amp;value=---%0Auid%3A%20Qmmands.CommandService.CommandExecuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L67">View Source</a>
+  </span>
   <h4 id="Qmmands_CommandService_CommandExecuted" data-uid="Qmmands.CommandService.CommandExecuted">CommandExecuted</h4>
   <div class="markdown level1 summary"><p>Fires when a command is successfully executed. Use this to handle <a class="xref" href="Qmmands.RunMode.html#Qmmands_RunMode_Parallel">Parallel</a> commands.</p>
 </div>
@@ -1647,6 +1755,12 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandService.md&amp;value=---%0Auid%3A%20Qmmands.CommandService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandService.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
