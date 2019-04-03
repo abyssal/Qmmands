@@ -1617,13 +1617,27 @@ references:
 - uid: Qmmands.CommandService.CommandErrored
   name: CommandErrored
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandErrored
-  commentId: E:Qmmands.CommandService.CommandErrored
+  commentId: P:Qmmands.CommandService.CommandErrored
+  fullName: Qmmands.CommandService.CommandErrored
+  nameWithType: CommandService.CommandErrored
+- uid: Qmmands.CommandService.CommandErrored*
+  name: CommandErrored
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandErrored_
+  commentId: Overload:Qmmands.CommandService.CommandErrored
+  isSpec: "True"
   fullName: Qmmands.CommandService.CommandErrored
   nameWithType: CommandService.CommandErrored
 - uid: Qmmands.CommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandExecuted
-  commentId: E:Qmmands.CommandService.CommandExecuted
+  commentId: P:Qmmands.CommandService.CommandExecuted
+  fullName: Qmmands.CommandService.CommandExecuted
+  nameWithType: CommandService.CommandExecuted
+- uid: Qmmands.CommandService.CommandExecuted*
+  name: CommandExecuted
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandExecuted_
+  commentId: Overload:Qmmands.CommandService.CommandExecuted
+  isSpec: "True"
   fullName: Qmmands.CommandService.CommandExecuted
   nameWithType: CommandService.CommandExecuted
 - uid: Qmmands.CommandService.CooldownBucketKeyGenerator
@@ -1929,6 +1943,32 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.ArgumentParser
   nameWithType: CommandServiceConfiguration.ArgumentParser
+- uid: Qmmands.CommandServiceConfiguration.CommandErrored
+  name: CommandErrored
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CommandErrored
+  commentId: P:Qmmands.CommandServiceConfiguration.CommandErrored
+  fullName: Qmmands.CommandServiceConfiguration.CommandErrored
+  nameWithType: CommandServiceConfiguration.CommandErrored
+- uid: Qmmands.CommandServiceConfiguration.CommandErrored*
+  name: CommandErrored
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CommandErrored_
+  commentId: Overload:Qmmands.CommandServiceConfiguration.CommandErrored
+  isSpec: "True"
+  fullName: Qmmands.CommandServiceConfiguration.CommandErrored
+  nameWithType: CommandServiceConfiguration.CommandErrored
+- uid: Qmmands.CommandServiceConfiguration.CommandExecuted
+  name: CommandExecuted
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CommandExecuted
+  commentId: P:Qmmands.CommandServiceConfiguration.CommandExecuted
+  fullName: Qmmands.CommandServiceConfiguration.CommandExecuted
+  nameWithType: CommandServiceConfiguration.CommandExecuted
+- uid: Qmmands.CommandServiceConfiguration.CommandExecuted*
+  name: CommandExecuted
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CommandExecuted_
+  commentId: Overload:Qmmands.CommandServiceConfiguration.CommandExecuted
+  isSpec: "True"
+  fullName: Qmmands.CommandServiceConfiguration.CommandExecuted
+  nameWithType: CommandServiceConfiguration.CommandExecuted
 - uid: Qmmands.CommandServiceConfiguration.CooldownBucketKeyGenerator
   name: CooldownBucketKeyGenerator
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CooldownBucketKeyGenerator
@@ -2963,13 +3003,27 @@ references:
 - uid: Qmmands.ICommandService.CommandErrored
   name: CommandErrored
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandErrored
-  commentId: E:Qmmands.ICommandService.CommandErrored
+  commentId: P:Qmmands.ICommandService.CommandErrored
+  fullName: Qmmands.ICommandService.CommandErrored
+  nameWithType: ICommandService.CommandErrored
+- uid: Qmmands.ICommandService.CommandErrored*
+  name: CommandErrored
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandErrored_
+  commentId: Overload:Qmmands.ICommandService.CommandErrored
+  isSpec: "True"
   fullName: Qmmands.ICommandService.CommandErrored
   nameWithType: ICommandService.CommandErrored
 - uid: Qmmands.ICommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandExecuted
-  commentId: E:Qmmands.ICommandService.CommandExecuted
+  commentId: P:Qmmands.ICommandService.CommandExecuted
+  fullName: Qmmands.ICommandService.CommandExecuted
+  nameWithType: ICommandService.CommandExecuted
+- uid: Qmmands.ICommandService.CommandExecuted*
+  name: CommandExecuted
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandExecuted_
+  commentId: Overload:Qmmands.ICommandService.CommandExecuted
+  isSpec: "True"
   fullName: Qmmands.ICommandService.CommandExecuted
   nameWithType: ICommandService.CommandExecuted
 - uid: Qmmands.ICommandService.CooldownBucketKeyGenerator

@@ -78,7 +78,7 @@
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">CommandServiceConfiguration</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
@@ -94,7 +94,7 @@
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration__ctor.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L103">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L118">View Source</a>
   </span>
   <a id="Qmmands_CommandServiceConfiguration__ctor_" data-uid="Qmmands.CommandServiceConfiguration.#ctor*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration__ctor" data-uid="Qmmands.CommandServiceConfiguration.#ctor">CommandServiceConfiguration()</h4>
@@ -141,14 +141,81 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_CommandErrored.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.CommandErrored%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L101">View Source</a>
+  </span>
+  <a id="Qmmands_CommandServiceConfiguration_CommandErrored_" data-uid="Qmmands.CommandServiceConfiguration.CommandErrored*"></a>
+  <h4 id="Qmmands_CommandServiceConfiguration_CommandErrored" data-uid="Qmmands.CommandServiceConfiguration.CommandErrored">CommandErrored</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">langword_csharp_delegate</span> that gets called after a <a class="xref" href="Qmmands.Command.html">Command</a> failed to execute.
+You must use this to handle <a class="xref" href="Qmmands.RunMode.html#Qmmands_RunMode_Parallel">Parallel</a> <a class="xref" href="Qmmands.Command.html">Command</a>s.
+Defaults to <span class="xref">null</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CommandErroredDelegate CommandErrored { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.CommandErroredDelegate.html">CommandErroredDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_CommandExecuted.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.CommandExecuted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L94">View Source</a>
+  </span>
+  <a id="Qmmands_CommandServiceConfiguration_CommandExecuted_" data-uid="Qmmands.CommandServiceConfiguration.CommandExecuted*"></a>
+  <h4 id="Qmmands_CommandServiceConfiguration_CommandExecuted" data-uid="Qmmands.CommandServiceConfiguration.CommandExecuted">CommandExecuted</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">langword_csharp_delegate</span> that gets called after a <a class="xref" href="Qmmands.Command.html">Command</a> was successfully executed.
+You must use this to handle <a class="xref" href="Qmmands.RunMode.html#Qmmands_RunMode_Parallel">Parallel</a> <a class="xref" href="Qmmands.Command.html">Command</a>s.
+Defaults to <span class="xref">null</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CommandExecutedDelegate CommandExecuted { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.CommandExecutedDelegate.html">CommandExecutedDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_CooldownBucketKeyGenerator.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.CooldownBucketKeyGenerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L86">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L87">View Source</a>
   </span>
   <a id="Qmmands_CommandServiceConfiguration_CooldownBucketKeyGenerator_" data-uid="Qmmands.CommandServiceConfiguration.CooldownBucketKeyGenerator*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_CooldownBucketKeyGenerator" data-uid="Qmmands.CommandServiceConfiguration.CooldownBucketKeyGenerator">CooldownBucketKeyGenerator</h4>
-  <div class="markdown level1 summary"><p>The generator <span class="xref">langword_csharp_delegate</span> to use for <a class="xref" href="Qmmands.Cooldown.html">Cooldown</a> bucket keys. Defaults to <span class="xref">null</span>.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the generator <span class="xref">langword_csharp_delegate</span> to use for <a class="xref" href="Qmmands.Cooldown.html">Cooldown</a> bucket keys.
+Defaults to <span class="xref">null</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -175,7 +242,7 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_Default.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L110">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L125">View Source</a>
   </span>
   <a id="Qmmands_CommandServiceConfiguration_Default_" data-uid="Qmmands.CommandServiceConfiguration.Default*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_Default" data-uid="Qmmands.CommandServiceConfiguration.Default">Default</h4>
@@ -243,7 +310,7 @@ run sequentially or in parallel. Defaults to <a class="xref" href="Qmmands.RunMo
   </span>
   <a id="Qmmands_CommandServiceConfiguration_IgnoresExtraArguments_" data-uid="Qmmands.CommandServiceConfiguration.IgnoresExtraArguments*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_IgnoresExtraArguments" data-uid="Qmmands.CommandServiceConfiguration.IgnoresExtraArguments">IgnoresExtraArguments</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.Boolean</span> which determines whether the extra arguments
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a> which determines whether the extra arguments
 provided should be ignored. Defaults to <span class="xref">false</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -261,7 +328,7 @@ provided should be ignored. Defaults to <span class="xref">false</span>.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -271,11 +338,11 @@ provided should be ignored. Defaults to <span class="xref">false</span>.</p>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_NullableNouns.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.NullableNouns%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L98">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L113">View Source</a>
   </span>
   <a id="Qmmands_CommandServiceConfiguration_NullableNouns_" data-uid="Qmmands.CommandServiceConfiguration.NullableNouns*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_NullableNouns" data-uid="Qmmands.CommandServiceConfiguration.NullableNouns">NullableNouns</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the collection of nouns to use for <span class="xref">System.Nullable&lt;T&gt;</span> parsing.
+  <div class="markdown level1 summary"><p>Gets or sets the collection of nouns to use for <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable&lt;T&gt;</a> parsing.
 If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_DefaultNullableNouns">DefaultNullableNouns</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -293,7 +360,7 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -303,7 +370,7 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandServiceConfiguration_QuoteMap.md&amp;value=---%0Auid%3A%20Qmmands.CommandServiceConfiguration.QuoteMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L92">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/CommandServiceConfiguration.cs/#L107">View Source</a>
   </span>
   <a id="Qmmands_CommandServiceConfiguration_QuoteMap_" data-uid="Qmmands.CommandServiceConfiguration.QuoteMap*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_QuoteMap" data-uid="Qmmands.CommandServiceConfiguration.QuoteMap">QuoteMap</h4>
@@ -325,7 +392,7 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Char</span>, <span class="xref">System.Char</span>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -339,7 +406,7 @@ If <span class="xref">null</span>, will default to <a class="xref" href="Qmmands
   </span>
   <a id="Qmmands_CommandServiceConfiguration_Separator_" data-uid="Qmmands.CommandServiceConfiguration.Separator*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_Separator" data-uid="Qmmands.CommandServiceConfiguration.Separator">Separator</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.String</span> separator to use between groups and commands.
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> separator to use between groups and commands.
 Defaults to a single whitespace character.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -357,7 +424,7 @@ Defaults to a single whitespace character.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -404,7 +471,7 @@ Defaults to <a class="xref" href="Qmmands.SeparatorRequirement.html#Qmmands_Sepa
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
         <td><p><span class="xref">langword_csharp_value</span> must be a valid <a class="xref" href="Qmmands.SeparatorRequirement.html">SeparatorRequirement</a> value.</p>
 </td>
       </tr>
@@ -419,8 +486,8 @@ Defaults to <a class="xref" href="Qmmands.SeparatorRequirement.html#Qmmands_Sepa
   </span>
   <a id="Qmmands_CommandServiceConfiguration_StringComparison_" data-uid="Qmmands.CommandServiceConfiguration.StringComparison*"></a>
   <h4 id="Qmmands_CommandServiceConfiguration_StringComparison" data-uid="Qmmands.CommandServiceConfiguration.StringComparison">StringComparison</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.StringComparison</span> used for finding <a class="xref" href="Qmmands.Command.html">Command</a>s and <a class="xref" href="Qmmands.Module.html">Module</a>s,
-used by the default <span class="xref">langword_csharp_enum</span> parsers, and comparing <a class="xref" href="Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_NullableNouns">NullableNouns</a>. Defaults to <span class="xref">System.StringComparison.OrdinalIgnoreCase</span>.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.stringcomparison">StringComparison</a> used for finding <a class="xref" href="Qmmands.Command.html">Command</a>s and <a class="xref" href="Qmmands.Module.html">Module</a>s,
+used by the default <span class="xref">langword_csharp_enum</span> parsers, and comparing <a class="xref" href="Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_NullableNouns">NullableNouns</a>. Defaults to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.stringcomparison#System_StringComparison_OrdinalIgnoreCase">OrdinalIgnoreCase</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -437,7 +504,7 @@ used by the default <span class="xref">langword_csharp_enum</span> parsers, and 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.StringComparison</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.stringcomparison">StringComparison</a></td>
         <td></td>
       </tr>
     </tbody>
