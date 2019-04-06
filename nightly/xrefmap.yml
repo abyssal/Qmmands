@@ -1251,6 +1251,19 @@ references:
   commentId: T:Qmmands.CommandErroredEventArgs
   fullName: Qmmands.CommandErroredEventArgs
   nameWithType: CommandErroredEventArgs
+- uid: Qmmands.CommandErroredEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
+  name: CommandErroredEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
+  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs__ctor_Qmmands_ExecutionFailedResult_Qmmands_CommandContext_System_IServiceProvider_
+  commentId: M:Qmmands.CommandErroredEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
+  fullName: Qmmands.CommandErroredEventArgs.CommandErroredEventArgs(Qmmands.ExecutionFailedResult, Qmmands.CommandContext, System.IServiceProvider)
+  nameWithType: CommandErroredEventArgs.CommandErroredEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandErroredEventArgs.#ctor*
+  name: CommandErroredEventArgs
+  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs__ctor_
+  commentId: Overload:Qmmands.CommandErroredEventArgs.#ctor
+  isSpec: "True"
+  fullName: Qmmands.CommandErroredEventArgs.CommandErroredEventArgs
+  nameWithType: CommandErroredEventArgs.CommandErroredEventArgs
 - uid: Qmmands.CommandErroredEventArgs.Context
   name: Context
   href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Context
@@ -1296,6 +1309,19 @@ references:
   commentId: T:Qmmands.CommandExecutedEventArgs
   fullName: Qmmands.CommandExecutedEventArgs
   nameWithType: CommandExecutedEventArgs
+- uid: Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext,System.IServiceProvider)
+  name: CommandExecutedEventArgs(CommandResult, CommandContext, IServiceProvider)
+  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs__ctor_Qmmands_CommandResult_Qmmands_CommandContext_System_IServiceProvider_
+  commentId: M:Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext,System.IServiceProvider)
+  fullName: Qmmands.CommandExecutedEventArgs.CommandExecutedEventArgs(Qmmands.CommandResult, Qmmands.CommandContext, System.IServiceProvider)
+  nameWithType: CommandExecutedEventArgs.CommandExecutedEventArgs(CommandResult, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandExecutedEventArgs.#ctor*
+  name: CommandExecutedEventArgs
+  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs__ctor_
+  commentId: Overload:Qmmands.CommandExecutedEventArgs.#ctor
+  isSpec: "True"
+  fullName: Qmmands.CommandExecutedEventArgs.CommandExecutedEventArgs
+  nameWithType: CommandExecutedEventArgs.CommandExecutedEventArgs
 - uid: Qmmands.CommandExecutedEventArgs.Context
   name: Context
   href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs_Context
