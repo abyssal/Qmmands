@@ -2001,6 +2001,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.StringComparison
   nameWithType: CommandService.StringComparison
+- uid: Qmmands.CommandService.TopLevelModules
+  name: TopLevelModules
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_TopLevelModules
+  commentId: P:Qmmands.CommandService.TopLevelModules
+  fullName: Qmmands.CommandService.TopLevelModules
+  nameWithType: CommandService.TopLevelModules
+- uid: Qmmands.CommandService.TopLevelModules*
+  name: TopLevelModules
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_TopLevelModules_
+  commentId: Overload:Qmmands.CommandService.TopLevelModules
+  isSpec: "True"
+  fullName: Qmmands.CommandService.TopLevelModules
+  nameWithType: CommandService.TopLevelModules
 - uid: Qmmands.CommandServiceConfiguration
   name: CommandServiceConfiguration
   href: api/Qmmands.CommandServiceConfiguration.html
@@ -3338,6 +3351,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.StringComparison
   nameWithType: ICommandService.StringComparison
+- uid: Qmmands.ICommandService.TopLevelModules
+  name: TopLevelModules
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_TopLevelModules
+  commentId: P:Qmmands.ICommandService.TopLevelModules
+  fullName: Qmmands.ICommandService.TopLevelModules
+  nameWithType: ICommandService.TopLevelModules
+- uid: Qmmands.ICommandService.TopLevelModules*
+  name: TopLevelModules
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_TopLevelModules_
+  commentId: Overload:Qmmands.ICommandService.TopLevelModules
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.TopLevelModules
+  nameWithType: ICommandService.TopLevelModules
 - uid: Qmmands.IgnoreExtraArgumentsAttribute
   name: IgnoreExtraArgumentsAttribute
   href: api/Qmmands.IgnoreExtraArgumentsAttribute.html
