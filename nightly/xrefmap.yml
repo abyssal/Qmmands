@@ -1894,19 +1894,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.NullableNouns
   nameWithType: CommandService.NullableNouns
-- uid: Qmmands.CommandService.QuotationMarkMap
-  name: QuotationMarkMap
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_QuotationMarkMap
-  commentId: P:Qmmands.CommandService.QuotationMarkMap
-  fullName: Qmmands.CommandService.QuotationMarkMap
-  nameWithType: CommandService.QuotationMarkMap
-- uid: Qmmands.CommandService.QuotationMarkMap*
-  name: QuotationMarkMap
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_QuotationMarkMap_
-  commentId: Overload:Qmmands.CommandService.QuotationMarkMap
-  isSpec: "True"
-  fullName: Qmmands.CommandService.QuotationMarkMap
-  nameWithType: CommandService.QuotationMarkMap
 - uid: Qmmands.CommandService.RemoveAllModules
   name: RemoveAllModules()
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_RemoveAllModules
@@ -2111,19 +2098,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.NullableNouns
   nameWithType: CommandServiceConfiguration.NullableNouns
-- uid: Qmmands.CommandServiceConfiguration.QuoteMap
-  name: QuoteMap
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_QuoteMap
-  commentId: P:Qmmands.CommandServiceConfiguration.QuoteMap
-  fullName: Qmmands.CommandServiceConfiguration.QuoteMap
-  nameWithType: CommandServiceConfiguration.QuoteMap
-- uid: Qmmands.CommandServiceConfiguration.QuoteMap*
-  name: QuoteMap
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_QuoteMap_
-  commentId: Overload:Qmmands.CommandServiceConfiguration.QuoteMap
-  isSpec: "True"
-  fullName: Qmmands.CommandServiceConfiguration.QuoteMap
-  nameWithType: CommandServiceConfiguration.QuoteMap
 - uid: Qmmands.CommandServiceConfiguration.Separator
   name: Separator
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_Separator
@@ -2175,12 +2149,6 @@ references:
   commentId: F:Qmmands.CommandUtilities.DefaultNullableNouns
   fullName: Qmmands.CommandUtilities.DefaultNullableNouns
   nameWithType: CommandUtilities.DefaultNullableNouns
-- uid: Qmmands.CommandUtilities.DefaultQuotationMarkMap
-  name: DefaultQuotationMarkMap
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_DefaultQuotationMarkMap
-  commentId: F:Qmmands.CommandUtilities.DefaultQuotationMarkMap
-  fullName: Qmmands.CommandUtilities.DefaultQuotationMarkMap
-  nameWithType: CommandUtilities.DefaultQuotationMarkMap
 - uid: Qmmands.CommandUtilities.FriendlyPrimitiveTypeNames
   name: FriendlyPrimitiveTypeNames
   href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_FriendlyPrimitiveTypeNames
@@ -2702,12 +2670,34 @@ references:
   commentId: T:Qmmands.DefaultArgumentParser
   fullName: Qmmands.DefaultArgumentParser
   nameWithType: DefaultArgumentParser
-- uid: Qmmands.DefaultArgumentParser.Instance
-  name: Instance
-  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Instance
-  commentId: F:Qmmands.DefaultArgumentParser.Instance
-  fullName: Qmmands.DefaultArgumentParser.Instance
-  nameWithType: DefaultArgumentParser.Instance
+- uid: Qmmands.DefaultArgumentParser.#ctor
+  name: DefaultArgumentParser()
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser__ctor
+  commentId: M:Qmmands.DefaultArgumentParser.#ctor
+  fullName: Qmmands.DefaultArgumentParser.DefaultArgumentParser()
+  nameWithType: DefaultArgumentParser.DefaultArgumentParser()
+- uid: Qmmands.DefaultArgumentParser.#ctor(System.Collections.Generic.IReadOnlyDictionary{System.Char,System.Char})
+  name: DefaultArgumentParser(IReadOnlyDictionary<Char, Char>)
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser__ctor_System_Collections_Generic_IReadOnlyDictionary_System_Char_System_Char__
+  commentId: M:Qmmands.DefaultArgumentParser.#ctor(System.Collections.Generic.IReadOnlyDictionary{System.Char,System.Char})
+  name.vb: DefaultArgumentParser(IReadOnlyDictionary(Of Char, Char))
+  fullName: Qmmands.DefaultArgumentParser.DefaultArgumentParser(System.Collections.Generic.IReadOnlyDictionary<System.Char, System.Char>)
+  fullName.vb: Qmmands.DefaultArgumentParser.DefaultArgumentParser(System.Collections.Generic.IReadOnlyDictionary(Of System.Char, System.Char))
+  nameWithType: DefaultArgumentParser.DefaultArgumentParser(IReadOnlyDictionary<Char, Char>)
+  nameWithType.vb: DefaultArgumentParser.DefaultArgumentParser(IReadOnlyDictionary(Of Char, Char))
+- uid: Qmmands.DefaultArgumentParser.#ctor*
+  name: DefaultArgumentParser
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser__ctor_
+  commentId: Overload:Qmmands.DefaultArgumentParser.#ctor
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParser.DefaultArgumentParser
+  nameWithType: DefaultArgumentParser.DefaultArgumentParser
+- uid: Qmmands.DefaultArgumentParser.DefaultQuotationMarkMap
+  name: DefaultQuotationMarkMap
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_DefaultQuotationMarkMap
+  commentId: F:Qmmands.DefaultArgumentParser.DefaultQuotationMarkMap
+  fullName: Qmmands.DefaultArgumentParser.DefaultQuotationMarkMap
+  nameWithType: DefaultArgumentParser.DefaultQuotationMarkMap
 - uid: Qmmands.DefaultArgumentParser.Parse(Qmmands.CommandContext)
   name: Parse(CommandContext)
   href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Parse_Qmmands_CommandContext_
@@ -2721,6 +2711,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.DefaultArgumentParser.Parse
   nameWithType: DefaultArgumentParser.Parse
+- uid: Qmmands.DefaultArgumentParser.QuotationMarkMap
+  name: QuotationMarkMap
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_QuotationMarkMap
+  commentId: P:Qmmands.DefaultArgumentParser.QuotationMarkMap
+  fullName: Qmmands.DefaultArgumentParser.QuotationMarkMap
+  nameWithType: DefaultArgumentParser.QuotationMarkMap
+- uid: Qmmands.DefaultArgumentParser.QuotationMarkMap*
+  name: QuotationMarkMap
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_QuotationMarkMap_
+  commentId: Overload:Qmmands.DefaultArgumentParser.QuotationMarkMap
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParser.QuotationMarkMap
+  nameWithType: DefaultArgumentParser.QuotationMarkMap
 - uid: Qmmands.DescriptionAttribute
   name: DescriptionAttribute
   href: api/Qmmands.DescriptionAttribute.html
@@ -3244,19 +3247,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.NullableNouns
   nameWithType: ICommandService.NullableNouns
-- uid: Qmmands.ICommandService.QuotationMarkMap
-  name: QuotationMarkMap
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_QuotationMarkMap
-  commentId: P:Qmmands.ICommandService.QuotationMarkMap
-  fullName: Qmmands.ICommandService.QuotationMarkMap
-  nameWithType: ICommandService.QuotationMarkMap
-- uid: Qmmands.ICommandService.QuotationMarkMap*
-  name: QuotationMarkMap
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_QuotationMarkMap_
-  commentId: Overload:Qmmands.ICommandService.QuotationMarkMap
-  isSpec: "True"
-  fullName: Qmmands.ICommandService.QuotationMarkMap
-  nameWithType: ICommandService.QuotationMarkMap
 - uid: Qmmands.ICommandService.RemoveAllModules
   name: RemoveAllModules()
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_RemoveAllModules
