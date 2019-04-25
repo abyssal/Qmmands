@@ -403,6 +403,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CheckResult.Successful
   nameWithType: CheckResult.Successful
+- uid: Qmmands.CheckResult.ToString
+  name: ToString()
+  href: api/Qmmands.CheckResult.html#Qmmands_CheckResult_ToString
+  commentId: M:Qmmands.CheckResult.ToString
+  fullName: Qmmands.CheckResult.ToString()
+  nameWithType: CheckResult.ToString()
+- uid: Qmmands.CheckResult.ToString*
+  name: ToString
+  href: api/Qmmands.CheckResult.html#Qmmands_CheckResult_ToString_
+  commentId: Overload:Qmmands.CheckResult.ToString
+  isSpec: "True"
+  fullName: Qmmands.CheckResult.ToString
+  nameWithType: CheckResult.ToString
 - uid: Qmmands.CheckResult.Unsuccessful(System.String)
   name: Unsuccessful(String)
   href: api/Qmmands.CheckResult.html#Qmmands_CheckResult_Unsuccessful_System_String_
