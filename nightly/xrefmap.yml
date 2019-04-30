@@ -1810,19 +1810,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.FindCommands
   nameWithType: CommandService.FindCommands
-- uid: Qmmands.CommandService.FindModules(System.String)
-  name: FindModules(String)
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_FindModules_System_String_
-  commentId: M:Qmmands.CommandService.FindModules(System.String)
-  fullName: Qmmands.CommandService.FindModules(System.String)
-  nameWithType: CommandService.FindModules(String)
-- uid: Qmmands.CommandService.FindModules*
-  name: FindModules
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_FindModules_
-  commentId: Overload:Qmmands.CommandService.FindModules
-  isSpec: "True"
-  fullName: Qmmands.CommandService.FindModules
-  nameWithType: CommandService.FindModules
 - uid: Qmmands.CommandService.GetAllCommands
   name: GetAllCommands()
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_GetAllCommands
@@ -2257,78 +2244,78 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandUtilities.GetAllSubmodules
   nameWithType: CommandUtilities.GetAllSubmodules
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<Char>, Boolean, out Char, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IEnumerable_System_Char__System_Boolean_System_Char__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of Char), Boolean, ByRef Char, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IEnumerable_System_Char__System_Boolean_System_Char__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of Char), Boolean, ByRef Char, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IEnumerable<System.Char>, System.Boolean, out System.Char, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.Char), System.Boolean, ByRef System.Char, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.Char), System.Boolean, ByRef System.Char, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<Char>, Boolean, out Char, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of Char), Boolean, ByRef Char, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.Char},System.Char@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of Char), Boolean, ByRef Char, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.Char},System.Char@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<Char>, out Char, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IEnumerable_System_Char__System_Char__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.Char},System.Char@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of Char), ByRef Char, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IEnumerable_System_Char__System_Char__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.Char},System.Char@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of Char), ByRef Char, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IEnumerable<System.Char>, out System.Char, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.Char), ByRef System.Char, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.Char), ByRef System.Char, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<Char>, out Char, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of Char), ByRef Char, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.String},System.String@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of Char), ByRef Char, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.String},System.String@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<String>, out String, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IEnumerable_System_String__System_String__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.String},System.String@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of String), ByRef String, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IEnumerable_System_String__System_String__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.String},System.String@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of String), ByRef String, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IEnumerable<System.String>, out System.String, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.String), ByRef System.String, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.String), ByRef System.String, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<String>, out String, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of String), ByRef String, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.String},System.StringComparison,System.String@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of String), ByRef String, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.String},System.StringComparison,System.String@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<String>, StringComparison, out String, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IEnumerable_System_String__System_StringComparison_System_String__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IEnumerable{System.String},System.StringComparison,System.String@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of String), StringComparison, ByRef String, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IEnumerable_System_String__System_StringComparison_System_String__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.String},System.StringComparison,System.String@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of String), StringComparison, ByRef String, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IEnumerable<System.String>, System.StringComparison, out System.String, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.String), System.StringComparison, ByRef System.String, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IEnumerable(Of System.String), System.StringComparison, ByRef System.String, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<String>, StringComparison, out String, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IEnumerable(Of String), StringComparison, ByRef String, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.Char},System.Boolean,System.Char@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IEnumerable(Of String), StringComparison, ByRef String, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.Char},System.Boolean,System.Char@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<Char>, Boolean, out Char, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IReadOnlyList_System_Char__System_Boolean_System_Char__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.Char},System.Boolean,System.Char@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of Char), Boolean, ByRef Char, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IReadOnlyList_System_Char__System_Boolean_System_Char__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.Char},System.Boolean,System.Char@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of Char), Boolean, ByRef Char, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IReadOnlyList<System.Char>, System.Boolean, out System.Char, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.Char), System.Boolean, ByRef System.Char, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.Char), System.Boolean, ByRef System.Char, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<Char>, Boolean, out Char, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of Char), Boolean, ByRef Char, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.Char},System.Char@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of Char), Boolean, ByRef Char, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.Char},System.Char@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<Char>, out Char, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IReadOnlyList_System_Char__System_Char__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.Char},System.Char@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of Char), ByRef Char, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IReadOnlyList_System_Char__System_Char__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.Char},System.Char@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of Char), ByRef Char, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IReadOnlyList<System.Char>, out System.Char, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.Char), ByRef System.Char, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.Char), ByRef System.Char, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<Char>, out Char, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of Char), ByRef Char, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.String},System.String@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of Char), ByRef Char, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.String},System.String@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<String>, out String, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IReadOnlyList_System_String__System_String__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.String},System.String@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of String), ByRef String, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IReadOnlyList_System_String__System_String__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.String},System.String@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of String), ByRef String, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IReadOnlyList<System.String>, out System.String, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.String), ByRef System.String, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.String), ByRef System.String, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<String>, out String, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of String), ByRef String, ByRef String)
-- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.String},System.StringComparison,System.String@,System.String@)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of String), ByRef String, ByRef String)
+- uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.String},System.StringComparison,System.String@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<String>, StringComparison, out String, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char___System_Collections_Generic_IReadOnlyList_System_String__System_StringComparison_System_String__System_String__
-  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char}@,System.Collections.Generic.IReadOnlyList{System.String},System.StringComparison,System.String@,System.String@)
-  name.vb: HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of String), StringComparison, ByRef String, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IReadOnlyList_System_String__System_StringComparison_System_String__System_String__
+  commentId: M:Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IReadOnlyList{System.String},System.StringComparison,System.String@,System.String@)
+  name.vb: HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of String), StringComparison, ByRef String, ByRef String)
   fullName: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan<System.Char>, System.Collections.Generic.IReadOnlyList<System.String>, System.StringComparison, out System.String, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.String), System.StringComparison, ByRef System.String, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan(Of System.Char), System.Collections.Generic.IReadOnlyList(Of System.String), System.StringComparison, ByRef System.String, ByRef System.String)
   nameWithType: CommandUtilities.HasAnyPrefix(ReadOnlySpan<Char>, IReadOnlyList<String>, StringComparison, out String, out String)
-  nameWithType.vb: CommandUtilities.HasAnyPrefix(ByRef ReadOnlySpan(Of Char), IReadOnlyList(Of String), StringComparison, ByRef String, ByRef String)
+  nameWithType.vb: CommandUtilities.HasAnyPrefix(ReadOnlySpan(Of Char), IReadOnlyList(Of String), StringComparison, ByRef String, ByRef String)
 - uid: Qmmands.CommandUtilities.HasAnyPrefix(System.String,System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
   name: HasAnyPrefix(String, IEnumerable<Char>, Boolean, out Char, out String)
   href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_String_System_Collections_Generic_IEnumerable_System_Char__System_Boolean_System_Char__System_String__
@@ -2408,42 +2395,42 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandUtilities.HasAnyPrefix
   nameWithType: CommandUtilities.HasAnyPrefix
-- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.Char,System.Boolean,System.String@)
+- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.Char,System.Boolean,System.String@)
   name: HasPrefix(ReadOnlySpan<Char>, Char, Boolean, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char___System_Char_System_Boolean_System_String__
-  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.Char,System.Boolean,System.String@)
-  name.vb: HasPrefix(ByRef ReadOnlySpan(Of Char), Char, Boolean, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char__System_Char_System_Boolean_System_String__
+  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.Char,System.Boolean,System.String@)
+  name.vb: HasPrefix(ReadOnlySpan(Of Char), Char, Boolean, ByRef String)
   fullName: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan<System.Char>, System.Char, System.Boolean, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Char, System.Boolean, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan(Of System.Char), System.Char, System.Boolean, ByRef System.String)
   nameWithType: CommandUtilities.HasPrefix(ReadOnlySpan<Char>, Char, Boolean, out String)
-  nameWithType.vb: CommandUtilities.HasPrefix(ByRef ReadOnlySpan(Of Char), Char, Boolean, ByRef String)
-- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.Char,System.String@)
+  nameWithType.vb: CommandUtilities.HasPrefix(ReadOnlySpan(Of Char), Char, Boolean, ByRef String)
+- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.Char,System.String@)
   name: HasPrefix(ReadOnlySpan<Char>, Char, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char___System_Char_System_String__
-  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.Char,System.String@)
-  name.vb: HasPrefix(ByRef ReadOnlySpan(Of Char), Char, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char__System_Char_System_String__
+  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.Char,System.String@)
+  name.vb: HasPrefix(ReadOnlySpan(Of Char), Char, ByRef String)
   fullName: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan<System.Char>, System.Char, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.Char, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan(Of System.Char), System.Char, ByRef System.String)
   nameWithType: CommandUtilities.HasPrefix(ReadOnlySpan<Char>, Char, out String)
-  nameWithType.vb: CommandUtilities.HasPrefix(ByRef ReadOnlySpan(Of Char), Char, ByRef String)
-- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.String,System.String@)
+  nameWithType.vb: CommandUtilities.HasPrefix(ReadOnlySpan(Of Char), Char, ByRef String)
+- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.String,System.String@)
   name: HasPrefix(ReadOnlySpan<Char>, String, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char___System_String_System_String__
-  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.String,System.String@)
-  name.vb: HasPrefix(ByRef ReadOnlySpan(Of Char), String, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char__System_String_System_String__
+  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.String,System.String@)
+  name.vb: HasPrefix(ReadOnlySpan(Of Char), String, ByRef String)
   fullName: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan<System.Char>, System.String, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.String, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan(Of System.Char), System.String, ByRef System.String)
   nameWithType: CommandUtilities.HasPrefix(ReadOnlySpan<Char>, String, out String)
-  nameWithType.vb: CommandUtilities.HasPrefix(ByRef ReadOnlySpan(Of Char), String, ByRef String)
-- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.String,System.StringComparison,System.String@)
+  nameWithType.vb: CommandUtilities.HasPrefix(ReadOnlySpan(Of Char), String, ByRef String)
+- uid: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.String,System.StringComparison,System.String@)
   name: HasPrefix(ReadOnlySpan<Char>, String, StringComparison, out String)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char___System_String_System_StringComparison_System_String__
-  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char}@,System.String,System.StringComparison,System.String@)
-  name.vb: HasPrefix(ByRef ReadOnlySpan(Of Char), String, StringComparison, ByRef String)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_ReadOnlySpan_System_Char__System_String_System_StringComparison_System_String__
+  commentId: M:Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan{System.Char},System.String,System.StringComparison,System.String@)
+  name.vb: HasPrefix(ReadOnlySpan(Of Char), String, StringComparison, ByRef String)
   fullName: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan<System.Char>, System.String, System.StringComparison, out System.String)
-  fullName.vb: Qmmands.CommandUtilities.HasPrefix(ByRef System.ReadOnlySpan(Of System.Char), System.String, System.StringComparison, ByRef System.String)
+  fullName.vb: Qmmands.CommandUtilities.HasPrefix(System.ReadOnlySpan(Of System.Char), System.String, System.StringComparison, ByRef System.String)
   nameWithType: CommandUtilities.HasPrefix(ReadOnlySpan<Char>, String, StringComparison, out String)
-  nameWithType.vb: CommandUtilities.HasPrefix(ByRef ReadOnlySpan(Of Char), String, StringComparison, ByRef String)
+  nameWithType.vb: CommandUtilities.HasPrefix(ReadOnlySpan(Of Char), String, StringComparison, ByRef String)
 - uid: Qmmands.CommandUtilities.HasPrefix(System.String,System.Char,System.Boolean,System.String@)
   name: HasPrefix(String, Char, Boolean, out String)
   href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasPrefix_System_String_System_Char_System_Boolean_System_String__
@@ -3160,19 +3147,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.FindCommands
   nameWithType: ICommandService.FindCommands
-- uid: Qmmands.ICommandService.FindModules(System.String)
-  name: FindModules(String)
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_FindModules_System_String_
-  commentId: M:Qmmands.ICommandService.FindModules(System.String)
-  fullName: Qmmands.ICommandService.FindModules(System.String)
-  nameWithType: ICommandService.FindModules(String)
-- uid: Qmmands.ICommandService.FindModules*
-  name: FindModules
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_FindModules_
-  commentId: Overload:Qmmands.ICommandService.FindModules
-  isSpec: "True"
-  fullName: Qmmands.ICommandService.FindModules
-  nameWithType: ICommandService.FindModules
 - uid: Qmmands.ICommandService.GetAllCommands
   name: GetAllCommands()
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_GetAllCommands
@@ -4156,64 +4130,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuildingException.ModuleBuilder
   nameWithType: ModuleBuildingException.ModuleBuilder
-- uid: Qmmands.ModuleMatch
-  name: ModuleMatch
-  href: api/Qmmands.ModuleMatch.html
-  commentId: T:Qmmands.ModuleMatch
-  fullName: Qmmands.ModuleMatch
-  nameWithType: ModuleMatch
-- uid: Qmmands.ModuleMatch.Alias
-  name: Alias
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Alias
-  commentId: P:Qmmands.ModuleMatch.Alias
-  fullName: Qmmands.ModuleMatch.Alias
-  nameWithType: ModuleMatch.Alias
-- uid: Qmmands.ModuleMatch.Alias*
-  name: Alias
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Alias_
-  commentId: Overload:Qmmands.ModuleMatch.Alias
-  isSpec: "True"
-  fullName: Qmmands.ModuleMatch.Alias
-  nameWithType: ModuleMatch.Alias
-- uid: Qmmands.ModuleMatch.Module
-  name: Module
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Module
-  commentId: P:Qmmands.ModuleMatch.Module
-  fullName: Qmmands.ModuleMatch.Module
-  nameWithType: ModuleMatch.Module
-- uid: Qmmands.ModuleMatch.Module*
-  name: Module
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Module_
-  commentId: Overload:Qmmands.ModuleMatch.Module
-  isSpec: "True"
-  fullName: Qmmands.ModuleMatch.Module
-  nameWithType: ModuleMatch.Module
-- uid: Qmmands.ModuleMatch.Path
-  name: Path
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Path
-  commentId: P:Qmmands.ModuleMatch.Path
-  fullName: Qmmands.ModuleMatch.Path
-  nameWithType: ModuleMatch.Path
-- uid: Qmmands.ModuleMatch.Path*
-  name: Path
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_Path_
-  commentId: Overload:Qmmands.ModuleMatch.Path
-  isSpec: "True"
-  fullName: Qmmands.ModuleMatch.Path
-  nameWithType: ModuleMatch.Path
-- uid: Qmmands.ModuleMatch.RawArguments
-  name: RawArguments
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_RawArguments
-  commentId: P:Qmmands.ModuleMatch.RawArguments
-  fullName: Qmmands.ModuleMatch.RawArguments
-  nameWithType: ModuleMatch.RawArguments
-- uid: Qmmands.ModuleMatch.RawArguments*
-  name: RawArguments
-  href: api/Qmmands.ModuleMatch.html#Qmmands_ModuleMatch_RawArguments_
-  commentId: Overload:Qmmands.ModuleMatch.RawArguments
-  isSpec: "True"
-  fullName: Qmmands.ModuleMatch.RawArguments
-  nameWithType: ModuleMatch.RawArguments
 - uid: Qmmands.NameAttribute
   name: NameAttribute
   href: api/Qmmands.NameAttribute.html
