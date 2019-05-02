@@ -736,6 +736,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.RunMode
   nameWithType: Command.RunMode
+- uid: Qmmands.Command.Service
+  name: Service
+  href: api/Qmmands.Command.html#Qmmands_Command_Service
+  commentId: P:Qmmands.Command.Service
+  fullName: Qmmands.Command.Service
+  nameWithType: Command.Service
+- uid: Qmmands.Command.Service*
+  name: Service
+  href: api/Qmmands.Command.html#Qmmands_Command_Service_
+  commentId: Overload:Qmmands.Command.Service
+  isSpec: "True"
+  fullName: Qmmands.Command.Service
+  nameWithType: Command.Service
 - uid: Qmmands.Command.ToString
   name: ToString()
   href: api/Qmmands.Command.html#Qmmands_Command_ToString
@@ -3660,6 +3673,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.Module.RunMode
   nameWithType: Module.RunMode
+- uid: Qmmands.Module.Service
+  name: Service
+  href: api/Qmmands.Module.html#Qmmands_Module_Service
+  commentId: P:Qmmands.Module.Service
+  fullName: Qmmands.Module.Service
+  nameWithType: Module.Service
+- uid: Qmmands.Module.Service*
+  name: Service
+  href: api/Qmmands.Module.html#Qmmands_Module_Service_
+  commentId: Overload:Qmmands.Module.Service
+  isSpec: "True"
+  fullName: Qmmands.Module.Service
+  nameWithType: Module.Service
 - uid: Qmmands.Module.Submodules
   name: Submodules
   href: api/Qmmands.Module.html#Qmmands_Module_Submodules
@@ -4388,6 +4414,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.Parameter.RunChecksAsync
   nameWithType: Parameter.RunChecksAsync
+- uid: Qmmands.Parameter.Service
+  name: Service
+  href: api/Qmmands.Parameter.html#Qmmands_Parameter_Service
+  commentId: P:Qmmands.Parameter.Service
+  fullName: Qmmands.Parameter.Service
+  nameWithType: Parameter.Service
+- uid: Qmmands.Parameter.Service*
+  name: Service
+  href: api/Qmmands.Parameter.html#Qmmands_Parameter_Service_
+  commentId: Overload:Qmmands.Parameter.Service
+  isSpec: "True"
+  fullName: Qmmands.Parameter.Service
+  nameWithType: Parameter.Service
 - uid: Qmmands.Parameter.ToString
   name: ToString()
   href: api/Qmmands.Parameter.html#Qmmands_Parameter_ToString

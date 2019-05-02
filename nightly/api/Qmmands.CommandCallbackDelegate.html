@@ -80,7 +80,7 @@
   <h6><strong>Assembly</strong>: Qmmands.dll</h6>
   <h5 id="Qmmands_CommandCallbackDelegate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate ValueTask&lt;IResult&gt; CommandCallbackDelegate(CommandContext context, IServiceProvider provider);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate ValueTask&lt;CommandResult&gt; CommandCallbackDelegate(CommandContext context, IServiceProvider provider);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,8 +116,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="Qmmands.IResult.html">IResult</a>&gt;</td>
-        <td><p>An <a class="xref" href="Qmmands.IResult.html">IResult</a>.</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="Qmmands.CommandResult.html">CommandResult</a>&gt;</td>
+        <td><p>A <a class="xref" href="Qmmands.CommandResult.html">CommandResult</a>.</p>
 </td>
       </tr>
     </tbody>
