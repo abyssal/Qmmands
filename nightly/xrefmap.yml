@@ -816,22 +816,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.AddAlias
   nameWithType: CommandBuilder.AddAlias
-- uid: Qmmands.CommandBuilder.AddAliases(System.String[])
-  name: AddAliases(String[])
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddAliases_System_String___
-  commentId: M:Qmmands.CommandBuilder.AddAliases(System.String[])
-  name.vb: AddAliases(String())
-  fullName: Qmmands.CommandBuilder.AddAliases(System.String[])
-  fullName.vb: Qmmands.CommandBuilder.AddAliases(System.String())
-  nameWithType: CommandBuilder.AddAliases(String[])
-  nameWithType.vb: CommandBuilder.AddAliases(String())
-- uid: Qmmands.CommandBuilder.AddAliases*
-  name: AddAliases
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddAliases_
-  commentId: Overload:Qmmands.CommandBuilder.AddAliases
-  isSpec: "True"
-  fullName: Qmmands.CommandBuilder.AddAliases
-  nameWithType: CommandBuilder.AddAliases
 - uid: Qmmands.CommandBuilder.AddAttribute(System.Attribute)
   name: AddAttribute(Attribute)
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddAttribute_System_Attribute_
@@ -845,22 +829,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.AddAttribute
   nameWithType: CommandBuilder.AddAttribute
-- uid: Qmmands.CommandBuilder.AddAttributes(System.Attribute[])
-  name: AddAttributes(Attribute[])
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddAttributes_System_Attribute___
-  commentId: M:Qmmands.CommandBuilder.AddAttributes(System.Attribute[])
-  name.vb: AddAttributes(Attribute())
-  fullName: Qmmands.CommandBuilder.AddAttributes(System.Attribute[])
-  fullName.vb: Qmmands.CommandBuilder.AddAttributes(System.Attribute())
-  nameWithType: CommandBuilder.AddAttributes(Attribute[])
-  nameWithType.vb: CommandBuilder.AddAttributes(Attribute())
-- uid: Qmmands.CommandBuilder.AddAttributes*
-  name: AddAttributes
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddAttributes_
-  commentId: Overload:Qmmands.CommandBuilder.AddAttributes
-  isSpec: "True"
-  fullName: Qmmands.CommandBuilder.AddAttributes
-  nameWithType: CommandBuilder.AddAttributes
 - uid: Qmmands.CommandBuilder.AddCheck(Qmmands.CheckAttribute)
   name: AddCheck(CheckAttribute)
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddCheck_Qmmands_CheckAttribute_
@@ -874,22 +842,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.AddCheck
   nameWithType: CommandBuilder.AddCheck
-- uid: Qmmands.CommandBuilder.AddChecks(Qmmands.CheckAttribute[])
-  name: AddChecks(CheckAttribute[])
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddChecks_Qmmands_CheckAttribute___
-  commentId: M:Qmmands.CommandBuilder.AddChecks(Qmmands.CheckAttribute[])
-  name.vb: AddChecks(CheckAttribute())
-  fullName: Qmmands.CommandBuilder.AddChecks(Qmmands.CheckAttribute[])
-  fullName.vb: Qmmands.CommandBuilder.AddChecks(Qmmands.CheckAttribute())
-  nameWithType: CommandBuilder.AddChecks(CheckAttribute[])
-  nameWithType.vb: CommandBuilder.AddChecks(CheckAttribute())
-- uid: Qmmands.CommandBuilder.AddChecks*
-  name: AddChecks
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddChecks_
-  commentId: Overload:Qmmands.CommandBuilder.AddChecks
-  isSpec: "True"
-  fullName: Qmmands.CommandBuilder.AddChecks
-  nameWithType: CommandBuilder.AddChecks
 - uid: Qmmands.CommandBuilder.AddCooldown(Qmmands.Cooldown)
   name: AddCooldown(Cooldown)
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddCooldown_Qmmands_Cooldown_
@@ -903,22 +855,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.AddCooldown
   nameWithType: CommandBuilder.AddCooldown
-- uid: Qmmands.CommandBuilder.AddCooldowns(Qmmands.Cooldown[])
-  name: AddCooldowns(Cooldown[])
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddCooldowns_Qmmands_Cooldown___
-  commentId: M:Qmmands.CommandBuilder.AddCooldowns(Qmmands.Cooldown[])
-  name.vb: AddCooldowns(Cooldown())
-  fullName: Qmmands.CommandBuilder.AddCooldowns(Qmmands.Cooldown[])
-  fullName.vb: Qmmands.CommandBuilder.AddCooldowns(Qmmands.Cooldown())
-  nameWithType: CommandBuilder.AddCooldowns(Cooldown[])
-  nameWithType.vb: CommandBuilder.AddCooldowns(Cooldown())
-- uid: Qmmands.CommandBuilder.AddCooldowns*
-  name: AddCooldowns
-  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddCooldowns_
-  commentId: Overload:Qmmands.CommandBuilder.AddCooldowns
-  isSpec: "True"
-  fullName: Qmmands.CommandBuilder.AddCooldowns
-  nameWithType: CommandBuilder.AddCooldowns
 - uid: Qmmands.CommandBuilder.AddParameter(System.Type,System.Action{Qmmands.ParameterBuilder})
   name: AddParameter(Type, Action<ParameterBuilder>)
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_AddParameter_System_Type_System_Action_Qmmands_ParameterBuilder__
@@ -3804,22 +3740,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.AddAlias
   nameWithType: ModuleBuilder.AddAlias
-- uid: Qmmands.ModuleBuilder.AddAliases(System.String[])
-  name: AddAliases(String[])
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddAliases_System_String___
-  commentId: M:Qmmands.ModuleBuilder.AddAliases(System.String[])
-  name.vb: AddAliases(String())
-  fullName: Qmmands.ModuleBuilder.AddAliases(System.String[])
-  fullName.vb: Qmmands.ModuleBuilder.AddAliases(System.String())
-  nameWithType: ModuleBuilder.AddAliases(String[])
-  nameWithType.vb: ModuleBuilder.AddAliases(String())
-- uid: Qmmands.ModuleBuilder.AddAliases*
-  name: AddAliases
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddAliases_
-  commentId: Overload:Qmmands.ModuleBuilder.AddAliases
-  isSpec: "True"
-  fullName: Qmmands.ModuleBuilder.AddAliases
-  nameWithType: ModuleBuilder.AddAliases
 - uid: Qmmands.ModuleBuilder.AddAttribute(System.Attribute)
   name: AddAttribute(Attribute)
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddAttribute_System_Attribute_
@@ -3833,22 +3753,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.AddAttribute
   nameWithType: ModuleBuilder.AddAttribute
-- uid: Qmmands.ModuleBuilder.AddAttributes(System.Attribute[])
-  name: AddAttributes(Attribute[])
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddAttributes_System_Attribute___
-  commentId: M:Qmmands.ModuleBuilder.AddAttributes(System.Attribute[])
-  name.vb: AddAttributes(Attribute())
-  fullName: Qmmands.ModuleBuilder.AddAttributes(System.Attribute[])
-  fullName.vb: Qmmands.ModuleBuilder.AddAttributes(System.Attribute())
-  nameWithType: ModuleBuilder.AddAttributes(Attribute[])
-  nameWithType.vb: ModuleBuilder.AddAttributes(Attribute())
-- uid: Qmmands.ModuleBuilder.AddAttributes*
-  name: AddAttributes
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddAttributes_
-  commentId: Overload:Qmmands.ModuleBuilder.AddAttributes
-  isSpec: "True"
-  fullName: Qmmands.ModuleBuilder.AddAttributes
-  nameWithType: ModuleBuilder.AddAttributes
 - uid: Qmmands.ModuleBuilder.AddCheck(Qmmands.CheckAttribute)
   name: AddCheck(CheckAttribute)
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCheck_Qmmands_CheckAttribute_
@@ -3862,22 +3766,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.AddCheck
   nameWithType: ModuleBuilder.AddCheck
-- uid: Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute[])
-  name: AddChecks(CheckAttribute[])
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddChecks_Qmmands_CheckAttribute___
-  commentId: M:Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute[])
-  name.vb: AddChecks(CheckAttribute())
-  fullName: Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute[])
-  fullName.vb: Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute())
-  nameWithType: ModuleBuilder.AddChecks(CheckAttribute[])
-  nameWithType.vb: ModuleBuilder.AddChecks(CheckAttribute())
-- uid: Qmmands.ModuleBuilder.AddChecks*
-  name: AddChecks
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddChecks_
-  commentId: Overload:Qmmands.ModuleBuilder.AddChecks
-  isSpec: "True"
-  fullName: Qmmands.ModuleBuilder.AddChecks
-  nameWithType: ModuleBuilder.AddChecks
 - uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
   name: AddCommand(CommandCallbackDelegate, Action<CommandBuilder>)
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__

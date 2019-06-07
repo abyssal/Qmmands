@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ModuleBuilder
    ">
-    <meta name="generator" content="docfx 2.42.2.0">
+    <meta name="generator" content="docfx 2.42.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -103,7 +103,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Aliases { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; Aliases { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,7 +115,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -469,7 +469,7 @@
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddAlias_System_String_.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddAlias(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L144">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L147">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddAlias_" data-uid="Qmmands.ModuleBuilder.AddAlias*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddAlias_System_String_" data-uid="Qmmands.ModuleBuilder.AddAlias(System.String)">AddAlias(String)</h4>
@@ -512,51 +512,19 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddAliases_System_String___.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddAliases(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L153">View Source</a>
-  </span>
-  <a id="Qmmands_ModuleBuilder_AddAliases_" data-uid="Qmmands.ModuleBuilder.AddAliases*"></a>
-  <h4 id="Qmmands_ModuleBuilder_AddAliases_System_String___" data-uid="Qmmands.ModuleBuilder.AddAliases(System.String[])">AddAliases(String[])</h4>
-  <div class="markdown level1 summary"><p>Adds aliases to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Aliases">Aliases</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleBuilder AddAliases(params string[] aliases)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td><span class="parametername">aliases</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
-        <td></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>This alias has already been added.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -565,7 +533,7 @@
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddAttribute_System_Attribute_.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddAttribute(System.Attribute)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L180">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L167">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddAttribute_" data-uid="Qmmands.ModuleBuilder.AddAttribute*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddAttribute_System_Attribute_" data-uid="Qmmands.ModuleBuilder.AddAttribute(System.Attribute)">AddAttribute(Attribute)</h4>
@@ -610,58 +578,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddAttributes_System_Attribute___.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddAttributes(System.Attribute%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L189">View Source</a>
-  </span>
-  <a id="Qmmands_ModuleBuilder_AddAttributes_" data-uid="Qmmands.ModuleBuilder.AddAttributes*"></a>
-  <h4 id="Qmmands_ModuleBuilder_AddAttributes_System_Attribute___" data-uid="Qmmands.ModuleBuilder.AddAttributes(System.Attribute[])">AddAttributes(Attribute[])</h4>
-  <div class="markdown level1 summary"><p>Adds attributes to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Attributes">Attributes</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleBuilder AddAttributes(params Attribute[] attributes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a>[]</td>
-        <td><span class="parametername">attributes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCheck_Qmmands_CheckAttribute_.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCheck(Qmmands.CheckAttribute)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L162">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L158">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddCheck_" data-uid="Qmmands.ModuleBuilder.AddCheck*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddCheck_Qmmands_CheckAttribute_" data-uid="Qmmands.ModuleBuilder.AddCheck(Qmmands.CheckAttribute)">AddCheck(CheckAttribute)</h4>
@@ -706,58 +626,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddChecks_Qmmands_CheckAttribute___.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L171">View Source</a>
-  </span>
-  <a id="Qmmands_ModuleBuilder_AddChecks_" data-uid="Qmmands.ModuleBuilder.AddChecks*"></a>
-  <h4 id="Qmmands_ModuleBuilder_AddChecks_Qmmands_CheckAttribute___" data-uid="Qmmands.ModuleBuilder.AddChecks(Qmmands.CheckAttribute[])">AddChecks(CheckAttribute[])</h4>
-  <div class="markdown level1 summary"><p>Adds checks to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Checks">Checks</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleBuilder AddChecks(params CheckAttribute[] checks)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Qmmands.CheckAttribute.html">CheckAttribute</a>[]</td>
-        <td><span class="parametername">checks</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L200">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L178">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(CommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
@@ -812,7 +684,7 @@
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddSubmodule_System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddSubmodule(System.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L218">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L196">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddSubmodule_" data-uid="Qmmands.ModuleBuilder.AddSubmodule*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddSubmodule_System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.ModuleBuilder.AddSubmodule(System.Action{Qmmands.ModuleBuilder})">AddSubmodule(Action&lt;ModuleBuilder&gt;)</h4>
