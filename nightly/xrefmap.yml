@@ -5083,12 +5083,6 @@ references:
   commentId: T:Qmmands.SeparatorRequirement
   fullName: Qmmands.SeparatorRequirement
   nameWithType: SeparatorRequirement
-- uid: Qmmands.SeparatorRequirement.None
-  name: None
-  href: api/Qmmands.SeparatorRequirement.html#Qmmands_SeparatorRequirement_None
-  commentId: F:Qmmands.SeparatorRequirement.None
-  fullName: Qmmands.SeparatorRequirement.None
-  nameWithType: SeparatorRequirement.None
 - uid: Qmmands.SeparatorRequirement.Separator
   name: Separator
   href: api/Qmmands.SeparatorRequirement.html#Qmmands_SeparatorRequirement_Separator
