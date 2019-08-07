@@ -1304,64 +1304,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandDisabledResult.Reason
   nameWithType: CommandDisabledResult.Reason
-- uid: Qmmands.CommandErroredEventArgs
-  name: CommandErroredEventArgs
-  href: api/Qmmands.CommandErroredEventArgs.html
-  commentId: T:Qmmands.CommandErroredEventArgs
-  fullName: Qmmands.CommandErroredEventArgs
-  nameWithType: CommandErroredEventArgs
-- uid: Qmmands.CommandErroredEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
-  name: CommandErroredEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs__ctor_Qmmands_ExecutionFailedResult_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandErroredEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CommandErroredEventArgs.CommandErroredEventArgs(Qmmands.ExecutionFailedResult, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandErroredEventArgs.CommandErroredEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
-- uid: Qmmands.CommandErroredEventArgs.#ctor*
-  name: CommandErroredEventArgs
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs__ctor_
-  commentId: Overload:Qmmands.CommandErroredEventArgs.#ctor
-  isSpec: "True"
-  fullName: Qmmands.CommandErroredEventArgs.CommandErroredEventArgs
-  nameWithType: CommandErroredEventArgs.CommandErroredEventArgs
-- uid: Qmmands.CommandErroredEventArgs.Context
-  name: Context
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Context
-  commentId: P:Qmmands.CommandErroredEventArgs.Context
-  fullName: Qmmands.CommandErroredEventArgs.Context
-  nameWithType: CommandErroredEventArgs.Context
-- uid: Qmmands.CommandErroredEventArgs.Context*
-  name: Context
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Context_
-  commentId: Overload:Qmmands.CommandErroredEventArgs.Context
-  isSpec: "True"
-  fullName: Qmmands.CommandErroredEventArgs.Context
-  nameWithType: CommandErroredEventArgs.Context
-- uid: Qmmands.CommandErroredEventArgs.Provider
-  name: Provider
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Provider
-  commentId: P:Qmmands.CommandErroredEventArgs.Provider
-  fullName: Qmmands.CommandErroredEventArgs.Provider
-  nameWithType: CommandErroredEventArgs.Provider
-- uid: Qmmands.CommandErroredEventArgs.Provider*
-  name: Provider
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Provider_
-  commentId: Overload:Qmmands.CommandErroredEventArgs.Provider
-  isSpec: "True"
-  fullName: Qmmands.CommandErroredEventArgs.Provider
-  nameWithType: CommandErroredEventArgs.Provider
-- uid: Qmmands.CommandErroredEventArgs.Result
-  name: Result
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Result
-  commentId: P:Qmmands.CommandErroredEventArgs.Result
-  fullName: Qmmands.CommandErroredEventArgs.Result
-  nameWithType: CommandErroredEventArgs.Result
-- uid: Qmmands.CommandErroredEventArgs.Result*
-  name: Result
-  href: api/Qmmands.CommandErroredEventArgs.html#Qmmands_CommandErroredEventArgs_Result_
-  commentId: Overload:Qmmands.CommandErroredEventArgs.Result
-  isSpec: "True"
-  fullName: Qmmands.CommandErroredEventArgs.Result
-  nameWithType: CommandErroredEventArgs.Result
 - uid: Qmmands.CommandExecutedEventArgs
   name: CommandExecutedEventArgs
   href: api/Qmmands.CommandExecutedEventArgs.html
@@ -1420,6 +1362,64 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandExecutedEventArgs.Result
   nameWithType: CommandExecutedEventArgs.Result
+- uid: Qmmands.CommandExecutionFailedEventArgs
+  name: CommandExecutionFailedEventArgs
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html
+  commentId: T:Qmmands.CommandExecutionFailedEventArgs
+  fullName: Qmmands.CommandExecutionFailedEventArgs
+  nameWithType: CommandExecutionFailedEventArgs
+- uid: Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
+  name: CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs__ctor_Qmmands_ExecutionFailedResult_Qmmands_CommandContext_System_IServiceProvider_
+  commentId: M:Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
+  fullName: Qmmands.CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(Qmmands.ExecutionFailedResult, Qmmands.CommandContext, System.IServiceProvider)
+  nameWithType: CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandExecutionFailedEventArgs.#ctor*
+  name: CommandExecutionFailedEventArgs
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs__ctor_
+  commentId: Overload:Qmmands.CommandExecutionFailedEventArgs.#ctor
+  isSpec: "True"
+  fullName: Qmmands.CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs
+  nameWithType: CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs
+- uid: Qmmands.CommandExecutionFailedEventArgs.Context
+  name: Context
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Context
+  commentId: P:Qmmands.CommandExecutionFailedEventArgs.Context
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Context
+  nameWithType: CommandExecutionFailedEventArgs.Context
+- uid: Qmmands.CommandExecutionFailedEventArgs.Context*
+  name: Context
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Context_
+  commentId: Overload:Qmmands.CommandExecutionFailedEventArgs.Context
+  isSpec: "True"
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Context
+  nameWithType: CommandExecutionFailedEventArgs.Context
+- uid: Qmmands.CommandExecutionFailedEventArgs.Provider
+  name: Provider
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Provider
+  commentId: P:Qmmands.CommandExecutionFailedEventArgs.Provider
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Provider
+  nameWithType: CommandExecutionFailedEventArgs.Provider
+- uid: Qmmands.CommandExecutionFailedEventArgs.Provider*
+  name: Provider
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Provider_
+  commentId: Overload:Qmmands.CommandExecutionFailedEventArgs.Provider
+  isSpec: "True"
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Provider
+  nameWithType: CommandExecutionFailedEventArgs.Provider
+- uid: Qmmands.CommandExecutionFailedEventArgs.Result
+  name: Result
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Result
+  commentId: P:Qmmands.CommandExecutionFailedEventArgs.Result
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Result
+  nameWithType: CommandExecutionFailedEventArgs.Result
+- uid: Qmmands.CommandExecutionFailedEventArgs.Result*
+  name: Result
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Result_
+  commentId: Overload:Qmmands.CommandExecutionFailedEventArgs.Result
+  isSpec: "True"
+  fullName: Qmmands.CommandExecutionFailedEventArgs.Result
+  nameWithType: CommandExecutionFailedEventArgs.Result
 - uid: Qmmands.CommandExecutionStep
   name: CommandExecutionStep
   href: api/Qmmands.CommandExecutionStep.html
@@ -1777,18 +1777,18 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.ArgumentParser
   nameWithType: CommandService.ArgumentParser
-- uid: Qmmands.CommandService.CommandErrored
-  name: CommandErrored
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandErrored
-  commentId: E:Qmmands.CommandService.CommandErrored
-  fullName: Qmmands.CommandService.CommandErrored
-  nameWithType: CommandService.CommandErrored
 - uid: Qmmands.CommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandExecuted
   commentId: E:Qmmands.CommandService.CommandExecuted
   fullName: Qmmands.CommandService.CommandExecuted
   nameWithType: CommandService.CommandExecuted
+- uid: Qmmands.CommandService.CommandExecutionFailed
+  name: CommandExecutionFailed
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandExecutionFailed
+  commentId: E:Qmmands.CommandService.CommandExecutionFailed
+  fullName: Qmmands.CommandService.CommandExecutionFailed
+  nameWithType: CommandService.CommandExecutionFailed
 - uid: Qmmands.CommandService.CooldownBucketKeyGenerator
   name: CooldownBucketKeyGenerator
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_CooldownBucketKeyGenerator
@@ -1914,6 +1914,19 @@ references:
   fullName.vb: Qmmands.CommandService.GetTypeParser(Of T)(System.Boolean)
   nameWithType: CommandService.GetTypeParser<T>(Boolean)
   nameWithType.vb: CommandService.GetTypeParser(Of T)(Boolean)
+- uid: Qmmands.CommandService.HasDefaultFailureReasons
+  name: HasDefaultFailureReasons
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_HasDefaultFailureReasons
+  commentId: P:Qmmands.CommandService.HasDefaultFailureReasons
+  fullName: Qmmands.CommandService.HasDefaultFailureReasons
+  nameWithType: CommandService.HasDefaultFailureReasons
+- uid: Qmmands.CommandService.HasDefaultFailureReasons*
+  name: HasDefaultFailureReasons
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_HasDefaultFailureReasons_
+  commentId: Overload:Qmmands.CommandService.HasDefaultFailureReasons
+  isSpec: "True"
+  fullName: Qmmands.CommandService.HasDefaultFailureReasons
+  nameWithType: CommandService.HasDefaultFailureReasons
 - uid: Qmmands.CommandService.IgnoresExtraArguments
   name: IgnoresExtraArguments
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_IgnoresExtraArguments
@@ -2131,6 +2144,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.DefaultRunMode
   nameWithType: CommandServiceConfiguration.DefaultRunMode
+- uid: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
+  name: HasDefaultFailureReasons
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_HasDefaultFailureReasons
+  commentId: P:Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
+  fullName: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
+  nameWithType: CommandServiceConfiguration.HasDefaultFailureReasons
+- uid: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons*
+  name: HasDefaultFailureReasons
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_HasDefaultFailureReasons_
+  commentId: Overload:Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
+  isSpec: "True"
+  fullName: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
+  nameWithType: CommandServiceConfiguration.HasDefaultFailureReasons
 - uid: Qmmands.CommandServiceConfiguration.IgnoresExtraArguments
   name: IgnoresExtraArguments
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_IgnoresExtraArguments
@@ -3161,18 +3187,18 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.ArgumentParser
   nameWithType: ICommandService.ArgumentParser
-- uid: Qmmands.ICommandService.CommandErrored
-  name: CommandErrored
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandErrored
-  commentId: E:Qmmands.ICommandService.CommandErrored
-  fullName: Qmmands.ICommandService.CommandErrored
-  nameWithType: ICommandService.CommandErrored
 - uid: Qmmands.ICommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandExecuted
   commentId: E:Qmmands.ICommandService.CommandExecuted
   fullName: Qmmands.ICommandService.CommandExecuted
   nameWithType: ICommandService.CommandExecuted
+- uid: Qmmands.ICommandService.CommandExecutionFailed
+  name: CommandExecutionFailed
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandExecutionFailed
+  commentId: E:Qmmands.ICommandService.CommandExecutionFailed
+  fullName: Qmmands.ICommandService.CommandExecutionFailed
+  nameWithType: ICommandService.CommandExecutionFailed
 - uid: Qmmands.ICommandService.CooldownBucketKeyGenerator
   name: CooldownBucketKeyGenerator
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CooldownBucketKeyGenerator

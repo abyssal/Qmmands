@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ArgumentParseFailedResult.html",
-          "hash": "P47LYRRqIQAfEeL2sIytdw=="
+          "hash": "TRd0Qftu1q9YsU1KmXh6+A=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CheckResult.html",
-          "hash": "mLR4oL80KRGyQ8hcpmavKw=="
+          "hash": "AIl/8N5321agngHFME296Q=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Qmmands.CommandErroredEventArgs.yml",
+      "source_relative_path": "api/Qmmands.CommandExecutedEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Qmmands.CommandErroredEventArgs.html",
-          "hash": "0k73QRBqSB/1oxvc99oV/Q=="
+          "relative_path": "api/Qmmands.CommandExecutedEventArgs.html",
+          "hash": "ItHgJzhPHfdPo1m2YtNECg=="
         }
       },
       "is_incremental": false,
@@ -173,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Qmmands.CommandExecutedEventArgs.yml",
+      "source_relative_path": "api/Qmmands.CommandExecutionFailedEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Qmmands.CommandExecutedEventArgs.html",
-          "hash": "ItHgJzhPHfdPo1m2YtNECg=="
+          "relative_path": "api/Qmmands.CommandExecutionFailedEventArgs.html",
+          "hash": "BZqIh4cHbx7U1y31Gr9K2A=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandResult.html",
-          "hash": "envzQu8LcQZ5YYz0tmvRmg=="
+          "hash": "SbfItiaQutxl8DmqtWvWDQ=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandService.html",
-          "hash": "9NnTGCk6WqsaWb4qnua81Q=="
+          "hash": "jP5LViq7QCFl9cgaYgTjPQ=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandServiceConfiguration.html",
-          "hash": "T/Jy9E+mU+aFJUYXN67mtw=="
+          "hash": "56NwHkV0Zhh2I9SJkSxIdg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ICommandService.html",
-          "hash": "D23maD8ef7ZnailpFPtVCA=="
+          "hash": "FDYPDeiBjimkJ5HxUGYShA=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.TypeParserResult-1.html",
-          "hash": "6QFO0+Srmo3p8TgjbXIO9w=="
+          "hash": "/+Do1u3vcepu2VqUs1c46w=="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.html",
-          "hash": "F/qIkS9pPm1oPC6GMEQ5Hg=="
+          "hash": "810ipiuy/DUrpfRu/HJZIw=="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "X8F2J0WXlcnIxazLVd6WHQ=="
+          "hash": "L/BptfPdjb/7/xH9Au3S0A=="
         }
       },
       "is_incremental": false,
