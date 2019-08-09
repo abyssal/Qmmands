@@ -1914,19 +1914,6 @@ references:
   fullName.vb: Qmmands.CommandService.GetTypeParser(Of T)(System.Boolean)
   nameWithType: CommandService.GetTypeParser<T>(Boolean)
   nameWithType.vb: CommandService.GetTypeParser(Of T)(Boolean)
-- uid: Qmmands.CommandService.HasDefaultFailureReasons
-  name: HasDefaultFailureReasons
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_HasDefaultFailureReasons
-  commentId: P:Qmmands.CommandService.HasDefaultFailureReasons
-  fullName: Qmmands.CommandService.HasDefaultFailureReasons
-  nameWithType: CommandService.HasDefaultFailureReasons
-- uid: Qmmands.CommandService.HasDefaultFailureReasons*
-  name: HasDefaultFailureReasons
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_HasDefaultFailureReasons_
-  commentId: Overload:Qmmands.CommandService.HasDefaultFailureReasons
-  isSpec: "True"
-  fullName: Qmmands.CommandService.HasDefaultFailureReasons
-  nameWithType: CommandService.HasDefaultFailureReasons
 - uid: Qmmands.CommandService.IgnoresExtraArguments
   name: IgnoresExtraArguments
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_IgnoresExtraArguments
@@ -2144,19 +2131,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.DefaultRunMode
   nameWithType: CommandServiceConfiguration.DefaultRunMode
-- uid: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
-  name: HasDefaultFailureReasons
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_HasDefaultFailureReasons
-  commentId: P:Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
-  fullName: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
-  nameWithType: CommandServiceConfiguration.HasDefaultFailureReasons
-- uid: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons*
-  name: HasDefaultFailureReasons
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_HasDefaultFailureReasons_
-  commentId: Overload:Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
-  isSpec: "True"
-  fullName: Qmmands.CommandServiceConfiguration.HasDefaultFailureReasons
-  nameWithType: CommandServiceConfiguration.HasDefaultFailureReasons
 - uid: Qmmands.CommandServiceConfiguration.IgnoresExtraArguments
   name: IgnoresExtraArguments
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_IgnoresExtraArguments

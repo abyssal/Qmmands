@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ArgumentParseFailedResult.html",
-          "hash": "TRd0Qftu1q9YsU1KmXh6+A=="
+          "hash": "PZCQSLkIKSC6+GBY+kxanQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ChecksFailedResult.html",
-          "hash": "GpfwHzp5J7mB0VF77QBr+Q=="
+          "hash": "jn5sqrOV0+hUEpey7ZKNFg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandOnCooldownResult.html",
-          "hash": "h/m/p2TwhZ/5kI7nNAeiNw=="
+          "hash": "56H/HYF8kYbWFyr2FPDWIg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandService.html",
-          "hash": "jP5LViq7QCFl9cgaYgTjPQ=="
+          "hash": "CjHEZNeiK3e6drB0NWB7/g=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandServiceConfiguration.html",
-          "hash": "jHW3NMdBYZAgdSOn/AYTtQ=="
+          "hash": "T/Jy9E+mU+aFJUYXN67mtw=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ExecutionFailedResult.html",
-          "hash": "gI3+0qQgze+P3gGrMS+f8w=="
+          "hash": "CkukGB2HmRlJT93KXawtWQ=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ParameterChecksFailedResult.html",
-          "hash": "1TtsEKu0EjeE3+rlxlSpMg=="
+          "hash": "0CGT14osCoYQcAbymh94RA=="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.TypeParseFailedResult.html",
-          "hash": "MEoB1PIMn29h1yW6EqsamQ=="
+          "hash": "xZV/v23RfQBWA4v3kcCyQA=="
         }
       },
       "is_incremental": false,
