@@ -13,32 +13,6 @@ references:
   commentId: T:Qmmands.ArgumentParseFailedResult
   fullName: Qmmands.ArgumentParseFailedResult
   nameWithType: ArgumentParseFailedResult
-- uid: Qmmands.ArgumentParseFailedResult.ArgumentParserFailure
-  name: ArgumentParserFailure
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_ArgumentParserFailure
-  commentId: P:Qmmands.ArgumentParseFailedResult.ArgumentParserFailure
-  fullName: Qmmands.ArgumentParseFailedResult.ArgumentParserFailure
-  nameWithType: ArgumentParseFailedResult.ArgumentParserFailure
-- uid: Qmmands.ArgumentParseFailedResult.ArgumentParserFailure*
-  name: ArgumentParserFailure
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_ArgumentParserFailure_
-  commentId: Overload:Qmmands.ArgumentParseFailedResult.ArgumentParserFailure
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParseFailedResult.ArgumentParserFailure
-  nameWithType: ArgumentParseFailedResult.ArgumentParserFailure
-- uid: Qmmands.ArgumentParseFailedResult.Arguments
-  name: Arguments
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Arguments
-  commentId: P:Qmmands.ArgumentParseFailedResult.Arguments
-  fullName: Qmmands.ArgumentParseFailedResult.Arguments
-  nameWithType: ArgumentParseFailedResult.Arguments
-- uid: Qmmands.ArgumentParseFailedResult.Arguments*
-  name: Arguments
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Arguments_
-  commentId: Overload:Qmmands.ArgumentParseFailedResult.Arguments
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParseFailedResult.Arguments
-  nameWithType: ArgumentParseFailedResult.Arguments
 - uid: Qmmands.ArgumentParseFailedResult.Command
   name: Command
   href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Command
@@ -52,32 +26,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParseFailedResult.Command
   nameWithType: ArgumentParseFailedResult.Command
-- uid: Qmmands.ArgumentParseFailedResult.Parameter
-  name: Parameter
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Parameter
-  commentId: P:Qmmands.ArgumentParseFailedResult.Parameter
-  fullName: Qmmands.ArgumentParseFailedResult.Parameter
-  nameWithType: ArgumentParseFailedResult.Parameter
-- uid: Qmmands.ArgumentParseFailedResult.Parameter*
-  name: Parameter
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Parameter_
-  commentId: Overload:Qmmands.ArgumentParseFailedResult.Parameter
+- uid: Qmmands.ArgumentParseFailedResult.ParserResult
+  name: ParserResult
+  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_ParserResult
+  commentId: P:Qmmands.ArgumentParseFailedResult.ParserResult
+  fullName: Qmmands.ArgumentParseFailedResult.ParserResult
+  nameWithType: ArgumentParseFailedResult.ParserResult
+- uid: Qmmands.ArgumentParseFailedResult.ParserResult*
+  name: ParserResult
+  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_ParserResult_
+  commentId: Overload:Qmmands.ArgumentParseFailedResult.ParserResult
   isSpec: "True"
-  fullName: Qmmands.ArgumentParseFailedResult.Parameter
-  nameWithType: ArgumentParseFailedResult.Parameter
-- uid: Qmmands.ArgumentParseFailedResult.Position
-  name: Position
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Position
-  commentId: P:Qmmands.ArgumentParseFailedResult.Position
-  fullName: Qmmands.ArgumentParseFailedResult.Position
-  nameWithType: ArgumentParseFailedResult.Position
-- uid: Qmmands.ArgumentParseFailedResult.Position*
-  name: Position
-  href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_Position_
-  commentId: Overload:Qmmands.ArgumentParseFailedResult.Position
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParseFailedResult.Position
-  nameWithType: ArgumentParseFailedResult.Position
+  fullName: Qmmands.ArgumentParseFailedResult.ParserResult
+  nameWithType: ArgumentParseFailedResult.ParserResult
 - uid: Qmmands.ArgumentParseFailedResult.RawArguments
   name: RawArguments
   href: api/Qmmands.ArgumentParseFailedResult.html#Qmmands_ArgumentParseFailedResult_RawArguments
@@ -104,66 +65,21 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParseFailedResult.Reason
   nameWithType: ArgumentParseFailedResult.Reason
-- uid: Qmmands.ArgumentParserFailure
-  name: ArgumentParserFailure
-  href: api/Qmmands.ArgumentParserFailure.html
-  commentId: T:Qmmands.ArgumentParserFailure
-  fullName: Qmmands.ArgumentParserFailure
-  nameWithType: ArgumentParserFailure
-- uid: Qmmands.ArgumentParserFailure.NoWhitespaceBetweenArguments
-  name: NoWhitespaceBetweenArguments
-  href: api/Qmmands.ArgumentParserFailure.html#Qmmands_ArgumentParserFailure_NoWhitespaceBetweenArguments
-  commentId: F:Qmmands.ArgumentParserFailure.NoWhitespaceBetweenArguments
-  fullName: Qmmands.ArgumentParserFailure.NoWhitespaceBetweenArguments
-  nameWithType: ArgumentParserFailure.NoWhitespaceBetweenArguments
-- uid: Qmmands.ArgumentParserFailure.TooFewArguments
-  name: TooFewArguments
-  href: api/Qmmands.ArgumentParserFailure.html#Qmmands_ArgumentParserFailure_TooFewArguments
-  commentId: F:Qmmands.ArgumentParserFailure.TooFewArguments
-  fullName: Qmmands.ArgumentParserFailure.TooFewArguments
-  nameWithType: ArgumentParserFailure.TooFewArguments
-- uid: Qmmands.ArgumentParserFailure.TooManyArguments
-  name: TooManyArguments
-  href: api/Qmmands.ArgumentParserFailure.html#Qmmands_ArgumentParserFailure_TooManyArguments
-  commentId: F:Qmmands.ArgumentParserFailure.TooManyArguments
-  fullName: Qmmands.ArgumentParserFailure.TooManyArguments
-  nameWithType: ArgumentParserFailure.TooManyArguments
-- uid: Qmmands.ArgumentParserFailure.UnclosedQuote
-  name: UnclosedQuote
-  href: api/Qmmands.ArgumentParserFailure.html#Qmmands_ArgumentParserFailure_UnclosedQuote
-  commentId: F:Qmmands.ArgumentParserFailure.UnclosedQuote
-  fullName: Qmmands.ArgumentParserFailure.UnclosedQuote
-  nameWithType: ArgumentParserFailure.UnclosedQuote
-- uid: Qmmands.ArgumentParserFailure.UnexpectedQuote
-  name: UnexpectedQuote
-  href: api/Qmmands.ArgumentParserFailure.html#Qmmands_ArgumentParserFailure_UnexpectedQuote
-  commentId: F:Qmmands.ArgumentParserFailure.UnexpectedQuote
-  fullName: Qmmands.ArgumentParserFailure.UnexpectedQuote
-  nameWithType: ArgumentParserFailure.UnexpectedQuote
 - uid: Qmmands.ArgumentParserResult
   name: ArgumentParserResult
   href: api/Qmmands.ArgumentParserResult.html
   commentId: T:Qmmands.ArgumentParserResult
   fullName: Qmmands.ArgumentParserResult
   nameWithType: ArgumentParserResult
-- uid: Qmmands.ArgumentParserResult.#ctor(Qmmands.Command,Qmmands.Parameter,System.String,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object},Qmmands.ArgumentParserFailure,System.Nullable{System.Int32})
-  name: ArgumentParserResult(Command, Parameter, String, IReadOnlyDictionary<Parameter, Object>, ArgumentParserFailure, Nullable<Int32>)
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult__ctor_Qmmands_Command_Qmmands_Parameter_System_String_System_Collections_Generic_IReadOnlyDictionary_Qmmands_Parameter_System_Object__Qmmands_ArgumentParserFailure_System_Nullable_System_Int32__
-  commentId: M:Qmmands.ArgumentParserResult.#ctor(Qmmands.Command,Qmmands.Parameter,System.String,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object},Qmmands.ArgumentParserFailure,System.Nullable{System.Int32})
-  name.vb: ArgumentParserResult(Command, Parameter, String, IReadOnlyDictionary(Of Parameter, Object), ArgumentParserFailure, Nullable(Of Int32))
-  fullName: Qmmands.ArgumentParserResult.ArgumentParserResult(Qmmands.Command, Qmmands.Parameter, System.String, System.Collections.Generic.IReadOnlyDictionary<Qmmands.Parameter, System.Object>, Qmmands.ArgumentParserFailure, System.Nullable<System.Int32>)
-  fullName.vb: Qmmands.ArgumentParserResult.ArgumentParserResult(Qmmands.Command, Qmmands.Parameter, System.String, System.Collections.Generic.IReadOnlyDictionary(Of Qmmands.Parameter, System.Object), Qmmands.ArgumentParserFailure, System.Nullable(Of System.Int32))
-  nameWithType: ArgumentParserResult.ArgumentParserResult(Command, Parameter, String, IReadOnlyDictionary<Parameter, Object>, ArgumentParserFailure, Nullable<Int32>)
-  nameWithType.vb: ArgumentParserResult.ArgumentParserResult(Command, Parameter, String, IReadOnlyDictionary(Of Parameter, Object), ArgumentParserFailure, Nullable(Of Int32))
-- uid: Qmmands.ArgumentParserResult.#ctor(Qmmands.Command,System.String,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
-  name: ArgumentParserResult(Command, String, IReadOnlyDictionary<Parameter, Object>)
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult__ctor_Qmmands_Command_System_String_System_Collections_Generic_IReadOnlyDictionary_Qmmands_Parameter_System_Object__
-  commentId: M:Qmmands.ArgumentParserResult.#ctor(Qmmands.Command,System.String,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
-  name.vb: ArgumentParserResult(Command, String, IReadOnlyDictionary(Of Parameter, Object))
-  fullName: Qmmands.ArgumentParserResult.ArgumentParserResult(Qmmands.Command, System.String, System.Collections.Generic.IReadOnlyDictionary<Qmmands.Parameter, System.Object>)
-  fullName.vb: Qmmands.ArgumentParserResult.ArgumentParserResult(Qmmands.Command, System.String, System.Collections.Generic.IReadOnlyDictionary(Of Qmmands.Parameter, System.Object))
-  nameWithType: ArgumentParserResult.ArgumentParserResult(Command, String, IReadOnlyDictionary<Parameter, Object>)
-  nameWithType.vb: ArgumentParserResult.ArgumentParserResult(Command, String, IReadOnlyDictionary(Of Parameter, Object))
+- uid: Qmmands.ArgumentParserResult.#ctor(System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
+  name: ArgumentParserResult(IReadOnlyDictionary<Parameter, Object>)
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult__ctor_System_Collections_Generic_IReadOnlyDictionary_Qmmands_Parameter_System_Object__
+  commentId: M:Qmmands.ArgumentParserResult.#ctor(System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
+  name.vb: ArgumentParserResult(IReadOnlyDictionary(Of Parameter, Object))
+  fullName: Qmmands.ArgumentParserResult.ArgumentParserResult(System.Collections.Generic.IReadOnlyDictionary<Qmmands.Parameter, System.Object>)
+  fullName.vb: Qmmands.ArgumentParserResult.ArgumentParserResult(System.Collections.Generic.IReadOnlyDictionary(Of Qmmands.Parameter, System.Object))
+  nameWithType: ArgumentParserResult.ArgumentParserResult(IReadOnlyDictionary<Parameter, Object>)
+  nameWithType.vb: ArgumentParserResult.ArgumentParserResult(IReadOnlyDictionary(Of Parameter, Object))
 - uid: Qmmands.ArgumentParserResult.#ctor*
   name: ArgumentParserResult
   href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult__ctor_
@@ -171,19 +87,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParserResult.ArgumentParserResult
   nameWithType: ArgumentParserResult.ArgumentParserResult
-- uid: Qmmands.ArgumentParserResult.ArgumentParserFailure
-  name: ArgumentParserFailure
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_ArgumentParserFailure
-  commentId: P:Qmmands.ArgumentParserResult.ArgumentParserFailure
-  fullName: Qmmands.ArgumentParserResult.ArgumentParserFailure
-  nameWithType: ArgumentParserResult.ArgumentParserFailure
-- uid: Qmmands.ArgumentParserResult.ArgumentParserFailure*
-  name: ArgumentParserFailure
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_ArgumentParserFailure_
-  commentId: Overload:Qmmands.ArgumentParserResult.ArgumentParserFailure
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.ArgumentParserFailure
-  nameWithType: ArgumentParserResult.ArgumentParserFailure
 - uid: Qmmands.ArgumentParserResult.Arguments
   name: Arguments
   href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Arguments
@@ -197,32 +100,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParserResult.Arguments
   nameWithType: ArgumentParserResult.Arguments
-- uid: Qmmands.ArgumentParserResult.Command
-  name: Command
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Command
-  commentId: P:Qmmands.ArgumentParserResult.Command
-  fullName: Qmmands.ArgumentParserResult.Command
-  nameWithType: ArgumentParserResult.Command
-- uid: Qmmands.ArgumentParserResult.Command*
-  name: Command
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Command_
-  commentId: Overload:Qmmands.ArgumentParserResult.Command
+- uid: Qmmands.ArgumentParserResult.GetFailureReason
+  name: GetFailureReason()
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_GetFailureReason
+  commentId: M:Qmmands.ArgumentParserResult.GetFailureReason
+  fullName: Qmmands.ArgumentParserResult.GetFailureReason()
+  nameWithType: ArgumentParserResult.GetFailureReason()
+- uid: Qmmands.ArgumentParserResult.GetFailureReason*
+  name: GetFailureReason
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_GetFailureReason_
+  commentId: Overload:Qmmands.ArgumentParserResult.GetFailureReason
   isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.Command
-  nameWithType: ArgumentParserResult.Command
-- uid: Qmmands.ArgumentParserResult.FailurePosition
-  name: FailurePosition
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_FailurePosition
-  commentId: P:Qmmands.ArgumentParserResult.FailurePosition
-  fullName: Qmmands.ArgumentParserResult.FailurePosition
-  nameWithType: ArgumentParserResult.FailurePosition
-- uid: Qmmands.ArgumentParserResult.FailurePosition*
-  name: FailurePosition
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_FailurePosition_
-  commentId: Overload:Qmmands.ArgumentParserResult.FailurePosition
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.FailurePosition
-  nameWithType: ArgumentParserResult.FailurePosition
+  fullName: Qmmands.ArgumentParserResult.GetFailureReason
+  nameWithType: ArgumentParserResult.GetFailureReason
 - uid: Qmmands.ArgumentParserResult.IsSuccessful
   name: IsSuccessful
   href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_IsSuccessful
@@ -236,32 +126,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParserResult.IsSuccessful
   nameWithType: ArgumentParserResult.IsSuccessful
-- uid: Qmmands.ArgumentParserResult.Parameter
-  name: Parameter
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Parameter
-  commentId: P:Qmmands.ArgumentParserResult.Parameter
-  fullName: Qmmands.ArgumentParserResult.Parameter
-  nameWithType: ArgumentParserResult.Parameter
-- uid: Qmmands.ArgumentParserResult.Parameter*
-  name: Parameter
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Parameter_
-  commentId: Overload:Qmmands.ArgumentParserResult.Parameter
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.Parameter
-  nameWithType: ArgumentParserResult.Parameter
-- uid: Qmmands.ArgumentParserResult.RawArguments
-  name: RawArguments
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_RawArguments
-  commentId: P:Qmmands.ArgumentParserResult.RawArguments
-  fullName: Qmmands.ArgumentParserResult.RawArguments
-  nameWithType: ArgumentParserResult.RawArguments
-- uid: Qmmands.ArgumentParserResult.RawArguments*
-  name: RawArguments
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_RawArguments_
-  commentId: Overload:Qmmands.ArgumentParserResult.RawArguments
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.RawArguments
-  nameWithType: ArgumentParserResult.RawArguments
 - uid: Qmmands.CheckAttribute
   name: CheckAttribute
   href: api/Qmmands.CheckAttribute.html
@@ -2767,6 +2631,168 @@ references:
   isSpec: "True"
   fullName: Qmmands.DefaultArgumentParser.Parse
   nameWithType: DefaultArgumentParser.Parse
+- uid: Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse(Qmmands.CommandContext)
+  name: IArgumentParser.Parse(CommandContext)
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Qmmands_IArgumentParser_Parse_Qmmands_CommandContext_
+  commentId: M:Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse(Qmmands.CommandContext)
+  name.vb: Qmmands.IArgumentParser.Parse(CommandContext)
+  fullName: Qmmands.DefaultArgumentParser.Qmmands.IArgumentParser.Parse(Qmmands.CommandContext)
+  nameWithType: DefaultArgumentParser.IArgumentParser.Parse(CommandContext)
+  nameWithType.vb: DefaultArgumentParser.Qmmands.IArgumentParser.Parse(CommandContext)
+- uid: Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse*
+  name: IArgumentParser.Parse
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Qmmands_IArgumentParser_Parse_
+  commentId: Overload:Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse
+  isSpec: "True"
+  name.vb: Qmmands.IArgumentParser.Parse
+  fullName: Qmmands.DefaultArgumentParser.Qmmands.IArgumentParser.Parse
+  nameWithType: DefaultArgumentParser.IArgumentParser.Parse
+  nameWithType.vb: DefaultArgumentParser.Qmmands.IArgumentParser.Parse
+- uid: Qmmands.DefaultArgumentParserFailure
+  name: DefaultArgumentParserFailure
+  href: api/Qmmands.DefaultArgumentParserFailure.html
+  commentId: T:Qmmands.DefaultArgumentParserFailure
+  fullName: Qmmands.DefaultArgumentParserFailure
+  nameWithType: DefaultArgumentParserFailure
+- uid: Qmmands.DefaultArgumentParserFailure.NoWhitespaceBetweenArguments
+  name: NoWhitespaceBetweenArguments
+  href: api/Qmmands.DefaultArgumentParserFailure.html#Qmmands_DefaultArgumentParserFailure_NoWhitespaceBetweenArguments
+  commentId: F:Qmmands.DefaultArgumentParserFailure.NoWhitespaceBetweenArguments
+  fullName: Qmmands.DefaultArgumentParserFailure.NoWhitespaceBetweenArguments
+  nameWithType: DefaultArgumentParserFailure.NoWhitespaceBetweenArguments
+- uid: Qmmands.DefaultArgumentParserFailure.TooFewArguments
+  name: TooFewArguments
+  href: api/Qmmands.DefaultArgumentParserFailure.html#Qmmands_DefaultArgumentParserFailure_TooFewArguments
+  commentId: F:Qmmands.DefaultArgumentParserFailure.TooFewArguments
+  fullName: Qmmands.DefaultArgumentParserFailure.TooFewArguments
+  nameWithType: DefaultArgumentParserFailure.TooFewArguments
+- uid: Qmmands.DefaultArgumentParserFailure.TooManyArguments
+  name: TooManyArguments
+  href: api/Qmmands.DefaultArgumentParserFailure.html#Qmmands_DefaultArgumentParserFailure_TooManyArguments
+  commentId: F:Qmmands.DefaultArgumentParserFailure.TooManyArguments
+  fullName: Qmmands.DefaultArgumentParserFailure.TooManyArguments
+  nameWithType: DefaultArgumentParserFailure.TooManyArguments
+- uid: Qmmands.DefaultArgumentParserFailure.UnclosedQuote
+  name: UnclosedQuote
+  href: api/Qmmands.DefaultArgumentParserFailure.html#Qmmands_DefaultArgumentParserFailure_UnclosedQuote
+  commentId: F:Qmmands.DefaultArgumentParserFailure.UnclosedQuote
+  fullName: Qmmands.DefaultArgumentParserFailure.UnclosedQuote
+  nameWithType: DefaultArgumentParserFailure.UnclosedQuote
+- uid: Qmmands.DefaultArgumentParserFailure.UnexpectedQuote
+  name: UnexpectedQuote
+  href: api/Qmmands.DefaultArgumentParserFailure.html#Qmmands_DefaultArgumentParserFailure_UnexpectedQuote
+  commentId: F:Qmmands.DefaultArgumentParserFailure.UnexpectedQuote
+  fullName: Qmmands.DefaultArgumentParserFailure.UnexpectedQuote
+  nameWithType: DefaultArgumentParserFailure.UnexpectedQuote
+- uid: Qmmands.DefaultArgumentParserResult
+  name: DefaultArgumentParserResult
+  href: api/Qmmands.DefaultArgumentParserResult.html
+  commentId: T:Qmmands.DefaultArgumentParserResult
+  fullName: Qmmands.DefaultArgumentParserResult
+  nameWithType: DefaultArgumentParserResult
+- uid: Qmmands.DefaultArgumentParserResult.#ctor(Qmmands.Command,Qmmands.Parameter,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object},Qmmands.DefaultArgumentParserFailure,System.Nullable{System.Int32})
+  name: DefaultArgumentParserResult(Command, Parameter, IReadOnlyDictionary<Parameter, Object>, DefaultArgumentParserFailure, Nullable<Int32>)
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult__ctor_Qmmands_Command_Qmmands_Parameter_System_Collections_Generic_IReadOnlyDictionary_Qmmands_Parameter_System_Object__Qmmands_DefaultArgumentParserFailure_System_Nullable_System_Int32__
+  commentId: M:Qmmands.DefaultArgumentParserResult.#ctor(Qmmands.Command,Qmmands.Parameter,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object},Qmmands.DefaultArgumentParserFailure,System.Nullable{System.Int32})
+  name.vb: DefaultArgumentParserResult(Command, Parameter, IReadOnlyDictionary(Of Parameter, Object), DefaultArgumentParserFailure, Nullable(Of Int32))
+  fullName: Qmmands.DefaultArgumentParserResult.DefaultArgumentParserResult(Qmmands.Command, Qmmands.Parameter, System.Collections.Generic.IReadOnlyDictionary<Qmmands.Parameter, System.Object>, Qmmands.DefaultArgumentParserFailure, System.Nullable<System.Int32>)
+  fullName.vb: Qmmands.DefaultArgumentParserResult.DefaultArgumentParserResult(Qmmands.Command, Qmmands.Parameter, System.Collections.Generic.IReadOnlyDictionary(Of Qmmands.Parameter, System.Object), Qmmands.DefaultArgumentParserFailure, System.Nullable(Of System.Int32))
+  nameWithType: DefaultArgumentParserResult.DefaultArgumentParserResult(Command, Parameter, IReadOnlyDictionary<Parameter, Object>, DefaultArgumentParserFailure, Nullable<Int32>)
+  nameWithType.vb: DefaultArgumentParserResult.DefaultArgumentParserResult(Command, Parameter, IReadOnlyDictionary(Of Parameter, Object), DefaultArgumentParserFailure, Nullable(Of Int32))
+- uid: Qmmands.DefaultArgumentParserResult.#ctor(Qmmands.Command,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
+  name: DefaultArgumentParserResult(Command, IReadOnlyDictionary<Parameter, Object>)
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult__ctor_Qmmands_Command_System_Collections_Generic_IReadOnlyDictionary_Qmmands_Parameter_System_Object__
+  commentId: M:Qmmands.DefaultArgumentParserResult.#ctor(Qmmands.Command,System.Collections.Generic.IReadOnlyDictionary{Qmmands.Parameter,System.Object})
+  name.vb: DefaultArgumentParserResult(Command, IReadOnlyDictionary(Of Parameter, Object))
+  fullName: Qmmands.DefaultArgumentParserResult.DefaultArgumentParserResult(Qmmands.Command, System.Collections.Generic.IReadOnlyDictionary<Qmmands.Parameter, System.Object>)
+  fullName.vb: Qmmands.DefaultArgumentParserResult.DefaultArgumentParserResult(Qmmands.Command, System.Collections.Generic.IReadOnlyDictionary(Of Qmmands.Parameter, System.Object))
+  nameWithType: DefaultArgumentParserResult.DefaultArgumentParserResult(Command, IReadOnlyDictionary<Parameter, Object>)
+  nameWithType.vb: DefaultArgumentParserResult.DefaultArgumentParserResult(Command, IReadOnlyDictionary(Of Parameter, Object))
+- uid: Qmmands.DefaultArgumentParserResult.#ctor*
+  name: DefaultArgumentParserResult
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult__ctor_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.#ctor
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.DefaultArgumentParserResult
+  nameWithType: DefaultArgumentParserResult.DefaultArgumentParserResult
+- uid: Qmmands.DefaultArgumentParserResult.Command
+  name: Command
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Command
+  commentId: P:Qmmands.DefaultArgumentParserResult.Command
+  fullName: Qmmands.DefaultArgumentParserResult.Command
+  nameWithType: DefaultArgumentParserResult.Command
+- uid: Qmmands.DefaultArgumentParserResult.Command*
+  name: Command
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Command_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.Command
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.Command
+  nameWithType: DefaultArgumentParserResult.Command
+- uid: Qmmands.DefaultArgumentParserResult.Failure
+  name: Failure
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Failure
+  commentId: P:Qmmands.DefaultArgumentParserResult.Failure
+  fullName: Qmmands.DefaultArgumentParserResult.Failure
+  nameWithType: DefaultArgumentParserResult.Failure
+- uid: Qmmands.DefaultArgumentParserResult.Failure*
+  name: Failure
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Failure_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.Failure
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.Failure
+  nameWithType: DefaultArgumentParserResult.Failure
+- uid: Qmmands.DefaultArgumentParserResult.FailurePosition
+  name: FailurePosition
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_FailurePosition
+  commentId: P:Qmmands.DefaultArgumentParserResult.FailurePosition
+  fullName: Qmmands.DefaultArgumentParserResult.FailurePosition
+  nameWithType: DefaultArgumentParserResult.FailurePosition
+- uid: Qmmands.DefaultArgumentParserResult.FailurePosition*
+  name: FailurePosition
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_FailurePosition_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.FailurePosition
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.FailurePosition
+  nameWithType: DefaultArgumentParserResult.FailurePosition
+- uid: Qmmands.DefaultArgumentParserResult.GetFailureReason
+  name: GetFailureReason()
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_GetFailureReason
+  commentId: M:Qmmands.DefaultArgumentParserResult.GetFailureReason
+  fullName: Qmmands.DefaultArgumentParserResult.GetFailureReason()
+  nameWithType: DefaultArgumentParserResult.GetFailureReason()
+- uid: Qmmands.DefaultArgumentParserResult.GetFailureReason*
+  name: GetFailureReason
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_GetFailureReason_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.GetFailureReason
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.GetFailureReason
+  nameWithType: DefaultArgumentParserResult.GetFailureReason
+- uid: Qmmands.DefaultArgumentParserResult.IsSuccessful
+  name: IsSuccessful
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_IsSuccessful
+  commentId: P:Qmmands.DefaultArgumentParserResult.IsSuccessful
+  fullName: Qmmands.DefaultArgumentParserResult.IsSuccessful
+  nameWithType: DefaultArgumentParserResult.IsSuccessful
+- uid: Qmmands.DefaultArgumentParserResult.IsSuccessful*
+  name: IsSuccessful
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_IsSuccessful_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.IsSuccessful
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.IsSuccessful
+  nameWithType: DefaultArgumentParserResult.IsSuccessful
+- uid: Qmmands.DefaultArgumentParserResult.Parameter
+  name: Parameter
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Parameter
+  commentId: P:Qmmands.DefaultArgumentParserResult.Parameter
+  fullName: Qmmands.DefaultArgumentParserResult.Parameter
+  nameWithType: DefaultArgumentParserResult.Parameter
+- uid: Qmmands.DefaultArgumentParserResult.Parameter*
+  name: Parameter
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Parameter_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.Parameter
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.Parameter
+  nameWithType: DefaultArgumentParserResult.Parameter
 - uid: Qmmands.DescriptionAttribute
   name: DescriptionAttribute
   href: api/Qmmands.DescriptionAttribute.html

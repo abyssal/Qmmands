@@ -80,6 +80,9 @@
       <h4><a class="xref" href="Qmmands.ArgumentParseFailedResult.html">ArgumentParseFailedResult</a></h4>
       <section><p>Represents an argument parse failure.</p>
 </section>
+      <h4><a class="xref" href="Qmmands.ArgumentParserResult.html">ArgumentParserResult</a></h4>
+      <section><p>The base interface for <a class="xref" href="Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_Parse_Qmmands_CommandContext_">Parse(CommandContext)</a> results.</p>
+</section>
       <h4><a class="xref" href="Qmmands.CheckAttribute.html">CheckAttribute</a></h4>
       <section><p>Represents a <a class="xref" href="Qmmands.Module.html">Module</a> or <a class="xref" href="Qmmands.Command.html">Command</a> check that has to succeed before it can be executed.</p>
 </section>
@@ -148,6 +151,9 @@
 </section>
       <h4><a class="xref" href="Qmmands.DefaultArgumentParser.html">DefaultArgumentParser</a></h4>
       <section><p>Represents the default argument parser used by the <a class="xref" href="Qmmands.CommandService.html">CommandService</a>.</p>
+</section>
+      <h4><a class="xref" href="Qmmands.DefaultArgumentParserResult.html">DefaultArgumentParserResult</a></h4>
+      <section><p>Represents a <a class="xref" href="Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Parse_Qmmands_CommandContext_">Parse(CommandContext)</a> result.</p>
 </section>
       <h4><a class="xref" href="Qmmands.DescriptionAttribute.html">DescriptionAttribute</a></h4>
       <section><p>Sets a description for the <a class="xref" href="Qmmands.Module.html">Module</a>, <a class="xref" href="Qmmands.Command.html">Command</a>, or <a class="xref" href="Qmmands.Parameter.html">Parameter</a>.</p>
@@ -252,11 +258,6 @@ from automatically adding the marked class as a <a class="xref" href="Qmmands.Mo
       <h4><a class="xref" href="Qmmands.TypeParserResult-1.html">TypeParserResult&lt;T&gt;</a></h4>
       <section><p>Represents a <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a> result.</p>
 </section>
-    <h3 id="structs">Structs
-  </h3>
-      <h4><a class="xref" href="Qmmands.ArgumentParserResult.html">ArgumentParserResult</a></h4>
-      <section><p>Represents an <a class="xref" href="Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_Parse_Qmmands_CommandContext_">Parse(CommandContext)</a> result.</p>
-</section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Qmmands.IArgumentParser.html">IArgumentParser</a></h4>
@@ -270,14 +271,14 @@ from automatically adding the marked class as a <a class="xref" href="Qmmands.Mo
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="Qmmands.ArgumentParserFailure.html">ArgumentParserFailure</a></h4>
-      <section><p>Represents the reason why the argument parsing failed.</p>
-</section>
       <h4><a class="xref" href="Qmmands.CommandExecutionStep.html">CommandExecutionStep</a></h4>
       <section><p>Represents the execution step at which the <a class="xref" href="Qmmands.ExecutionFailedResult.html">ExecutionFailedResult</a> was returned.</p>
 </section>
       <h4><a class="xref" href="Qmmands.CooldownMeasure.html">CooldownMeasure</a></h4>
       <section><p>Represents a time unit to use with the <a class="xref" href="Qmmands.CooldownAttribute.html">CooldownAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Qmmands.DefaultArgumentParserFailure.html">DefaultArgumentParserFailure</a></h4>
+      <section><p>Represents the reason why the argument parsing failed.</p>
 </section>
       <h4><a class="xref" href="Qmmands.RunMode.html">RunMode</a></h4>
       <section><p>Defines whether the <a class="xref" href="Qmmands.Command.html">Command</a>s should run sequentially or in parallel.</p>
