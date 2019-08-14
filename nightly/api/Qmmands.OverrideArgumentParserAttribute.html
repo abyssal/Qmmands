@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class OverrideTypeParserAttribute
+    <title>Class OverrideArgumentParserAttribute
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class OverrideTypeParserAttribute
+    <meta name="title" content="Class OverrideArgumentParserAttribute
    ">
     <meta name="generator" content="docfx 2.42.4.0">
     
@@ -68,44 +68,44 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Qmmands.OverrideTypeParserAttribute">
+            <article class="content wrap" id="_content" data-uid="Qmmands.OverrideArgumentParserAttribute">
   
   
-  <h1 id="Qmmands_OverrideTypeParserAttribute" data-uid="Qmmands.OverrideTypeParserAttribute" class="text-break">Class OverrideTypeParserAttribute
+  <h1 id="Qmmands_OverrideArgumentParserAttribute" data-uid="Qmmands.OverrideArgumentParserAttribute" class="text-break">Class OverrideArgumentParserAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Overrides the type parser for the <a class="xref" href="Qmmands.Parameter.html">Parameter</a>.</p>
+  <div class="markdown level0 summary"><p>Overrides the argument parser for the <a class="xref" href="Qmmands.Module.html">Module</a> or <a class="xref" href="Qmmands.Command.html">Command</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-    <div class="level2"><span class="xref">OverrideTypeParserAttribute</span></div>
+    <div class="level2"><span class="xref">OverrideArgumentParserAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
   <h6><strong>Assembly</strong>: Qmmands.dll</h6>
-  <h5 id="Qmmands_OverrideTypeParserAttribute_syntax">Syntax</h5>
+  <h5 id="Qmmands_OverrideArgumentParserAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Parameter)]
-public class OverrideTypeParserAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
+public class OverrideArgumentParserAttribute : Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideTypeParserAttribute__ctor_System_Type_.md&amp;value=---%0Auid%3A%20Qmmands.OverrideTypeParserAttribute.%23ctor(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideArgumentParserAttribute__ctor_System_Type_.md&amp;value=---%0Auid%3A%20Qmmands.OverrideArgumentParserAttribute.%23ctor(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Parameters/OverrideTypeParserAttribute.cs/#L23">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/OverrideArgumentParserAttribute.cs/#L23">View Source</a>
   </span>
-  <a id="Qmmands_OverrideTypeParserAttribute__ctor_" data-uid="Qmmands.OverrideTypeParserAttribute.#ctor*"></a>
-  <h4 id="Qmmands_OverrideTypeParserAttribute__ctor_System_Type_" data-uid="Qmmands.OverrideTypeParserAttribute.#ctor(System.Type)">OverrideTypeParserAttribute(Type)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.OverrideTypeParserAttribute.html">OverrideTypeParserAttribute</a> with the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of a custom <a class="xref" href="Qmmands.TypeParser-1.html">TypeParser&lt;T&gt;</a>.</p>
+  <a id="Qmmands_OverrideArgumentParserAttribute__ctor_" data-uid="Qmmands.OverrideArgumentParserAttribute.#ctor*"></a>
+  <h4 id="Qmmands_OverrideArgumentParserAttribute__ctor_System_Type_" data-uid="Qmmands.OverrideArgumentParserAttribute.#ctor(System.Type)">OverrideArgumentParserAttribute(Type)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Qmmands.OverrideArgumentParserAttribute.html">OverrideArgumentParserAttribute</a> with the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of a custom <a class="xref" href="Qmmands.IArgumentParser.html">IArgumentParser</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OverrideTypeParserAttribute(Type customTypeParserType)</code></pre>
+    <pre><code class="lang-csharp hljs">public OverrideArgumentParserAttribute(Type customArgumentParserType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,7 +119,7 @@ public class OverrideTypeParserAttribute : Attribute</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
-        <td><span class="parametername">customTypeParserType</span></td>
+        <td><span class="parametername">customArgumentParserType</span></td>
         <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> to override with. </p>
 </td>
       </tr>
@@ -136,7 +136,7 @@ public class OverrideTypeParserAttribute : Attribute</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-        <td><p>Custom type parser type must not be null.</p>
+        <td><p>Custom argument parser type must not be null.</p>
 </td>
       </tr>
     </tbody>
@@ -145,13 +145,13 @@ public class OverrideTypeParserAttribute : Attribute</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideTypeParserAttribute_Value.md&amp;value=---%0Auid%3A%20Qmmands.OverrideTypeParserAttribute.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideArgumentParserAttribute_Value.md&amp;value=---%0Auid%3A%20Qmmands.OverrideArgumentParserAttribute.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Parameters/OverrideTypeParserAttribute.cs/#L14">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/OverrideArgumentParserAttribute.cs/#L14">View Source</a>
   </span>
-  <a id="Qmmands_OverrideTypeParserAttribute_Value_" data-uid="Qmmands.OverrideTypeParserAttribute.Value*"></a>
-  <h4 id="Qmmands_OverrideTypeParserAttribute_Value" data-uid="Qmmands.OverrideTypeParserAttribute.Value">Value</h4>
+  <a id="Qmmands_OverrideArgumentParserAttribute_Value_" data-uid="Qmmands.OverrideArgumentParserAttribute.Value*"></a>
+  <h4 id="Qmmands_OverrideArgumentParserAttribute_Value" data-uid="Qmmands.OverrideArgumentParserAttribute.Value">Value</h4>
   <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a> of the custom type parser.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -182,10 +182,10 @@ public class OverrideTypeParserAttribute : Attribute</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideTypeParserAttribute.md&amp;value=---%0Auid%3A%20Qmmands.OverrideTypeParserAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_OverrideArgumentParserAttribute.md&amp;value=---%0Auid%3A%20Qmmands.OverrideArgumentParserAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Parameters/OverrideTypeParserAttribute.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/OverrideArgumentParserAttribute.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

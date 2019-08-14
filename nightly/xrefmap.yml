@@ -409,6 +409,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.Cooldowns
   nameWithType: Command.Cooldowns
+- uid: Qmmands.Command.CustomArgumentParserType
+  name: CustomArgumentParserType
+  href: api/Qmmands.Command.html#Qmmands_Command_CustomArgumentParserType
+  commentId: P:Qmmands.Command.CustomArgumentParserType
+  fullName: Qmmands.Command.CustomArgumentParserType
+  nameWithType: Command.CustomArgumentParserType
+- uid: Qmmands.Command.CustomArgumentParserType*
+  name: CustomArgumentParserType
+  href: api/Qmmands.Command.html#Qmmands_Command_CustomArgumentParserType_
+  commentId: Overload:Qmmands.Command.CustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.Command.CustomArgumentParserType
+  nameWithType: Command.CustomArgumentParserType
 - uid: Qmmands.Command.Description
   name: Description
   href: api/Qmmands.Command.html#Qmmands_Command_Description
@@ -826,6 +839,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.Cooldowns
   nameWithType: CommandBuilder.Cooldowns
+- uid: Qmmands.CommandBuilder.CustomArgumentParserType
+  name: CustomArgumentParserType
+  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_CustomArgumentParserType
+  commentId: P:Qmmands.CommandBuilder.CustomArgumentParserType
+  fullName: Qmmands.CommandBuilder.CustomArgumentParserType
+  nameWithType: CommandBuilder.CustomArgumentParserType
+- uid: Qmmands.CommandBuilder.CustomArgumentParserType*
+  name: CustomArgumentParserType
+  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_CustomArgumentParserType_
+  commentId: Overload:Qmmands.CommandBuilder.CustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.CommandBuilder.CustomArgumentParserType
+  nameWithType: CommandBuilder.CustomArgumentParserType
 - uid: Qmmands.CommandBuilder.Description
   name: Description
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_Description
@@ -943,6 +969,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuilder.RunMode
   nameWithType: CommandBuilder.RunMode
+- uid: Qmmands.CommandBuilder.WithCustomArgumentParserType(System.Type)
+  name: WithCustomArgumentParserType(Type)
+  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_WithCustomArgumentParserType_System_Type_
+  commentId: M:Qmmands.CommandBuilder.WithCustomArgumentParserType(System.Type)
+  fullName: Qmmands.CommandBuilder.WithCustomArgumentParserType(System.Type)
+  nameWithType: CommandBuilder.WithCustomArgumentParserType(Type)
+- uid: Qmmands.CommandBuilder.WithCustomArgumentParserType*
+  name: WithCustomArgumentParserType
+  href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_WithCustomArgumentParserType_
+  commentId: Overload:Qmmands.CommandBuilder.WithCustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.CommandBuilder.WithCustomArgumentParserType
+  nameWithType: CommandBuilder.WithCustomArgumentParserType
 - uid: Qmmands.CommandBuilder.WithDescription(System.String)
   name: WithDescription(String)
   href: api/Qmmands.CommandBuilder.html#Qmmands_CommandBuilder_WithDescription_System_String_
@@ -1556,6 +1595,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.CommandService
   nameWithType: CommandService.CommandService
+- uid: Qmmands.CommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  name: AddArgumentParser(IArgumentParser)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_AddArgumentParser_Qmmands_IArgumentParser_
+  commentId: M:Qmmands.CommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  fullName: Qmmands.CommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  nameWithType: CommandService.AddArgumentParser(IArgumentParser)
+- uid: Qmmands.CommandService.AddArgumentParser*
+  name: AddArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_AddArgumentParser_
+  commentId: Overload:Qmmands.CommandService.AddArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandService.AddArgumentParser
+  nameWithType: CommandService.AddArgumentParser
 - uid: Qmmands.CommandService.AddModule(Qmmands.Module)
   name: AddModule(Module)
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_AddModule_Qmmands_Module_
@@ -1628,19 +1680,6 @@ references:
   fullName.vb: Qmmands.CommandService.AddTypeParser(Of T)(Qmmands.TypeParser(Of T), System.Boolean)
   nameWithType: CommandService.AddTypeParser<T>(TypeParser<T>, Boolean)
   nameWithType.vb: CommandService.AddTypeParser(Of T)(TypeParser(Of T), Boolean)
-- uid: Qmmands.CommandService.ArgumentParser
-  name: ArgumentParser
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ArgumentParser
-  commentId: P:Qmmands.CommandService.ArgumentParser
-  fullName: Qmmands.CommandService.ArgumentParser
-  nameWithType: CommandService.ArgumentParser
-- uid: Qmmands.CommandService.ArgumentParser*
-  name: ArgumentParser
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ArgumentParser_
-  commentId: Overload:Qmmands.CommandService.ArgumentParser
-  isSpec: "True"
-  fullName: Qmmands.CommandService.ArgumentParser
-  nameWithType: CommandService.ArgumentParser
 - uid: Qmmands.CommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_CommandExecuted
@@ -1666,6 +1705,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.CooldownBucketKeyGenerator
   nameWithType: CommandService.CooldownBucketKeyGenerator
+- uid: Qmmands.CommandService.DefaultArgumentParser
+  name: DefaultArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_DefaultArgumentParser
+  commentId: P:Qmmands.CommandService.DefaultArgumentParser
+  fullName: Qmmands.CommandService.DefaultArgumentParser
+  nameWithType: CommandService.DefaultArgumentParser
+- uid: Qmmands.CommandService.DefaultArgumentParser*
+  name: DefaultArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_DefaultArgumentParser_
+  commentId: Overload:Qmmands.CommandService.DefaultArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandService.DefaultArgumentParser
+  nameWithType: CommandService.DefaultArgumentParser
 - uid: Qmmands.CommandService.DefaultRunMode
   name: DefaultRunMode
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_DefaultRunMode
@@ -1746,6 +1798,28 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.GetAllModules
   nameWithType: CommandService.GetAllModules
+- uid: Qmmands.CommandService.GetArgumentParser(System.Type)
+  name: GetArgumentParser(Type)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_GetArgumentParser_System_Type_
+  commentId: M:Qmmands.CommandService.GetArgumentParser(System.Type)
+  fullName: Qmmands.CommandService.GetArgumentParser(System.Type)
+  nameWithType: CommandService.GetArgumentParser(Type)
+- uid: Qmmands.CommandService.GetArgumentParser*
+  name: GetArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_GetArgumentParser_
+  commentId: Overload:Qmmands.CommandService.GetArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandService.GetArgumentParser
+  nameWithType: CommandService.GetArgumentParser
+- uid: Qmmands.CommandService.GetArgumentParser``1
+  name: GetArgumentParser<T>()
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_GetArgumentParser__1
+  commentId: M:Qmmands.CommandService.GetArgumentParser``1
+  name.vb: GetArgumentParser(Of T)()
+  fullName: Qmmands.CommandService.GetArgumentParser<T>()
+  fullName.vb: Qmmands.CommandService.GetArgumentParser(Of T)()
+  nameWithType: CommandService.GetArgumentParser<T>()
+  nameWithType.vb: CommandService.GetArgumentParser(Of T)()
 - uid: Qmmands.CommandService.GetSpecificTypeParser*
   name: GetSpecificTypeParser
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_GetSpecificTypeParser_
@@ -1843,6 +1917,28 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.RemoveAllTypeParsers
   nameWithType: CommandService.RemoveAllTypeParsers
+- uid: Qmmands.CommandService.RemoveArgumentParser(System.Type)
+  name: RemoveArgumentParser(Type)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_RemoveArgumentParser_System_Type_
+  commentId: M:Qmmands.CommandService.RemoveArgumentParser(System.Type)
+  fullName: Qmmands.CommandService.RemoveArgumentParser(System.Type)
+  nameWithType: CommandService.RemoveArgumentParser(Type)
+- uid: Qmmands.CommandService.RemoveArgumentParser*
+  name: RemoveArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_RemoveArgumentParser_
+  commentId: Overload:Qmmands.CommandService.RemoveArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandService.RemoveArgumentParser
+  nameWithType: CommandService.RemoveArgumentParser
+- uid: Qmmands.CommandService.RemoveArgumentParser``1
+  name: RemoveArgumentParser<T>()
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_RemoveArgumentParser__1
+  commentId: M:Qmmands.CommandService.RemoveArgumentParser``1
+  name.vb: RemoveArgumentParser(Of T)()
+  fullName: Qmmands.CommandService.RemoveArgumentParser<T>()
+  fullName.vb: Qmmands.CommandService.RemoveArgumentParser(Of T)()
+  nameWithType: CommandService.RemoveArgumentParser<T>()
+  nameWithType.vb: CommandService.RemoveArgumentParser(Of T)()
 - uid: Qmmands.CommandService.RemoveModule(Qmmands.Module)
   name: RemoveModule(Module)
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_RemoveModule_Qmmands_Module_
@@ -1898,6 +1994,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.SeparatorRequirement
   nameWithType: CommandService.SeparatorRequirement
+- uid: Qmmands.CommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  name: SetDefaultArgumentParser(IArgumentParser)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_SetDefaultArgumentParser_Qmmands_IArgumentParser_
+  commentId: M:Qmmands.CommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  fullName: Qmmands.CommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  nameWithType: CommandService.SetDefaultArgumentParser(IArgumentParser)
+- uid: Qmmands.CommandService.SetDefaultArgumentParser*
+  name: SetDefaultArgumentParser
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_SetDefaultArgumentParser_
+  commentId: Overload:Qmmands.CommandService.SetDefaultArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandService.SetDefaultArgumentParser
+  nameWithType: CommandService.SetDefaultArgumentParser
 - uid: Qmmands.CommandService.StringComparison
   name: StringComparison
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_StringComparison
@@ -1943,19 +2052,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.CommandServiceConfiguration
   nameWithType: CommandServiceConfiguration.CommandServiceConfiguration
-- uid: Qmmands.CommandServiceConfiguration.ArgumentParser
-  name: ArgumentParser
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_ArgumentParser
-  commentId: P:Qmmands.CommandServiceConfiguration.ArgumentParser
-  fullName: Qmmands.CommandServiceConfiguration.ArgumentParser
-  nameWithType: CommandServiceConfiguration.ArgumentParser
-- uid: Qmmands.CommandServiceConfiguration.ArgumentParser*
-  name: ArgumentParser
-  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_ArgumentParser_
-  commentId: Overload:Qmmands.CommandServiceConfiguration.ArgumentParser
-  isSpec: "True"
-  fullName: Qmmands.CommandServiceConfiguration.ArgumentParser
-  nameWithType: CommandServiceConfiguration.ArgumentParser
 - uid: Qmmands.CommandServiceConfiguration.CooldownBucketKeyGenerator
   name: CooldownBucketKeyGenerator
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_CooldownBucketKeyGenerator
@@ -1982,6 +2078,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandServiceConfiguration.Default
   nameWithType: CommandServiceConfiguration.Default
+- uid: Qmmands.CommandServiceConfiguration.DefaultArgumentParser
+  name: DefaultArgumentParser
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_DefaultArgumentParser
+  commentId: P:Qmmands.CommandServiceConfiguration.DefaultArgumentParser
+  fullName: Qmmands.CommandServiceConfiguration.DefaultArgumentParser
+  nameWithType: CommandServiceConfiguration.DefaultArgumentParser
+- uid: Qmmands.CommandServiceConfiguration.DefaultArgumentParser*
+  name: DefaultArgumentParser
+  href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_DefaultArgumentParser_
+  commentId: Overload:Qmmands.CommandServiceConfiguration.DefaultArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.CommandServiceConfiguration.DefaultArgumentParser
+  nameWithType: CommandServiceConfiguration.DefaultArgumentParser
 - uid: Qmmands.CommandServiceConfiguration.DefaultRunMode
   name: DefaultRunMode
   href: api/Qmmands.CommandServiceConfiguration.html#Qmmands_CommandServiceConfiguration_DefaultRunMode
@@ -2091,69 +2200,69 @@ references:
   commentId: F:Qmmands.CommandUtilities.DefaultQuotationMarkMap
   fullName: Qmmands.CommandUtilities.DefaultQuotationMarkMap
   nameWithType: CommandUtilities.DefaultQuotationMarkMap
+- uid: Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Command)
+  name: EnumerateAllChecks(Command)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllChecks_Qmmands_Command_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Command)
+  fullName: Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Command)
+  nameWithType: CommandUtilities.EnumerateAllChecks(Command)
+- uid: Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Module)
+  name: EnumerateAllChecks(Module)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllChecks_Qmmands_Module_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Module)
+  fullName: Qmmands.CommandUtilities.EnumerateAllChecks(Qmmands.Module)
+  nameWithType: CommandUtilities.EnumerateAllChecks(Module)
+- uid: Qmmands.CommandUtilities.EnumerateAllChecks*
+  name: EnumerateAllChecks
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllChecks_
+  commentId: Overload:Qmmands.CommandUtilities.EnumerateAllChecks
+  isSpec: "True"
+  fullName: Qmmands.CommandUtilities.EnumerateAllChecks
+  nameWithType: CommandUtilities.EnumerateAllChecks
+- uid: Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.Module)
+  name: EnumerateAllCommands(Module)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllCommands_Qmmands_Module_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.Module)
+  fullName: Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.Module)
+  nameWithType: CommandUtilities.EnumerateAllCommands(Module)
+- uid: Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.ModuleBuilder)
+  name: EnumerateAllCommands(ModuleBuilder)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllCommands_Qmmands_ModuleBuilder_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.ModuleBuilder)
+  fullName: Qmmands.CommandUtilities.EnumerateAllCommands(Qmmands.ModuleBuilder)
+  nameWithType: CommandUtilities.EnumerateAllCommands(ModuleBuilder)
+- uid: Qmmands.CommandUtilities.EnumerateAllCommands*
+  name: EnumerateAllCommands
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllCommands_
+  commentId: Overload:Qmmands.CommandUtilities.EnumerateAllCommands
+  isSpec: "True"
+  fullName: Qmmands.CommandUtilities.EnumerateAllCommands
+  nameWithType: CommandUtilities.EnumerateAllCommands
+- uid: Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.Module)
+  name: EnumerateAllSubmodules(Module)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllSubmodules_Qmmands_Module_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.Module)
+  fullName: Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.Module)
+  nameWithType: CommandUtilities.EnumerateAllSubmodules(Module)
+- uid: Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.ModuleBuilder)
+  name: EnumerateAllSubmodules(ModuleBuilder)
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllSubmodules_Qmmands_ModuleBuilder_
+  commentId: M:Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.ModuleBuilder)
+  fullName: Qmmands.CommandUtilities.EnumerateAllSubmodules(Qmmands.ModuleBuilder)
+  nameWithType: CommandUtilities.EnumerateAllSubmodules(ModuleBuilder)
+- uid: Qmmands.CommandUtilities.EnumerateAllSubmodules*
+  name: EnumerateAllSubmodules
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_EnumerateAllSubmodules_
+  commentId: Overload:Qmmands.CommandUtilities.EnumerateAllSubmodules
+  isSpec: "True"
+  fullName: Qmmands.CommandUtilities.EnumerateAllSubmodules
+  nameWithType: CommandUtilities.EnumerateAllSubmodules
 - uid: Qmmands.CommandUtilities.FriendlyPrimitiveTypeNames
   name: FriendlyPrimitiveTypeNames
   href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_FriendlyPrimitiveTypeNames
   commentId: F:Qmmands.CommandUtilities.FriendlyPrimitiveTypeNames
   fullName: Qmmands.CommandUtilities.FriendlyPrimitiveTypeNames
   nameWithType: CommandUtilities.FriendlyPrimitiveTypeNames
-- uid: Qmmands.CommandUtilities.GetAllChecks(Qmmands.Command)
-  name: GetAllChecks(Command)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllChecks_Qmmands_Command_
-  commentId: M:Qmmands.CommandUtilities.GetAllChecks(Qmmands.Command)
-  fullName: Qmmands.CommandUtilities.GetAllChecks(Qmmands.Command)
-  nameWithType: CommandUtilities.GetAllChecks(Command)
-- uid: Qmmands.CommandUtilities.GetAllChecks(Qmmands.Module)
-  name: GetAllChecks(Module)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllChecks_Qmmands_Module_
-  commentId: M:Qmmands.CommandUtilities.GetAllChecks(Qmmands.Module)
-  fullName: Qmmands.CommandUtilities.GetAllChecks(Qmmands.Module)
-  nameWithType: CommandUtilities.GetAllChecks(Module)
-- uid: Qmmands.CommandUtilities.GetAllChecks*
-  name: GetAllChecks
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllChecks_
-  commentId: Overload:Qmmands.CommandUtilities.GetAllChecks
-  isSpec: "True"
-  fullName: Qmmands.CommandUtilities.GetAllChecks
-  nameWithType: CommandUtilities.GetAllChecks
-- uid: Qmmands.CommandUtilities.GetAllCommands(Qmmands.Module)
-  name: GetAllCommands(Module)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllCommands_Qmmands_Module_
-  commentId: M:Qmmands.CommandUtilities.GetAllCommands(Qmmands.Module)
-  fullName: Qmmands.CommandUtilities.GetAllCommands(Qmmands.Module)
-  nameWithType: CommandUtilities.GetAllCommands(Module)
-- uid: Qmmands.CommandUtilities.GetAllCommands(Qmmands.ModuleBuilder)
-  name: GetAllCommands(ModuleBuilder)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllCommands_Qmmands_ModuleBuilder_
-  commentId: M:Qmmands.CommandUtilities.GetAllCommands(Qmmands.ModuleBuilder)
-  fullName: Qmmands.CommandUtilities.GetAllCommands(Qmmands.ModuleBuilder)
-  nameWithType: CommandUtilities.GetAllCommands(ModuleBuilder)
-- uid: Qmmands.CommandUtilities.GetAllCommands*
-  name: GetAllCommands
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllCommands_
-  commentId: Overload:Qmmands.CommandUtilities.GetAllCommands
-  isSpec: "True"
-  fullName: Qmmands.CommandUtilities.GetAllCommands
-  nameWithType: CommandUtilities.GetAllCommands
-- uid: Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.Module)
-  name: GetAllSubmodules(Module)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllSubmodules_Qmmands_Module_
-  commentId: M:Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.Module)
-  fullName: Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.Module)
-  nameWithType: CommandUtilities.GetAllSubmodules(Module)
-- uid: Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.ModuleBuilder)
-  name: GetAllSubmodules(ModuleBuilder)
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllSubmodules_Qmmands_ModuleBuilder_
-  commentId: M:Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.ModuleBuilder)
-  fullName: Qmmands.CommandUtilities.GetAllSubmodules(Qmmands.ModuleBuilder)
-  nameWithType: CommandUtilities.GetAllSubmodules(ModuleBuilder)
-- uid: Qmmands.CommandUtilities.GetAllSubmodules*
-  name: GetAllSubmodules
-  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_GetAllSubmodules_
-  commentId: Overload:Qmmands.CommandUtilities.GetAllSubmodules
-  isSpec: "True"
-  fullName: Qmmands.CommandUtilities.GetAllSubmodules
-  nameWithType: CommandUtilities.GetAllSubmodules
 - uid: Qmmands.CommandUtilities.HasAnyPrefix(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{System.Char},System.Boolean,System.Char@,System.String@)
   name: HasAnyPrefix(ReadOnlySpan<Char>, IEnumerable<Char>, Boolean, out Char, out String)
   href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_HasAnyPrefix_System_ReadOnlySpan_System_Char__System_Collections_Generic_IEnumerable_System_Char__System_Boolean_System_Char__System_String__
@@ -2384,6 +2493,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandUtilities.HasPrefix
   nameWithType: CommandUtilities.HasPrefix
+- uid: Qmmands.CommandUtilities.PrimitiveTypeParserCount
+  name: PrimitiveTypeParserCount
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_PrimitiveTypeParserCount
+  commentId: P:Qmmands.CommandUtilities.PrimitiveTypeParserCount
+  fullName: Qmmands.CommandUtilities.PrimitiveTypeParserCount
+  nameWithType: CommandUtilities.PrimitiveTypeParserCount
+- uid: Qmmands.CommandUtilities.PrimitiveTypeParserCount*
+  name: PrimitiveTypeParserCount
+  href: api/Qmmands.CommandUtilities.html#Qmmands_CommandUtilities_PrimitiveTypeParserCount_
+  commentId: Overload:Qmmands.CommandUtilities.PrimitiveTypeParserCount
+  isSpec: "True"
+  fullName: Qmmands.CommandUtilities.PrimitiveTypeParserCount
+  nameWithType: CommandUtilities.PrimitiveTypeParserCount
 - uid: Qmmands.ContainsAttribute
   name: ContainsAttribute
   href: api/Qmmands.ContainsAttribute.html
@@ -2728,6 +2850,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.DefaultArgumentParserResult.Command
   nameWithType: DefaultArgumentParserResult.Command
+- uid: Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters
+  name: EnumerateMissingParameters()
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_EnumerateMissingParameters
+  commentId: M:Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters
+  fullName: Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters()
+  nameWithType: DefaultArgumentParserResult.EnumerateMissingParameters()
+- uid: Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters*
+  name: EnumerateMissingParameters
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_EnumerateMissingParameters_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.EnumerateMissingParameters
+  nameWithType: DefaultArgumentParserResult.EnumerateMissingParameters
 - uid: Qmmands.DefaultArgumentParserResult.Failure
   name: Failure
   href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Failure
@@ -3102,6 +3237,19 @@ references:
   commentId: T:Qmmands.ICommandService
   fullName: Qmmands.ICommandService
   nameWithType: ICommandService
+- uid: Qmmands.ICommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  name: AddArgumentParser(IArgumentParser)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_AddArgumentParser_Qmmands_IArgumentParser_
+  commentId: M:Qmmands.ICommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  fullName: Qmmands.ICommandService.AddArgumentParser(Qmmands.IArgumentParser)
+  nameWithType: ICommandService.AddArgumentParser(IArgumentParser)
+- uid: Qmmands.ICommandService.AddArgumentParser*
+  name: AddArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_AddArgumentParser_
+  commentId: Overload:Qmmands.ICommandService.AddArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.AddArgumentParser
+  nameWithType: ICommandService.AddArgumentParser
 - uid: Qmmands.ICommandService.AddModule(Qmmands.Module)
   name: AddModule(Module)
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_AddModule_Qmmands_Module_
@@ -3174,19 +3322,6 @@ references:
   fullName.vb: Qmmands.ICommandService.AddTypeParser(Of T)(Qmmands.TypeParser(Of T), System.Boolean)
   nameWithType: ICommandService.AddTypeParser<T>(TypeParser<T>, Boolean)
   nameWithType.vb: ICommandService.AddTypeParser(Of T)(TypeParser(Of T), Boolean)
-- uid: Qmmands.ICommandService.ArgumentParser
-  name: ArgumentParser
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ArgumentParser
-  commentId: P:Qmmands.ICommandService.ArgumentParser
-  fullName: Qmmands.ICommandService.ArgumentParser
-  nameWithType: ICommandService.ArgumentParser
-- uid: Qmmands.ICommandService.ArgumentParser*
-  name: ArgumentParser
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ArgumentParser_
-  commentId: Overload:Qmmands.ICommandService.ArgumentParser
-  isSpec: "True"
-  fullName: Qmmands.ICommandService.ArgumentParser
-  nameWithType: ICommandService.ArgumentParser
 - uid: Qmmands.ICommandService.CommandExecuted
   name: CommandExecuted
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_CommandExecuted
@@ -3212,6 +3347,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.CooldownBucketKeyGenerator
   nameWithType: ICommandService.CooldownBucketKeyGenerator
+- uid: Qmmands.ICommandService.DefaultArgumentParser
+  name: DefaultArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_DefaultArgumentParser
+  commentId: P:Qmmands.ICommandService.DefaultArgumentParser
+  fullName: Qmmands.ICommandService.DefaultArgumentParser
+  nameWithType: ICommandService.DefaultArgumentParser
+- uid: Qmmands.ICommandService.DefaultArgumentParser*
+  name: DefaultArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_DefaultArgumentParser_
+  commentId: Overload:Qmmands.ICommandService.DefaultArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.DefaultArgumentParser
+  nameWithType: ICommandService.DefaultArgumentParser
 - uid: Qmmands.ICommandService.DefaultRunMode
   name: DefaultRunMode
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_DefaultRunMode
@@ -3283,6 +3431,28 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.GetAllModules
   nameWithType: ICommandService.GetAllModules
+- uid: Qmmands.ICommandService.GetArgumentParser(System.Type)
+  name: GetArgumentParser(Type)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_GetArgumentParser_System_Type_
+  commentId: M:Qmmands.ICommandService.GetArgumentParser(System.Type)
+  fullName: Qmmands.ICommandService.GetArgumentParser(System.Type)
+  nameWithType: ICommandService.GetArgumentParser(Type)
+- uid: Qmmands.ICommandService.GetArgumentParser*
+  name: GetArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_GetArgumentParser_
+  commentId: Overload:Qmmands.ICommandService.GetArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.GetArgumentParser
+  nameWithType: ICommandService.GetArgumentParser
+- uid: Qmmands.ICommandService.GetArgumentParser``1
+  name: GetArgumentParser<T>()
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_GetArgumentParser__1
+  commentId: M:Qmmands.ICommandService.GetArgumentParser``1
+  name.vb: GetArgumentParser(Of T)()
+  fullName: Qmmands.ICommandService.GetArgumentParser<T>()
+  fullName.vb: Qmmands.ICommandService.GetArgumentParser(Of T)()
+  nameWithType: ICommandService.GetArgumentParser<T>()
+  nameWithType.vb: ICommandService.GetArgumentParser(Of T)()
 - uid: Qmmands.ICommandService.GetSpecificTypeParser*
   name: GetSpecificTypeParser
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_GetSpecificTypeParser_
@@ -3380,6 +3550,28 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.RemoveAllTypeParsers
   nameWithType: ICommandService.RemoveAllTypeParsers
+- uid: Qmmands.ICommandService.RemoveArgumentParser(System.Type)
+  name: RemoveArgumentParser(Type)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_RemoveArgumentParser_System_Type_
+  commentId: M:Qmmands.ICommandService.RemoveArgumentParser(System.Type)
+  fullName: Qmmands.ICommandService.RemoveArgumentParser(System.Type)
+  nameWithType: ICommandService.RemoveArgumentParser(Type)
+- uid: Qmmands.ICommandService.RemoveArgumentParser*
+  name: RemoveArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_RemoveArgumentParser_
+  commentId: Overload:Qmmands.ICommandService.RemoveArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.RemoveArgumentParser
+  nameWithType: ICommandService.RemoveArgumentParser
+- uid: Qmmands.ICommandService.RemoveArgumentParser``1
+  name: RemoveArgumentParser<T>()
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_RemoveArgumentParser__1
+  commentId: M:Qmmands.ICommandService.RemoveArgumentParser``1
+  name.vb: RemoveArgumentParser(Of T)()
+  fullName: Qmmands.ICommandService.RemoveArgumentParser<T>()
+  fullName.vb: Qmmands.ICommandService.RemoveArgumentParser(Of T)()
+  nameWithType: ICommandService.RemoveArgumentParser<T>()
+  nameWithType.vb: ICommandService.RemoveArgumentParser(Of T)()
 - uid: Qmmands.ICommandService.RemoveModule(Qmmands.Module)
   name: RemoveModule(Module)
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_RemoveModule_Qmmands_Module_
@@ -3435,6 +3627,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.SeparatorRequirement
   nameWithType: ICommandService.SeparatorRequirement
+- uid: Qmmands.ICommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  name: SetDefaultArgumentParser(IArgumentParser)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_SetDefaultArgumentParser_Qmmands_IArgumentParser_
+  commentId: M:Qmmands.ICommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  fullName: Qmmands.ICommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
+  nameWithType: ICommandService.SetDefaultArgumentParser(IArgumentParser)
+- uid: Qmmands.ICommandService.SetDefaultArgumentParser*
+  name: SetDefaultArgumentParser
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_SetDefaultArgumentParser_
+  commentId: Overload:Qmmands.ICommandService.SetDefaultArgumentParser
+  isSpec: "True"
+  fullName: Qmmands.ICommandService.SetDefaultArgumentParser
+  nameWithType: ICommandService.SetDefaultArgumentParser
 - uid: Qmmands.ICommandService.StringComparison
   name: StringComparison
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_StringComparison
@@ -3666,6 +3871,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.Module.Commands
   nameWithType: Module.Commands
+- uid: Qmmands.Module.CustomArgumentParserType
+  name: CustomArgumentParserType
+  href: api/Qmmands.Module.html#Qmmands_Module_CustomArgumentParserType
+  commentId: P:Qmmands.Module.CustomArgumentParserType
+  fullName: Qmmands.Module.CustomArgumentParserType
+  nameWithType: Module.CustomArgumentParserType
+- uid: Qmmands.Module.CustomArgumentParserType*
+  name: CustomArgumentParserType
+  href: api/Qmmands.Module.html#Qmmands_Module_CustomArgumentParserType_
+  commentId: Overload:Qmmands.Module.CustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.Module.CustomArgumentParserType
+  nameWithType: Module.CustomArgumentParserType
 - uid: Qmmands.Module.Description
   name: Description
   href: api/Qmmands.Module.html#Qmmands_Module_Description
@@ -4050,6 +4268,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.Commands
   nameWithType: ModuleBuilder.Commands
+- uid: Qmmands.ModuleBuilder.CustomArgumentParserType
+  name: CustomArgumentParserType
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_CustomArgumentParserType
+  commentId: P:Qmmands.ModuleBuilder.CustomArgumentParserType
+  fullName: Qmmands.ModuleBuilder.CustomArgumentParserType
+  nameWithType: ModuleBuilder.CustomArgumentParserType
+- uid: Qmmands.ModuleBuilder.CustomArgumentParserType*
+  name: CustomArgumentParserType
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_CustomArgumentParserType_
+  commentId: Overload:Qmmands.ModuleBuilder.CustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.ModuleBuilder.CustomArgumentParserType
+  nameWithType: ModuleBuilder.CustomArgumentParserType
 - uid: Qmmands.ModuleBuilder.Description
   name: Description
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Description
@@ -4167,6 +4398,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.Type
   nameWithType: ModuleBuilder.Type
+- uid: Qmmands.ModuleBuilder.WithCustomArgumentParserType(System.Type)
+  name: WithCustomArgumentParserType(Type)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_WithCustomArgumentParserType_System_Type_
+  commentId: M:Qmmands.ModuleBuilder.WithCustomArgumentParserType(System.Type)
+  fullName: Qmmands.ModuleBuilder.WithCustomArgumentParserType(System.Type)
+  nameWithType: ModuleBuilder.WithCustomArgumentParserType(Type)
+- uid: Qmmands.ModuleBuilder.WithCustomArgumentParserType*
+  name: WithCustomArgumentParserType
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_WithCustomArgumentParserType_
+  commentId: Overload:Qmmands.ModuleBuilder.WithCustomArgumentParserType
+  isSpec: "True"
+  fullName: Qmmands.ModuleBuilder.WithCustomArgumentParserType
+  nameWithType: ModuleBuilder.WithCustomArgumentParserType
 - uid: Qmmands.ModuleBuilder.WithDescription(System.String)
   name: WithDescription(String)
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_WithDescription_System_String_
@@ -4334,6 +4578,38 @@ references:
   isSpec: "True"
   fullName: Qmmands.OverloadsFailedResult.Reason
   nameWithType: OverloadsFailedResult.Reason
+- uid: Qmmands.OverrideArgumentParserAttribute
+  name: OverrideArgumentParserAttribute
+  href: api/Qmmands.OverrideArgumentParserAttribute.html
+  commentId: T:Qmmands.OverrideArgumentParserAttribute
+  fullName: Qmmands.OverrideArgumentParserAttribute
+  nameWithType: OverrideArgumentParserAttribute
+- uid: Qmmands.OverrideArgumentParserAttribute.#ctor(System.Type)
+  name: OverrideArgumentParserAttribute(Type)
+  href: api/Qmmands.OverrideArgumentParserAttribute.html#Qmmands_OverrideArgumentParserAttribute__ctor_System_Type_
+  commentId: M:Qmmands.OverrideArgumentParserAttribute.#ctor(System.Type)
+  fullName: Qmmands.OverrideArgumentParserAttribute.OverrideArgumentParserAttribute(System.Type)
+  nameWithType: OverrideArgumentParserAttribute.OverrideArgumentParserAttribute(Type)
+- uid: Qmmands.OverrideArgumentParserAttribute.#ctor*
+  name: OverrideArgumentParserAttribute
+  href: api/Qmmands.OverrideArgumentParserAttribute.html#Qmmands_OverrideArgumentParserAttribute__ctor_
+  commentId: Overload:Qmmands.OverrideArgumentParserAttribute.#ctor
+  isSpec: "True"
+  fullName: Qmmands.OverrideArgumentParserAttribute.OverrideArgumentParserAttribute
+  nameWithType: OverrideArgumentParserAttribute.OverrideArgumentParserAttribute
+- uid: Qmmands.OverrideArgumentParserAttribute.Value
+  name: Value
+  href: api/Qmmands.OverrideArgumentParserAttribute.html#Qmmands_OverrideArgumentParserAttribute_Value
+  commentId: P:Qmmands.OverrideArgumentParserAttribute.Value
+  fullName: Qmmands.OverrideArgumentParserAttribute.Value
+  nameWithType: OverrideArgumentParserAttribute.Value
+- uid: Qmmands.OverrideArgumentParserAttribute.Value*
+  name: Value
+  href: api/Qmmands.OverrideArgumentParserAttribute.html#Qmmands_OverrideArgumentParserAttribute_Value_
+  commentId: Overload:Qmmands.OverrideArgumentParserAttribute.Value
+  isSpec: "True"
+  fullName: Qmmands.OverrideArgumentParserAttribute.Value
+  nameWithType: OverrideArgumentParserAttribute.Value
 - uid: Qmmands.OverrideTypeParserAttribute
   name: OverrideTypeParserAttribute
   href: api/Qmmands.OverrideTypeParserAttribute.html
