@@ -2000,6 +2000,12 @@ references:
   commentId: M:Qmmands.CommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
   fullName: Qmmands.CommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
   nameWithType: CommandService.SetDefaultArgumentParser(IArgumentParser)
+- uid: Qmmands.CommandService.SetDefaultArgumentParser(System.Type)
+  name: SetDefaultArgumentParser(Type)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_SetDefaultArgumentParser_System_Type_
+  commentId: M:Qmmands.CommandService.SetDefaultArgumentParser(System.Type)
+  fullName: Qmmands.CommandService.SetDefaultArgumentParser(System.Type)
+  nameWithType: CommandService.SetDefaultArgumentParser(Type)
 - uid: Qmmands.CommandService.SetDefaultArgumentParser*
   name: SetDefaultArgumentParser
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_SetDefaultArgumentParser_
@@ -2007,6 +2013,15 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.SetDefaultArgumentParser
   nameWithType: CommandService.SetDefaultArgumentParser
+- uid: Qmmands.CommandService.SetDefaultArgumentParser``1
+  name: SetDefaultArgumentParser<T>()
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_SetDefaultArgumentParser__1
+  commentId: M:Qmmands.CommandService.SetDefaultArgumentParser``1
+  name.vb: SetDefaultArgumentParser(Of T)()
+  fullName: Qmmands.CommandService.SetDefaultArgumentParser<T>()
+  fullName.vb: Qmmands.CommandService.SetDefaultArgumentParser(Of T)()
+  nameWithType: CommandService.SetDefaultArgumentParser<T>()
+  nameWithType.vb: CommandService.SetDefaultArgumentParser(Of T)()
 - uid: Qmmands.CommandService.StringComparison
   name: StringComparison
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_StringComparison
@@ -3633,6 +3648,12 @@ references:
   commentId: M:Qmmands.ICommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
   fullName: Qmmands.ICommandService.SetDefaultArgumentParser(Qmmands.IArgumentParser)
   nameWithType: ICommandService.SetDefaultArgumentParser(IArgumentParser)
+- uid: Qmmands.ICommandService.SetDefaultArgumentParser(System.Type)
+  name: SetDefaultArgumentParser(Type)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_SetDefaultArgumentParser_System_Type_
+  commentId: M:Qmmands.ICommandService.SetDefaultArgumentParser(System.Type)
+  fullName: Qmmands.ICommandService.SetDefaultArgumentParser(System.Type)
+  nameWithType: ICommandService.SetDefaultArgumentParser(Type)
 - uid: Qmmands.ICommandService.SetDefaultArgumentParser*
   name: SetDefaultArgumentParser
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_SetDefaultArgumentParser_
@@ -3640,6 +3661,15 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.SetDefaultArgumentParser
   nameWithType: ICommandService.SetDefaultArgumentParser
+- uid: Qmmands.ICommandService.SetDefaultArgumentParser``1
+  name: SetDefaultArgumentParser<T>()
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_SetDefaultArgumentParser__1
+  commentId: M:Qmmands.ICommandService.SetDefaultArgumentParser``1
+  name.vb: SetDefaultArgumentParser(Of T)()
+  fullName: Qmmands.ICommandService.SetDefaultArgumentParser<T>()
+  fullName.vb: Qmmands.ICommandService.SetDefaultArgumentParser(Of T)()
+  nameWithType: ICommandService.SetDefaultArgumentParser<T>()
+  nameWithType.vb: ICommandService.SetDefaultArgumentParser(Of T)()
 - uid: Qmmands.ICommandService.StringComparison
   name: StringComparison
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_StringComparison
