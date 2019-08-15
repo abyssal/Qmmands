@@ -1098,12 +1098,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandBuildingException.CommandBuilder
   nameWithType: CommandBuildingException.CommandBuilder
-- uid: Qmmands.CommandCallbackDelegate
-  name: CommandCallbackDelegate
-  href: api/Qmmands.CommandCallbackDelegate.html
-  commentId: T:Qmmands.CommandCallbackDelegate
-  fullName: Qmmands.CommandCallbackDelegate
-  nameWithType: CommandCallbackDelegate
 - uid: Qmmands.CommandContext
   name: CommandContext
   href: api/Qmmands.CommandContext.html
@@ -4214,15 +4208,60 @@ references:
   isSpec: "True"
   fullName: Qmmands.ModuleBuilder.AddCheck
   nameWithType: ModuleBuilder.AddCheck
-- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
-  name: AddCommand(CommandCallbackDelegate, Action<CommandBuilder>)
-  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
-  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
-  name.vb: AddCommand(CommandCallbackDelegate, Action(Of CommandBuilder))
-  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
-  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
-  nameWithType: ModuleBuilder.AddCommand(CommandCallbackDelegate, Action<CommandBuilder>)
-  nameWithType.vb: ModuleBuilder.AddCommand(CommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(ResultCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_ResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(ResultCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(ResultCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(ResultCommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(TaskCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(TaskCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(TaskCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(TaskCommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(TaskResultCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(TaskResultCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(TaskResultCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(TaskResultCommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(ValueTaskCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(ValueTaskCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(ValueTaskCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(ValueTaskCommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(ValueTaskResultCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(ValueTaskResultCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(ValueTaskResultCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(ValueTaskResultCommandCallbackDelegate, Action(Of CommandBuilder))
+- uid: Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name: AddCommand(VoidCommandCallbackDelegate, Action<CommandBuilder>)
+  href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_Qmmands_VoidCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__
+  commentId: M:Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})
+  name.vb: AddCommand(VoidCommandCallbackDelegate, Action(Of CommandBuilder))
+  fullName: Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate, System.Action<Qmmands.CommandBuilder>)
+  fullName.vb: Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate, System.Action(Of Qmmands.CommandBuilder))
+  nameWithType: ModuleBuilder.AddCommand(VoidCommandCallbackDelegate, Action<CommandBuilder>)
+  nameWithType.vb: ModuleBuilder.AddCommand(VoidCommandCallbackDelegate, Action(Of CommandBuilder))
 - uid: Qmmands.ModuleBuilder.AddCommand*
   name: AddCommand
   href: api/Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_AddCommand_
@@ -5559,6 +5598,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.RemarksAttribute.Value
   nameWithType: RemarksAttribute.Value
+- uid: Qmmands.ResultCommandCallbackDelegate
+  name: ResultCommandCallbackDelegate
+  href: api/Qmmands.ResultCommandCallbackDelegate.html
+  commentId: T:Qmmands.ResultCommandCallbackDelegate
+  fullName: Qmmands.ResultCommandCallbackDelegate
+  nameWithType: ResultCommandCallbackDelegate
 - uid: Qmmands.RunMode
   name: RunMode
   href: api/Qmmands.RunMode.html
@@ -5723,6 +5768,18 @@ references:
   isSpec: "True"
   fullName: Qmmands.SuccessfulResult.IsSuccessful
   nameWithType: SuccessfulResult.IsSuccessful
+- uid: Qmmands.TaskCommandCallbackDelegate
+  name: TaskCommandCallbackDelegate
+  href: api/Qmmands.TaskCommandCallbackDelegate.html
+  commentId: T:Qmmands.TaskCommandCallbackDelegate
+  fullName: Qmmands.TaskCommandCallbackDelegate
+  nameWithType: TaskCommandCallbackDelegate
+- uid: Qmmands.TaskResultCommandCallbackDelegate
+  name: TaskResultCommandCallbackDelegate
+  href: api/Qmmands.TaskResultCommandCallbackDelegate.html
+  commentId: T:Qmmands.TaskResultCommandCallbackDelegate
+  fullName: Qmmands.TaskResultCommandCallbackDelegate
+  nameWithType: TaskResultCommandCallbackDelegate
 - uid: Qmmands.TypeParseFailedResult
   name: TypeParseFailedResult
   href: api/Qmmands.TypeParseFailedResult.html
@@ -5949,3 +6006,21 @@ references:
   fullName.vb: Qmmands.TypeParserResult(Of T).Value
   nameWithType: TypeParserResult<T>.Value
   nameWithType.vb: TypeParserResult(Of T).Value
+- uid: Qmmands.ValueTaskCommandCallbackDelegate
+  name: ValueTaskCommandCallbackDelegate
+  href: api/Qmmands.ValueTaskCommandCallbackDelegate.html
+  commentId: T:Qmmands.ValueTaskCommandCallbackDelegate
+  fullName: Qmmands.ValueTaskCommandCallbackDelegate
+  nameWithType: ValueTaskCommandCallbackDelegate
+- uid: Qmmands.ValueTaskResultCommandCallbackDelegate
+  name: ValueTaskResultCommandCallbackDelegate
+  href: api/Qmmands.ValueTaskResultCommandCallbackDelegate.html
+  commentId: T:Qmmands.ValueTaskResultCommandCallbackDelegate
+  fullName: Qmmands.ValueTaskResultCommandCallbackDelegate
+  nameWithType: ValueTaskResultCommandCallbackDelegate
+- uid: Qmmands.VoidCommandCallbackDelegate
+  name: VoidCommandCallbackDelegate
+  href: api/Qmmands.VoidCommandCallbackDelegate.html
+  commentId: T:Qmmands.VoidCommandCallbackDelegate
+  fullName: Qmmands.VoidCommandCallbackDelegate
+  nameWithType: VoidCommandCallbackDelegate

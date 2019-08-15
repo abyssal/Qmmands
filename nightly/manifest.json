@@ -113,18 +113,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Qmmands.CommandCallbackDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Qmmands.CommandCallbackDelegate.html",
-          "hash": "OTR+4RDYEkyq3k7ttbTJlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Qmmands.CommandContext.yml",
       "output": {
         ".html": {
@@ -249,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandService.html",
-          "hash": "u728++O1uiRedJZ878kR8A=="
+          "hash": "ILqfBq1N0wzAHrEnxFnrkg=="
         }
       },
       "is_incremental": false,
@@ -321,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CooldownBucketKeyGeneratorDelegate.html",
-          "hash": "8Fa3m9ClgbfU/DKFhe4YjA=="
+          "hash": "3Uz+X6ZASGguGnUQBMsjHw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ICommandService.html",
-          "hash": "GCEUOITFu52wTUHumKZkSg=="
+          "hash": "1q9SxzZCY26Yb0EyCgHs8w=="
         }
       },
       "is_incremental": false,
@@ -573,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ModuleBuilder.html",
-          "hash": "KI6+BvYfIvEMvwgzBBmM1A=="
+          "hash": "APEdboMQwJ6xb7xzH20JiQ=="
         }
       },
       "is_incremental": false,
@@ -761,6 +749,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.ResultCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.ResultCommandCallbackDelegate.html",
+          "hash": "SDZQ/LiYm53et3I+6C7JNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Qmmands.RunMode.yml",
       "output": {
         ".html": {
@@ -821,6 +821,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.TaskCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.TaskCommandCallbackDelegate.html",
+          "hash": "Na43p5IidwyNmfhORBJ4sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.TaskResultCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.TaskResultCommandCallbackDelegate.html",
+          "hash": "B/6vaTAq3hgi31HHtN2gBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Qmmands.TypeParseFailedResult.yml",
       "output": {
         ".html": {
@@ -857,11 +881,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.ValueTaskCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.ValueTaskCommandCallbackDelegate.html",
+          "hash": "qnAHaTXPV+9Iuw4wz5LdfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.ValueTaskResultCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.ValueTaskResultCommandCallbackDelegate.html",
+          "hash": "pSAhEMLQVGyzgIaiI99pJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qmmands.VoidCommandCallbackDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qmmands.VoidCommandCallbackDelegate.html",
+          "hash": "Jyv6H8M1dsynz3i/hMrjdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Qmmands.yml",
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.html",
-          "hash": "lhkNqT9w5VH+F48j7KVImg=="
+          "hash": "f+ns1Ez6ZANgLLfQAnX7Sw=="
         }
       },
       "is_incremental": false,
@@ -885,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "h0J7O/hRbHT6M6uGnu7HwA=="
+          "hash": "R/bt1i/egCb79+HuXdCkjw=="
         }
       },
       "is_incremental": false,
@@ -967,7 +1027,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 72,
+          "total_file_count": 77,
           "skipped_file_count": 0
         }
       }

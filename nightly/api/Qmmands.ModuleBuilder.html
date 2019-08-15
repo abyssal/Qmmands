@@ -689,19 +689,19 @@ Defaults to <span class="xref">true</span>.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_ResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L198">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L206">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
-  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_CommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.CommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(CommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_ResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.ResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(ResultCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
   <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(CommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(ResultCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -714,7 +714,282 @@ Defaults to <span class="xref">true</span>.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Qmmands.CommandCallbackDelegate.html">CommandCallbackDelegate</a></td>
+        <td><a class="xref" href="Qmmands.ResultCommandCallbackDelegate.html">ResultCommandCallbackDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The action to perform on the builder. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L214">View Source</a>
+  </span>
+  <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(TaskCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(TaskCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.TaskCommandCallbackDelegate.html">TaskCommandCallbackDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The action to perform on the builder. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L222">View Source</a>
+  </span>
+  <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_TaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.TaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(TaskResultCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(TaskResultCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.TaskResultCommandCallbackDelegate.html">TaskResultCommandCallbackDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The action to perform on the builder. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L230">View Source</a>
+  </span>
+  <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(ValueTaskCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(ValueTaskCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ValueTaskCommandCallbackDelegate.html">ValueTaskCommandCallbackDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The action to perform on the builder. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L238">View Source</a>
+  </span>
+  <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_ValueTaskResultCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.ValueTaskResultCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(ValueTaskResultCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(ValueTaskResultCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ValueTaskResultCommandCallbackDelegate.html">ValueTaskResultCommandCallbackDelegate</a></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The action to perform on the builder. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.ModuleBuilder.html">ModuleBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddCommand_Qmmands_VoidCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate%2CSystem.Action%7BQmmands.CommandBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L198">View Source</a>
+  </span>
+  <a id="Qmmands_ModuleBuilder_AddCommand_" data-uid="Qmmands.ModuleBuilder.AddCommand*"></a>
+  <h4 id="Qmmands_ModuleBuilder_AddCommand_Qmmands_VoidCommandCallbackDelegate_System_Action_Qmmands_CommandBuilder__" data-uid="Qmmands.ModuleBuilder.AddCommand(Qmmands.VoidCommandCallbackDelegate,System.Action{Qmmands.CommandBuilder})">AddCommand(VoidCommandCallbackDelegate, Action&lt;CommandBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to instantiate, modify, and add a <a class="xref" href="Qmmands.CommandBuilder.html">CommandBuilder</a> to <a class="xref" href="Qmmands.ModuleBuilder.html#Qmmands_ModuleBuilder_Commands">Commands</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(VoidCommandCallbackDelegate callback, Action&lt;CommandBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Qmmands.VoidCommandCallbackDelegate.html">VoidCommandCallbackDelegate</a></td>
         <td><span class="parametername">callback</span></td>
         <td><p>The callback of the <a class="xref" href="Qmmands.Command.html">Command</a>. </p>
 </td>
@@ -747,7 +1022,7 @@ Defaults to <span class="xref">true</span>.</p>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_AddSubmodule_System_Action_Qmmands_ModuleBuilder__.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.AddSubmodule(System.Action%7BQmmands.ModuleBuilder%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L216">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L259">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_AddSubmodule_" data-uid="Qmmands.ModuleBuilder.AddSubmodule*"></a>
   <h4 id="Qmmands_ModuleBuilder_AddSubmodule_System_Action_Qmmands_ModuleBuilder__" data-uid="Qmmands.ModuleBuilder.AddSubmodule(System.Action{Qmmands.ModuleBuilder})">AddSubmodule(Action&lt;ModuleBuilder&gt;)</h4>
@@ -940,7 +1215,7 @@ Defaults to <span class="xref">true</span>.</p>
     <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_ModuleBuilder_WithIsEnabled_System_Boolean_.md&amp;value=---%0Auid%3A%20Qmmands.ModuleBuilder.WithIsEnabled(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L230">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Builders/ModuleBuilder.cs/#L273">View Source</a>
   </span>
   <a id="Qmmands_ModuleBuilder_WithIsEnabled_" data-uid="Qmmands.ModuleBuilder.WithIsEnabled*"></a>
   <h4 id="Qmmands_ModuleBuilder_WithIsEnabled_System_Boolean_" data-uid="Qmmands.ModuleBuilder.WithIsEnabled(System.Boolean)">WithIsEnabled(Boolean)</h4>
