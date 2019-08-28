@@ -193,19 +193,19 @@ public abstract class CheckAttribute : Attribute</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_System_IServiceProvider_.md&amp;value=---%0Auid%3A%20Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext%2CSystem.IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_.md&amp;value=---%0Auid%3A%20Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/CheckAttribute.cs/#L40">View Source</a>
+    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Checks/CheckAttribute.cs/#L39">View Source</a>
   </span>
   <a id="Qmmands_CheckAttribute_CheckAsync_" data-uid="Qmmands.CheckAttribute.CheckAsync*"></a>
-  <h4 id="Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_System_IServiceProvider_" data-uid="Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext,System.IServiceProvider)">CheckAsync(CommandContext, IServiceProvider)</h4>
+  <h4 id="Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_" data-uid="Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext)">CheckAsync(CommandContext)</h4>
   <div class="markdown level1 summary"><p>A method which determines whether the <a class="xref" href="Qmmands.CheckAttribute.html#Qmmands_CheckAttribute_Module">Module</a> or <a class="xref" href="Qmmands.CheckAttribute.html#Qmmands_CheckAttribute_Command">Command</a> can execute in given circumstances.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract ValueTask&lt;CheckResult&gt; CheckAsync(CommandContext context, IServiceProvider provider)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract ValueTask&lt;CheckResult&gt; CheckAsync(CommandContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,12 +221,6 @@ public abstract class CheckAttribute : Attribute</code></pre>
         <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
         <td><span class="parametername">context</span></td>
         <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used during execution. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
-        <td><span class="parametername">provider</span></td>
-        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a> used during execution. </p>
 </td>
       </tr>
     </tbody>

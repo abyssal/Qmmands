@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CheckAttribute.html",
-          "hash": "a6axLQb9MClmJcOMShV1OA=="
+          "hash": "mpQzB25u9JNiwixL6+CE8A=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.Command.html",
-          "hash": "mMiDCUsQvZWnFc8HJseyfA=="
+          "hash": "FT13NJuQhVBdqeHYYI5ahw=="
         }
       },
       "is_incremental": false,
@@ -112,12 +112,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/Qmmands.CommandContext.yml",
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandContext.html",
-          "hash": "QhfKx3LwrbpakYdFsoKjgw=="
+          "hash": "PgXZn/Od5ztAwUDsHOT+LQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandExecutedEventArgs.html",
-          "hash": "ItHgJzhPHfdPo1m2YtNECg=="
+          "hash": "dOxlnT1TM0yH2RqMbAlFYA=="
         }
       },
       "is_incremental": false,
@@ -153,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandExecutionFailedEventArgs.html",
-          "hash": "BZqIh4cHbx7U1y31Gr9K2A=="
+          "hash": "Av5MqhjriJIhgdEFh3v9Rw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CommandService.html",
-          "hash": "A5XnSZJMnmxwRLXHuV2N4A=="
+          "hash": "TOv/pWIA+2AZYZwkUZ6h3Q=="
         }
       },
       "is_incremental": false,
@@ -273,7 +276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ContainsAttribute.html",
-          "hash": "S46Ck+oouzJCAKY4E+XWwg=="
+          "hash": "/Xl7PfTjdPyVt0Zdo7yA+Q=="
         }
       },
       "is_incremental": false,
@@ -309,7 +312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.CooldownBucketKeyGeneratorDelegate.html",
-          "hash": "3Uz+X6ZASGguGnUQBMsjHw=="
+          "hash": "Z0hQjhe9Fz8V89D7d3I+bQ=="
         }
       },
       "is_incremental": false,
@@ -417,7 +420,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.EndsWithAttribute.html",
-          "hash": "dneJK408GE13Igw/x+tZtA=="
+          "hash": "ZjixN8Bi7BB37oU/a9NrFg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +480,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ICommandService.html",
-          "hash": "1q9SxzZCY26Yb0EyCgHs8w=="
+          "hash": "bqNDOOE+pknVAPshMrLJqQ=="
         }
       },
       "is_incremental": false,
@@ -513,7 +516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.MaximumAttribute.html",
-          "hash": "KgfkBG0WNIDMUyhJoLDdKg=="
+          "hash": "NfaDsZyI7r5jJjDkdVaTFQ=="
         }
       },
       "is_incremental": false,
@@ -525,7 +528,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.MinimumAttribute.html",
-          "hash": "A77w1Y1VyZ6isYtm5XtKLw=="
+          "hash": "KKxVlHDyJOewhCfs8Ec2sA=="
         }
       },
       "is_incremental": false,
@@ -537,7 +540,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.Module.html",
-          "hash": "aU5i5ydHtIc5M1VI30miuw=="
+          "hash": "DIDlKHKDUNOBl5znJssc0A=="
         }
       },
       "is_incremental": false,
@@ -633,7 +636,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.Parameter.html",
-          "hash": "foauMhrTn8rWZswpXE4UnQ=="
+          "hash": "6r90jViB8vUKmzjT9Yx/Dg=="
         }
       },
       "is_incremental": false,
@@ -669,7 +672,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ParameterCheckAttribute.html",
-          "hash": "YcwOxbPohCeQSm8fo6yRxw=="
+          "hash": "0Kzjd0pnp06q5cpTtLMgdA=="
         }
       },
       "is_incremental": false,
@@ -705,7 +708,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.RangeAttribute.html",
-          "hash": "h8SiURHTKo37gyrh1FhPCQ=="
+          "hash": "G6hrSB57b913Ho8dzVl5Gg=="
         }
       },
       "is_incremental": false,
@@ -717,7 +720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.RegexAttribute.html",
-          "hash": "eZ0pzHK/Ai7EOQMRHzZdfw=="
+          "hash": "vQ/30SGpXKu4nrIa0AhNUw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +756,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ResultCommandCallbackDelegate.html",
-          "hash": "SDZQ/LiYm53et3I+6C7JNA=="
+          "hash": "0iDS0eHAsM4T3Y7IHf01CA=="
         }
       },
       "is_incremental": false,
@@ -801,7 +804,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.StartsWithAttribute.html",
-          "hash": "zIzF4wR8Y7l/kDrguHq3tQ=="
+          "hash": "LPffBDVnoeptN0r2afL1hw=="
         }
       },
       "is_incremental": false,
@@ -825,7 +828,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.TaskCommandCallbackDelegate.html",
-          "hash": "Na43p5IidwyNmfhORBJ4sQ=="
+          "hash": "ak5ZwhAwJIWewlN68/RFYw=="
         }
       },
       "is_incremental": false,
@@ -837,7 +840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.TaskResultCommandCallbackDelegate.html",
-          "hash": "B/6vaTAq3hgi31HHtN2gBw=="
+          "hash": "911A0VTaou0yyOkqjKuU6Q=="
         }
       },
       "is_incremental": false,
@@ -861,7 +864,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.TypeParser-1.html",
-          "hash": "Xjwg4hWvf8rlj6xAqzOUfQ=="
+          "hash": "31soWCtk/23BdvEgtMDlHw=="
         }
       },
       "is_incremental": false,
@@ -885,7 +888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ValueTaskCommandCallbackDelegate.html",
-          "hash": "qnAHaTXPV+9Iuw4wz5LdfQ=="
+          "hash": "/a50yDBHga4R5xFr8jOqZQ=="
         }
       },
       "is_incremental": false,
@@ -897,7 +900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.ValueTaskResultCommandCallbackDelegate.html",
-          "hash": "pSAhEMLQVGyzgIaiI99pJg=="
+          "hash": "wKNrzdpUlvGwBX/SPgGTsQ=="
         }
       },
       "is_incremental": false,
@@ -909,7 +912,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Qmmands.VoidCommandCallbackDelegate.html",
-          "hash": "Jyv6H8M1dsynz3i/hMrjdw=="
+          "hash": "P6A/1JmCXu80aZ6i3uqofQ=="
         }
       },
       "is_incremental": false,

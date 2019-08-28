@@ -132,12 +132,12 @@ references:
   commentId: T:Qmmands.CheckAttribute
   fullName: Qmmands.CheckAttribute
   nameWithType: CheckAttribute
-- uid: Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(CommandContext, IServiceProvider)
-  href: api/Qmmands.CheckAttribute.html#Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CheckAttribute.CheckAsync(CommandContext, IServiceProvider)
+- uid: Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext)
+  name: CheckAsync(CommandContext)
+  href: api/Qmmands.CheckAttribute.html#Qmmands_CheckAttribute_CheckAsync_Qmmands_CommandContext_
+  commentId: M:Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext)
+  fullName: Qmmands.CheckAttribute.CheckAsync(Qmmands.CommandContext)
+  nameWithType: CheckAttribute.CheckAsync(CommandContext)
 - uid: Qmmands.CheckAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.CheckAttribute.html#Qmmands_CheckAttribute_CheckAsync_
@@ -461,21 +461,21 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.Enable
   nameWithType: Command.Enable
-- uid: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(IEnumerable<Object>, CommandContext, IServiceProvider)
-  href: api/Qmmands.Command.html#Qmmands_Command_ExecuteAsync_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext,System.IServiceProvider)
-  name.vb: ExecuteAsync(IEnumerable(Of Object), CommandContext, IServiceProvider)
-  fullName: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable<System.Object>, Qmmands.CommandContext, System.IServiceProvider)
-  fullName.vb: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable(Of System.Object), Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Command.ExecuteAsync(IEnumerable<Object>, CommandContext, IServiceProvider)
-  nameWithType.vb: Command.ExecuteAsync(IEnumerable(Of Object), CommandContext, IServiceProvider)
-- uid: Qmmands.Command.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(String, CommandContext, IServiceProvider)
-  href: api/Qmmands.Command.html#Qmmands_Command_ExecuteAsync_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Command.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Command.ExecuteAsync(System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Command.ExecuteAsync(String, CommandContext, IServiceProvider)
+- uid: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext)
+  name: ExecuteAsync(IEnumerable<Object>, CommandContext)
+  href: api/Qmmands.Command.html#Qmmands_Command_ExecuteAsync_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_
+  commentId: M:Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext)
+  name.vb: ExecuteAsync(IEnumerable(Of Object), CommandContext)
+  fullName: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable<System.Object>, Qmmands.CommandContext)
+  fullName.vb: Qmmands.Command.ExecuteAsync(System.Collections.Generic.IEnumerable(Of System.Object), Qmmands.CommandContext)
+  nameWithType: Command.ExecuteAsync(IEnumerable<Object>, CommandContext)
+  nameWithType.vb: Command.ExecuteAsync(IEnumerable(Of Object), CommandContext)
+- uid: Qmmands.Command.ExecuteAsync(System.String,Qmmands.CommandContext)
+  name: ExecuteAsync(String, CommandContext)
+  href: api/Qmmands.Command.html#Qmmands_Command_ExecuteAsync_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.Command.ExecuteAsync(System.String,Qmmands.CommandContext)
+  fullName: Qmmands.Command.ExecuteAsync(System.String, Qmmands.CommandContext)
+  nameWithType: Command.ExecuteAsync(String, CommandContext)
 - uid: Qmmands.Command.ExecuteAsync*
   name: ExecuteAsync
   href: api/Qmmands.Command.html#Qmmands_Command_ExecuteAsync_
@@ -587,12 +587,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.Remarks
   nameWithType: Command.Remarks
-- uid: Qmmands.Command.ResetCooldown(Qmmands.Cooldown,Qmmands.CommandContext,System.IServiceProvider)
-  name: ResetCooldown(Cooldown, CommandContext, IServiceProvider)
-  href: api/Qmmands.Command.html#Qmmands_Command_ResetCooldown_Qmmands_Cooldown_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Command.ResetCooldown(Qmmands.Cooldown,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Command.ResetCooldown(Qmmands.Cooldown, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Command.ResetCooldown(Cooldown, CommandContext, IServiceProvider)
+- uid: Qmmands.Command.ResetCooldown(Qmmands.Cooldown,Qmmands.CommandContext)
+  name: ResetCooldown(Cooldown, CommandContext)
+  href: api/Qmmands.Command.html#Qmmands_Command_ResetCooldown_Qmmands_Cooldown_Qmmands_CommandContext_
+  commentId: M:Qmmands.Command.ResetCooldown(Qmmands.Cooldown,Qmmands.CommandContext)
+  fullName: Qmmands.Command.ResetCooldown(Qmmands.Cooldown, Qmmands.CommandContext)
+  nameWithType: Command.ResetCooldown(Cooldown, CommandContext)
 - uid: Qmmands.Command.ResetCooldown*
   name: ResetCooldown
   href: api/Qmmands.Command.html#Qmmands_Command_ResetCooldown_
@@ -613,12 +613,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.ResetCooldowns
   nameWithType: Command.ResetCooldowns
-- uid: Qmmands.Command.RunChecksAsync(Qmmands.CommandContext,System.IServiceProvider)
-  name: RunChecksAsync(CommandContext, IServiceProvider)
-  href: api/Qmmands.Command.html#Qmmands_Command_RunChecksAsync_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Command.RunChecksAsync(Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Command.RunChecksAsync(Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Command.RunChecksAsync(CommandContext, IServiceProvider)
+- uid: Qmmands.Command.RunChecksAsync(Qmmands.CommandContext)
+  name: RunChecksAsync(CommandContext)
+  href: api/Qmmands.Command.html#Qmmands_Command_RunChecksAsync_Qmmands_CommandContext_
+  commentId: M:Qmmands.Command.RunChecksAsync(Qmmands.CommandContext)
+  fullName: Qmmands.Command.RunChecksAsync(Qmmands.CommandContext)
+  nameWithType: Command.RunChecksAsync(CommandContext)
 - uid: Qmmands.Command.RunChecksAsync*
   name: RunChecksAsync
   href: api/Qmmands.Command.html#Qmmands_Command_RunChecksAsync_
@@ -626,12 +626,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.Command.RunChecksAsync
   nameWithType: Command.RunChecksAsync
-- uid: Qmmands.Command.RunCooldowns(Qmmands.CommandContext,System.IServiceProvider)
-  name: RunCooldowns(CommandContext, IServiceProvider)
-  href: api/Qmmands.Command.html#Qmmands_Command_RunCooldowns_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Command.RunCooldowns(Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Command.RunCooldowns(Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Command.RunCooldowns(CommandContext, IServiceProvider)
+- uid: Qmmands.Command.RunCooldowns(Qmmands.CommandContext)
+  name: RunCooldowns(CommandContext)
+  href: api/Qmmands.Command.html#Qmmands_Command_RunCooldowns_Qmmands_CommandContext_
+  commentId: M:Qmmands.Command.RunCooldowns(Qmmands.CommandContext)
+  fullName: Qmmands.Command.RunCooldowns(Qmmands.CommandContext)
+  nameWithType: Command.RunCooldowns(CommandContext)
 - uid: Qmmands.Command.RunCooldowns*
   name: RunCooldowns
   href: api/Qmmands.Command.html#Qmmands_Command_RunCooldowns_
@@ -1104,6 +1104,19 @@ references:
   commentId: T:Qmmands.CommandContext
   fullName: Qmmands.CommandContext
   nameWithType: CommandContext
+- uid: Qmmands.CommandContext.#ctor(System.IServiceProvider)
+  name: CommandContext(IServiceProvider)
+  href: api/Qmmands.CommandContext.html#Qmmands_CommandContext__ctor_System_IServiceProvider_
+  commentId: M:Qmmands.CommandContext.#ctor(System.IServiceProvider)
+  fullName: Qmmands.CommandContext.CommandContext(System.IServiceProvider)
+  nameWithType: CommandContext.CommandContext(IServiceProvider)
+- uid: Qmmands.CommandContext.#ctor*
+  name: CommandContext
+  href: api/Qmmands.CommandContext.html#Qmmands_CommandContext__ctor_
+  commentId: Overload:Qmmands.CommandContext.#ctor
+  isSpec: "True"
+  fullName: Qmmands.CommandContext.CommandContext
+  nameWithType: CommandContext.CommandContext
 - uid: Qmmands.CommandContext.Alias
   name: Alias
   href: api/Qmmands.CommandContext.html#Qmmands_CommandContext_Alias
@@ -1169,6 +1182,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandContext.RawArguments
   nameWithType: CommandContext.RawArguments
+- uid: Qmmands.CommandContext.ServiceProvider
+  name: ServiceProvider
+  href: api/Qmmands.CommandContext.html#Qmmands_CommandContext_ServiceProvider
+  commentId: P:Qmmands.CommandContext.ServiceProvider
+  fullName: Qmmands.CommandContext.ServiceProvider
+  nameWithType: CommandContext.ServiceProvider
+- uid: Qmmands.CommandContext.ServiceProvider*
+  name: ServiceProvider
+  href: api/Qmmands.CommandContext.html#Qmmands_CommandContext_ServiceProvider_
+  commentId: Overload:Qmmands.CommandContext.ServiceProvider
+  isSpec: "True"
+  fullName: Qmmands.CommandContext.ServiceProvider
+  nameWithType: CommandContext.ServiceProvider
 - uid: Qmmands.CommandDisabledResult
   name: CommandDisabledResult
   href: api/Qmmands.CommandDisabledResult.html
@@ -1207,12 +1233,12 @@ references:
   commentId: T:Qmmands.CommandExecutedEventArgs
   fullName: Qmmands.CommandExecutedEventArgs
   nameWithType: CommandExecutedEventArgs
-- uid: Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext,System.IServiceProvider)
-  name: CommandExecutedEventArgs(CommandResult, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs__ctor_Qmmands_CommandResult_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CommandExecutedEventArgs.CommandExecutedEventArgs(Qmmands.CommandResult, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandExecutedEventArgs.CommandExecutedEventArgs(CommandResult, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext)
+  name: CommandExecutedEventArgs(CommandResult, CommandContext)
+  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs__ctor_Qmmands_CommandResult_Qmmands_CommandContext_
+  commentId: M:Qmmands.CommandExecutedEventArgs.#ctor(Qmmands.CommandResult,Qmmands.CommandContext)
+  fullName: Qmmands.CommandExecutedEventArgs.CommandExecutedEventArgs(Qmmands.CommandResult, Qmmands.CommandContext)
+  nameWithType: CommandExecutedEventArgs.CommandExecutedEventArgs(CommandResult, CommandContext)
 - uid: Qmmands.CommandExecutedEventArgs.#ctor*
   name: CommandExecutedEventArgs
   href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs__ctor_
@@ -1233,19 +1259,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandExecutedEventArgs.Context
   nameWithType: CommandExecutedEventArgs.Context
-- uid: Qmmands.CommandExecutedEventArgs.Provider
-  name: Provider
-  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs_Provider
-  commentId: P:Qmmands.CommandExecutedEventArgs.Provider
-  fullName: Qmmands.CommandExecutedEventArgs.Provider
-  nameWithType: CommandExecutedEventArgs.Provider
-- uid: Qmmands.CommandExecutedEventArgs.Provider*
-  name: Provider
-  href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs_Provider_
-  commentId: Overload:Qmmands.CommandExecutedEventArgs.Provider
-  isSpec: "True"
-  fullName: Qmmands.CommandExecutedEventArgs.Provider
-  nameWithType: CommandExecutedEventArgs.Provider
 - uid: Qmmands.CommandExecutedEventArgs.Result
   name: Result
   href: api/Qmmands.CommandExecutedEventArgs.html#Qmmands_CommandExecutedEventArgs_Result
@@ -1265,12 +1278,12 @@ references:
   commentId: T:Qmmands.CommandExecutionFailedEventArgs
   fullName: Qmmands.CommandExecutionFailedEventArgs
   nameWithType: CommandExecutionFailedEventArgs
-- uid: Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
-  name: CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs__ctor_Qmmands_ExecutionFailedResult_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(Qmmands.ExecutionFailedResult, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext)
+  name: CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext)
+  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs__ctor_Qmmands_ExecutionFailedResult_Qmmands_CommandContext_
+  commentId: M:Qmmands.CommandExecutionFailedEventArgs.#ctor(Qmmands.ExecutionFailedResult,Qmmands.CommandContext)
+  fullName: Qmmands.CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(Qmmands.ExecutionFailedResult, Qmmands.CommandContext)
+  nameWithType: CommandExecutionFailedEventArgs.CommandExecutionFailedEventArgs(ExecutionFailedResult, CommandContext)
 - uid: Qmmands.CommandExecutionFailedEventArgs.#ctor*
   name: CommandExecutionFailedEventArgs
   href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs__ctor_
@@ -1291,19 +1304,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandExecutionFailedEventArgs.Context
   nameWithType: CommandExecutionFailedEventArgs.Context
-- uid: Qmmands.CommandExecutionFailedEventArgs.Provider
-  name: Provider
-  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Provider
-  commentId: P:Qmmands.CommandExecutionFailedEventArgs.Provider
-  fullName: Qmmands.CommandExecutionFailedEventArgs.Provider
-  nameWithType: CommandExecutionFailedEventArgs.Provider
-- uid: Qmmands.CommandExecutionFailedEventArgs.Provider*
-  name: Provider
-  href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Provider_
-  commentId: Overload:Qmmands.CommandExecutionFailedEventArgs.Provider
-  isSpec: "True"
-  fullName: Qmmands.CommandExecutionFailedEventArgs.Provider
-  nameWithType: CommandExecutionFailedEventArgs.Provider
 - uid: Qmmands.CommandExecutionFailedEventArgs.Result
   name: Result
   href: api/Qmmands.CommandExecutionFailedEventArgs.html#Qmmands_CommandExecutionFailedEventArgs_Result
@@ -1725,27 +1725,27 @@ references:
   isSpec: "True"
   fullName: Qmmands.CommandService.DefaultRunMode
   nameWithType: CommandService.DefaultRunMode
-- uid: Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(Command, IEnumerable<Object>, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext,System.IServiceProvider)
-  name.vb: ExecuteAsync(Command, IEnumerable(Of Object), CommandContext, IServiceProvider)
-  fullName: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.Collections.Generic.IEnumerable<System.Object>, Qmmands.CommandContext, System.IServiceProvider)
-  fullName.vb: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.Collections.Generic.IEnumerable(Of System.Object), Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandService.ExecuteAsync(Command, IEnumerable<Object>, CommandContext, IServiceProvider)
-  nameWithType.vb: CommandService.ExecuteAsync(Command, IEnumerable(Of Object), CommandContext, IServiceProvider)
-- uid: Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(Command, String, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandService.ExecuteAsync(Command, String, CommandContext, IServiceProvider)
-- uid: Qmmands.CommandService.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(String, CommandContext, IServiceProvider)
-  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.CommandService.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.CommandService.ExecuteAsync(System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: CommandService.ExecuteAsync(String, CommandContext, IServiceProvider)
+- uid: Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext)
+  name: ExecuteAsync(Command, IEnumerable<Object>, CommandContext)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_Collections_Generic_IEnumerable_System_Object__Qmmands_CommandContext_
+  commentId: M:Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.Collections.Generic.IEnumerable{System.Object},Qmmands.CommandContext)
+  name.vb: ExecuteAsync(Command, IEnumerable(Of Object), CommandContext)
+  fullName: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.Collections.Generic.IEnumerable<System.Object>, Qmmands.CommandContext)
+  fullName.vb: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.Collections.Generic.IEnumerable(Of System.Object), Qmmands.CommandContext)
+  nameWithType: CommandService.ExecuteAsync(Command, IEnumerable<Object>, CommandContext)
+  nameWithType.vb: CommandService.ExecuteAsync(Command, IEnumerable(Of Object), CommandContext)
+- uid: Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext)
+  name: ExecuteAsync(Command, String, CommandContext)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.CommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext)
+  fullName: Qmmands.CommandService.ExecuteAsync(Qmmands.Command, System.String, Qmmands.CommandContext)
+  nameWithType: CommandService.ExecuteAsync(Command, String, CommandContext)
+- uid: Qmmands.CommandService.ExecuteAsync(System.String,Qmmands.CommandContext)
+  name: ExecuteAsync(String, CommandContext)
+  href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.CommandService.ExecuteAsync(System.String,Qmmands.CommandContext)
+  fullName: Qmmands.CommandService.ExecuteAsync(System.String, Qmmands.CommandContext)
+  nameWithType: CommandService.ExecuteAsync(String, CommandContext)
 - uid: Qmmands.CommandService.ExecuteAsync*
   name: ExecuteAsync
   href: api/Qmmands.CommandService.html#Qmmands_CommandService_ExecuteAsync_
@@ -2540,12 +2540,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.ContainsAttribute.ContainsAttribute
   nameWithType: ContainsAttribute.ContainsAttribute
-- uid: Qmmands.ContainsAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.ContainsAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.ContainsAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: ContainsAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.ContainsAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.ContainsAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.ContainsAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: ContainsAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.ContainsAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.ContainsAttribute.html#Qmmands_ContainsAttribute_CheckAsync_
@@ -3044,12 +3044,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.EndsWithAttribute.EndsWithAttribute
   nameWithType: EndsWithAttribute.EndsWithAttribute
-- uid: Qmmands.EndsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.EndsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.EndsWithAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: EndsWithAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.EndsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.EndsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.EndsWithAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: EndsWithAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.EndsWithAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.EndsWithAttribute.html#Qmmands_EndsWithAttribute_CheckAsync_
@@ -3382,18 +3382,18 @@ references:
   isSpec: "True"
   fullName: Qmmands.ICommandService.DefaultRunMode
   nameWithType: ICommandService.DefaultRunMode
-- uid: Qmmands.ICommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(Command, String, CommandContext, IServiceProvider)
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.ICommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.ICommandService.ExecuteAsync(Qmmands.Command, System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: ICommandService.ExecuteAsync(Command, String, CommandContext, IServiceProvider)
-- uid: Qmmands.ICommandService.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ExecuteAsync(String, CommandContext, IServiceProvider)
-  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ExecuteAsync_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.ICommandService.ExecuteAsync(System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.ICommandService.ExecuteAsync(System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: ICommandService.ExecuteAsync(String, CommandContext, IServiceProvider)
+- uid: Qmmands.ICommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext)
+  name: ExecuteAsync(Command, String, CommandContext)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ExecuteAsync_Qmmands_Command_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.ICommandService.ExecuteAsync(Qmmands.Command,System.String,Qmmands.CommandContext)
+  fullName: Qmmands.ICommandService.ExecuteAsync(Qmmands.Command, System.String, Qmmands.CommandContext)
+  nameWithType: ICommandService.ExecuteAsync(Command, String, CommandContext)
+- uid: Qmmands.ICommandService.ExecuteAsync(System.String,Qmmands.CommandContext)
+  name: ExecuteAsync(String, CommandContext)
+  href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ExecuteAsync_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.ICommandService.ExecuteAsync(System.String,Qmmands.CommandContext)
+  fullName: Qmmands.ICommandService.ExecuteAsync(System.String, Qmmands.CommandContext)
+  nameWithType: ICommandService.ExecuteAsync(String, CommandContext)
 - uid: Qmmands.ICommandService.ExecuteAsync*
   name: ExecuteAsync
   href: api/Qmmands.ICommandService.html#Qmmands_ICommandService_ExecuteAsync_
@@ -3766,12 +3766,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.MaximumAttribute.MaximumAttribute
   nameWithType: MaximumAttribute.MaximumAttribute
-- uid: Qmmands.MaximumAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.MaximumAttribute.html#Qmmands_MaximumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.MaximumAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.MaximumAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: MaximumAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.MaximumAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.MaximumAttribute.html#Qmmands_MaximumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.MaximumAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.MaximumAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: MaximumAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.MaximumAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.MaximumAttribute.html#Qmmands_MaximumAttribute_CheckAsync_
@@ -3811,12 +3811,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.MinimumAttribute.MinimumAttribute
   nameWithType: MinimumAttribute.MinimumAttribute
-- uid: Qmmands.MinimumAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.MinimumAttribute.html#Qmmands_MinimumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.MinimumAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.MinimumAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: MinimumAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.MinimumAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.MinimumAttribute.html#Qmmands_MinimumAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.MinimumAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.MinimumAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: MinimumAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.MinimumAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.MinimumAttribute.html#Qmmands_MinimumAttribute_CheckAsync_
@@ -4025,12 +4025,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.Module.Remarks
   nameWithType: Module.Remarks
-- uid: Qmmands.Module.RunChecksAsync(Qmmands.CommandContext,System.IServiceProvider)
-  name: RunChecksAsync(CommandContext, IServiceProvider)
-  href: api/Qmmands.Module.html#Qmmands_Module_RunChecksAsync_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Module.RunChecksAsync(Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Module.RunChecksAsync(Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Module.RunChecksAsync(CommandContext, IServiceProvider)
+- uid: Qmmands.Module.RunChecksAsync(Qmmands.CommandContext)
+  name: RunChecksAsync(CommandContext)
+  href: api/Qmmands.Module.html#Qmmands_Module_RunChecksAsync_Qmmands_CommandContext_
+  commentId: M:Qmmands.Module.RunChecksAsync(Qmmands.CommandContext)
+  fullName: Qmmands.Module.RunChecksAsync(Qmmands.CommandContext)
+  nameWithType: Module.RunChecksAsync(CommandContext)
 - uid: Qmmands.Module.RunChecksAsync*
   name: RunChecksAsync
   href: api/Qmmands.Module.html#Qmmands_Module_RunChecksAsync_
@@ -4860,12 +4860,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.Parameter.Remarks
   nameWithType: Parameter.Remarks
-- uid: Qmmands.Parameter.RunChecksAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: RunChecksAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.Parameter.html#Qmmands_Parameter_RunChecksAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.Parameter.RunChecksAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.Parameter.RunChecksAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: Parameter.RunChecksAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.Parameter.RunChecksAsync(System.Object,Qmmands.CommandContext)
+  name: RunChecksAsync(Object, CommandContext)
+  href: api/Qmmands.Parameter.html#Qmmands_Parameter_RunChecksAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.Parameter.RunChecksAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.Parameter.RunChecksAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: Parameter.RunChecksAsync(Object, CommandContext)
 - uid: Qmmands.Parameter.RunChecksAsync*
   name: RunChecksAsync
   href: api/Qmmands.Parameter.html#Qmmands_Parameter_RunChecksAsync_
@@ -5277,12 +5277,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.ParameterCheckAttribute.ParameterCheckAttribute
   nameWithType: ParameterCheckAttribute.ParameterCheckAttribute
-- uid: Qmmands.ParameterCheckAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.ParameterCheckAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.ParameterCheckAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: ParameterCheckAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.ParameterCheckAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.ParameterCheckAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.ParameterCheckAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: ParameterCheckAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.ParameterCheckAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.ParameterCheckAttribute.html#Qmmands_ParameterCheckAttribute_CheckAsync_
@@ -5444,12 +5444,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.RangeAttribute.RangeAttribute
   nameWithType: RangeAttribute.RangeAttribute
-- uid: Qmmands.RangeAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.RangeAttribute.html#Qmmands_RangeAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.RangeAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.RangeAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: RangeAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.RangeAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.RangeAttribute.html#Qmmands_RangeAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.RangeAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.RangeAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: RangeAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.RangeAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.RangeAttribute.html#Qmmands_RangeAttribute_CheckAsync_
@@ -5534,12 +5534,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.RegexAttribute.RegexAttribute
   nameWithType: RegexAttribute.RegexAttribute
-- uid: Qmmands.RegexAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.RegexAttribute.html#Qmmands_RegexAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.RegexAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.RegexAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: RegexAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.RegexAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.RegexAttribute.html#Qmmands_RegexAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.RegexAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.RegexAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: RegexAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.RegexAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.RegexAttribute.html#Qmmands_RegexAttribute_CheckAsync_
@@ -5697,12 +5697,12 @@ references:
   isSpec: "True"
   fullName: Qmmands.StartsWithAttribute.StartsWithAttribute
   nameWithType: StartsWithAttribute.StartsWithAttribute
-- uid: Qmmands.StartsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  name: CheckAsync(Object, CommandContext, IServiceProvider)
-  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_CheckAsync_System_Object_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.StartsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.StartsWithAttribute.CheckAsync(System.Object, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: StartsWithAttribute.CheckAsync(Object, CommandContext, IServiceProvider)
+- uid: Qmmands.StartsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  name: CheckAsync(Object, CommandContext)
+  href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_CheckAsync_System_Object_Qmmands_CommandContext_
+  commentId: M:Qmmands.StartsWithAttribute.CheckAsync(System.Object,Qmmands.CommandContext)
+  fullName: Qmmands.StartsWithAttribute.CheckAsync(System.Object, Qmmands.CommandContext)
+  nameWithType: StartsWithAttribute.CheckAsync(Object, CommandContext)
 - uid: Qmmands.StartsWithAttribute.CheckAsync*
   name: CheckAsync
   href: api/Qmmands.StartsWithAttribute.html#Qmmands_StartsWithAttribute_CheckAsync_
@@ -5834,14 +5834,14 @@ references:
   fullName.vb: Qmmands.TypeParser(Of T)
   nameWithType: TypeParser<T>
   nameWithType.vb: TypeParser(Of T)
-- uid: Qmmands.TypeParser`1.ParseAsync(Qmmands.Parameter,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  name: ParseAsync(Parameter, String, CommandContext, IServiceProvider)
-  href: api/Qmmands.TypeParser-1.html#Qmmands_TypeParser_1_ParseAsync_Qmmands_Parameter_System_String_Qmmands_CommandContext_System_IServiceProvider_
-  commentId: M:Qmmands.TypeParser`1.ParseAsync(Qmmands.Parameter,System.String,Qmmands.CommandContext,System.IServiceProvider)
-  fullName: Qmmands.TypeParser<T>.ParseAsync(Qmmands.Parameter, System.String, Qmmands.CommandContext, System.IServiceProvider)
-  fullName.vb: Qmmands.TypeParser(Of T).ParseAsync(Qmmands.Parameter, System.String, Qmmands.CommandContext, System.IServiceProvider)
-  nameWithType: TypeParser<T>.ParseAsync(Parameter, String, CommandContext, IServiceProvider)
-  nameWithType.vb: TypeParser(Of T).ParseAsync(Parameter, String, CommandContext, IServiceProvider)
+- uid: Qmmands.TypeParser`1.ParseAsync(Qmmands.Parameter,System.String,Qmmands.CommandContext)
+  name: ParseAsync(Parameter, String, CommandContext)
+  href: api/Qmmands.TypeParser-1.html#Qmmands_TypeParser_1_ParseAsync_Qmmands_Parameter_System_String_Qmmands_CommandContext_
+  commentId: M:Qmmands.TypeParser`1.ParseAsync(Qmmands.Parameter,System.String,Qmmands.CommandContext)
+  fullName: Qmmands.TypeParser<T>.ParseAsync(Qmmands.Parameter, System.String, Qmmands.CommandContext)
+  fullName.vb: Qmmands.TypeParser(Of T).ParseAsync(Qmmands.Parameter, System.String, Qmmands.CommandContext)
+  nameWithType: TypeParser<T>.ParseAsync(Parameter, String, CommandContext)
+  nameWithType.vb: TypeParser(Of T).ParseAsync(Parameter, String, CommandContext)
 - uid: Qmmands.TypeParser`1.ParseAsync*
   name: ParseAsync
   href: api/Qmmands.TypeParser-1.html#Qmmands_TypeParser_1_ParseAsync_
