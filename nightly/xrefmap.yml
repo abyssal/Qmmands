@@ -100,19 +100,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParserResult.Arguments
   nameWithType: ArgumentParserResult.Arguments
-- uid: Qmmands.ArgumentParserResult.GetFailureReason
-  name: GetFailureReason()
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_GetFailureReason
-  commentId: M:Qmmands.ArgumentParserResult.GetFailureReason
-  fullName: Qmmands.ArgumentParserResult.GetFailureReason()
-  nameWithType: ArgumentParserResult.GetFailureReason()
-- uid: Qmmands.ArgumentParserResult.GetFailureReason*
-  name: GetFailureReason
-  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_GetFailureReason_
-  commentId: Overload:Qmmands.ArgumentParserResult.GetFailureReason
-  isSpec: "True"
-  fullName: Qmmands.ArgumentParserResult.GetFailureReason
-  nameWithType: ArgumentParserResult.GetFailureReason
 - uid: Qmmands.ArgumentParserResult.IsSuccessful
   name: IsSuccessful
   href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_IsSuccessful
@@ -126,6 +113,38 @@ references:
   isSpec: "True"
   fullName: Qmmands.ArgumentParserResult.IsSuccessful
   nameWithType: ArgumentParserResult.IsSuccessful
+- uid: Qmmands.ArgumentParserResult.op_Implicit(Qmmands.ArgumentParserResult)~System.Threading.Tasks.ValueTask{Qmmands.ArgumentParserResult}
+  name: Implicit(ArgumentParserResult to ValueTask<ArgumentParserResult>)
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_op_Implicit_Qmmands_ArgumentParserResult__System_Threading_Tasks_ValueTask_Qmmands_ArgumentParserResult_
+  commentId: M:Qmmands.ArgumentParserResult.op_Implicit(Qmmands.ArgumentParserResult)~System.Threading.Tasks.ValueTask{Qmmands.ArgumentParserResult}
+  name.vb: Widening(ArgumentParserResult to ValueTask(Of ArgumentParserResult))
+  fullName: Qmmands.ArgumentParserResult.Implicit(Qmmands.ArgumentParserResult to System.Threading.Tasks.ValueTask<Qmmands.ArgumentParserResult>)
+  fullName.vb: Qmmands.ArgumentParserResult.Widening(Qmmands.ArgumentParserResult to System.Threading.Tasks.ValueTask(Of Qmmands.ArgumentParserResult))
+  nameWithType: ArgumentParserResult.Implicit(ArgumentParserResult to ValueTask<ArgumentParserResult>)
+  nameWithType.vb: ArgumentParserResult.Widening(ArgumentParserResult to ValueTask(Of ArgumentParserResult))
+- uid: Qmmands.ArgumentParserResult.op_Implicit*
+  name: Implicit
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_op_Implicit_
+  commentId: Overload:Qmmands.ArgumentParserResult.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Qmmands.ArgumentParserResult.Implicit
+  fullName.vb: Qmmands.ArgumentParserResult.Widening
+  nameWithType: ArgumentParserResult.Implicit
+  nameWithType.vb: ArgumentParserResult.Widening
+- uid: Qmmands.ArgumentParserResult.Reason
+  name: Reason
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Reason
+  commentId: P:Qmmands.ArgumentParserResult.Reason
+  fullName: Qmmands.ArgumentParserResult.Reason
+  nameWithType: ArgumentParserResult.Reason
+- uid: Qmmands.ArgumentParserResult.Reason*
+  name: Reason
+  href: api/Qmmands.ArgumentParserResult.html#Qmmands_ArgumentParserResult_Reason_
+  commentId: Overload:Qmmands.ArgumentParserResult.Reason
+  isSpec: "True"
+  fullName: Qmmands.ArgumentParserResult.Reason
+  nameWithType: ArgumentParserResult.Reason
 - uid: Qmmands.CheckAttribute
   name: CheckAttribute
   href: api/Qmmands.CheckAttribute.html
@@ -2749,36 +2768,19 @@ references:
   commentId: F:Qmmands.DefaultArgumentParser.Instance
   fullName: Qmmands.DefaultArgumentParser.Instance
   nameWithType: DefaultArgumentParser.Instance
-- uid: Qmmands.DefaultArgumentParser.Parse(Qmmands.CommandContext)
-  name: Parse(CommandContext)
-  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Parse_Qmmands_CommandContext_
-  commentId: M:Qmmands.DefaultArgumentParser.Parse(Qmmands.CommandContext)
-  fullName: Qmmands.DefaultArgumentParser.Parse(Qmmands.CommandContext)
-  nameWithType: DefaultArgumentParser.Parse(CommandContext)
-- uid: Qmmands.DefaultArgumentParser.Parse*
-  name: Parse
-  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Parse_
-  commentId: Overload:Qmmands.DefaultArgumentParser.Parse
+- uid: Qmmands.DefaultArgumentParser.ParseAsync(Qmmands.CommandContext)
+  name: ParseAsync(CommandContext)
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_ParseAsync_Qmmands_CommandContext_
+  commentId: M:Qmmands.DefaultArgumentParser.ParseAsync(Qmmands.CommandContext)
+  fullName: Qmmands.DefaultArgumentParser.ParseAsync(Qmmands.CommandContext)
+  nameWithType: DefaultArgumentParser.ParseAsync(CommandContext)
+- uid: Qmmands.DefaultArgumentParser.ParseAsync*
+  name: ParseAsync
+  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_ParseAsync_
+  commentId: Overload:Qmmands.DefaultArgumentParser.ParseAsync
   isSpec: "True"
-  fullName: Qmmands.DefaultArgumentParser.Parse
-  nameWithType: DefaultArgumentParser.Parse
-- uid: Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse(Qmmands.CommandContext)
-  name: IArgumentParser.Parse(CommandContext)
-  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Qmmands_IArgumentParser_Parse_Qmmands_CommandContext_
-  commentId: M:Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse(Qmmands.CommandContext)
-  name.vb: Qmmands.IArgumentParser.Parse(CommandContext)
-  fullName: Qmmands.DefaultArgumentParser.Qmmands.IArgumentParser.Parse(Qmmands.CommandContext)
-  nameWithType: DefaultArgumentParser.IArgumentParser.Parse(CommandContext)
-  nameWithType.vb: DefaultArgumentParser.Qmmands.IArgumentParser.Parse(CommandContext)
-- uid: Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse*
-  name: IArgumentParser.Parse
-  href: api/Qmmands.DefaultArgumentParser.html#Qmmands_DefaultArgumentParser_Qmmands_IArgumentParser_Parse_
-  commentId: Overload:Qmmands.DefaultArgumentParser.Qmmands#IArgumentParser#Parse
-  isSpec: "True"
-  name.vb: Qmmands.IArgumentParser.Parse
-  fullName: Qmmands.DefaultArgumentParser.Qmmands.IArgumentParser.Parse
-  nameWithType: DefaultArgumentParser.IArgumentParser.Parse
-  nameWithType.vb: DefaultArgumentParser.Qmmands.IArgumentParser.Parse
+  fullName: Qmmands.DefaultArgumentParser.ParseAsync
+  nameWithType: DefaultArgumentParser.ParseAsync
 - uid: Qmmands.DefaultArgumentParserFailure
   name: DefaultArgumentParserFailure
   href: api/Qmmands.DefaultArgumentParserFailure.html
@@ -2898,19 +2900,6 @@ references:
   isSpec: "True"
   fullName: Qmmands.DefaultArgumentParserResult.FailurePosition
   nameWithType: DefaultArgumentParserResult.FailurePosition
-- uid: Qmmands.DefaultArgumentParserResult.GetFailureReason
-  name: GetFailureReason()
-  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_GetFailureReason
-  commentId: M:Qmmands.DefaultArgumentParserResult.GetFailureReason
-  fullName: Qmmands.DefaultArgumentParserResult.GetFailureReason()
-  nameWithType: DefaultArgumentParserResult.GetFailureReason()
-- uid: Qmmands.DefaultArgumentParserResult.GetFailureReason*
-  name: GetFailureReason
-  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_GetFailureReason_
-  commentId: Overload:Qmmands.DefaultArgumentParserResult.GetFailureReason
-  isSpec: "True"
-  fullName: Qmmands.DefaultArgumentParserResult.GetFailureReason
-  nameWithType: DefaultArgumentParserResult.GetFailureReason
 - uid: Qmmands.DefaultArgumentParserResult.IsSuccessful
   name: IsSuccessful
   href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_IsSuccessful
@@ -2937,6 +2926,19 @@ references:
   isSpec: "True"
   fullName: Qmmands.DefaultArgumentParserResult.Parameter
   nameWithType: DefaultArgumentParserResult.Parameter
+- uid: Qmmands.DefaultArgumentParserResult.Reason
+  name: Reason
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Reason
+  commentId: P:Qmmands.DefaultArgumentParserResult.Reason
+  fullName: Qmmands.DefaultArgumentParserResult.Reason
+  nameWithType: DefaultArgumentParserResult.Reason
+- uid: Qmmands.DefaultArgumentParserResult.Reason*
+  name: Reason
+  href: api/Qmmands.DefaultArgumentParserResult.html#Qmmands_DefaultArgumentParserResult_Reason_
+  commentId: Overload:Qmmands.DefaultArgumentParserResult.Reason
+  isSpec: "True"
+  fullName: Qmmands.DefaultArgumentParserResult.Reason
+  nameWithType: DefaultArgumentParserResult.Reason
 - uid: Qmmands.DescriptionAttribute
   name: DescriptionAttribute
   href: api/Qmmands.DescriptionAttribute.html
@@ -3227,19 +3229,19 @@ references:
   commentId: T:Qmmands.IArgumentParser
   fullName: Qmmands.IArgumentParser
   nameWithType: IArgumentParser
-- uid: Qmmands.IArgumentParser.Parse(Qmmands.CommandContext)
-  name: Parse(CommandContext)
-  href: api/Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_Parse_Qmmands_CommandContext_
-  commentId: M:Qmmands.IArgumentParser.Parse(Qmmands.CommandContext)
-  fullName: Qmmands.IArgumentParser.Parse(Qmmands.CommandContext)
-  nameWithType: IArgumentParser.Parse(CommandContext)
-- uid: Qmmands.IArgumentParser.Parse*
-  name: Parse
-  href: api/Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_Parse_
-  commentId: Overload:Qmmands.IArgumentParser.Parse
+- uid: Qmmands.IArgumentParser.ParseAsync(Qmmands.CommandContext)
+  name: ParseAsync(CommandContext)
+  href: api/Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_ParseAsync_Qmmands_CommandContext_
+  commentId: M:Qmmands.IArgumentParser.ParseAsync(Qmmands.CommandContext)
+  fullName: Qmmands.IArgumentParser.ParseAsync(Qmmands.CommandContext)
+  nameWithType: IArgumentParser.ParseAsync(CommandContext)
+- uid: Qmmands.IArgumentParser.ParseAsync*
+  name: ParseAsync
+  href: api/Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_ParseAsync_
+  commentId: Overload:Qmmands.IArgumentParser.ParseAsync
   isSpec: "True"
-  fullName: Qmmands.IArgumentParser.Parse
-  nameWithType: IArgumentParser.Parse
+  fullName: Qmmands.IArgumentParser.ParseAsync
+  nameWithType: IArgumentParser.ParseAsync
 - uid: Qmmands.ICommandService
   name: ICommandService
   href: api/Qmmands.ICommandService.html
