@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hi </title>
+    <title>Enum CommandExecutionStep
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Hi ">
+    <meta name="title" content="Enum CommandExecutionStep
+   ">
     <meta name="generator" content="docfx 2.46.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -66,10 +68,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h2 id="hi">Hi</h2>
-
-<p>Here you can find a bunch of guides that should help you get started with Qmmands.</p>
+            <article class="content wrap" id="_content" data-uid="Qmmands.CommandExecutionStep">
+  
+  
+  <h1 id="Qmmands_CommandExecutionStep" data-uid="Qmmands.CommandExecutionStep" class="text-break">Enum CommandExecutionStep
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the execution step at which the <a class="xref" href="Qmmands.ExecutionFailedResult.html">ExecutionFailedResult</a> was returned.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
+  <h6><strong>Assembly</strong>: Qmmands.dll</h6>
+  <h5 id="Qmmands_CommandExecutionStep_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum CommandExecutionStep</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_ArgumentParsing">ArgumentParsing</td>
+        <td><p>An exception occurred in <a class="xref" href="Qmmands.IArgumentParser.html#Qmmands_IArgumentParser_ParseAsync_Qmmands_CommandContext_">ParseAsync(CommandContext)</a> during raw argument parsing.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_BeforeExecuted">BeforeExecuted</td>
+        <td><p>An exception occcured in <a class="xref" href="Qmmands.ModuleBase-1.html#Qmmands_ModuleBase_1_BeforeExecutedAsync">BeforeExecutedAsync()</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_Checks">Checks</td>
+        <td><p>An exception occurred while handling the <a class="xref" href="Qmmands.Command.html">Command</a>&apos;s checks.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_Command">Command</td>
+        <td><p>An execution occurred when executing the <a class="xref" href="Qmmands.Command.html">Command</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_CooldownBucketKeyGenerating">CooldownBucketKeyGenerating</td>
+        <td><p>An exception occurred during generating the cooldown bucket key using <a class="xref" href="Qmmands.CommandService.html#Qmmands_CommandService_CooldownBucketKeyGenerator">CooldownBucketKeyGenerator</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Qmmands_CommandExecutionStep_TypeParsing">TypeParsing</td>
+        <td><p>An exception occurred during type parsing.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -78,7 +132,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Quahu/Qmmands/blob/master/docs/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CommandExecutionStep.md&amp;value=---%0Auid%3A%20Qmmands.CommandExecutionStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Results/Failed/Execution/CommandExecutionStep.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
