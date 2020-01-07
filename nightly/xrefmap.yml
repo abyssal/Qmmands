@@ -2604,12 +2604,12 @@ references:
   commentId: T:Qmmands.Cooldown
   fullName: Qmmands.Cooldown
   nameWithType: Cooldown
-- uid: Qmmands.Cooldown.#ctor(System.Int32,System.TimeSpan,System.Object)
-  name: Cooldown(Int32, TimeSpan, Object)
-  href: api/Qmmands.Cooldown.html#Qmmands_Cooldown__ctor_System_Int32_System_TimeSpan_System_Object_
-  commentId: M:Qmmands.Cooldown.#ctor(System.Int32,System.TimeSpan,System.Object)
-  fullName: Qmmands.Cooldown.Cooldown(System.Int32, System.TimeSpan, System.Object)
-  nameWithType: Cooldown.Cooldown(Int32, TimeSpan, Object)
+- uid: Qmmands.Cooldown.#ctor(System.Int32,System.TimeSpan,System.Enum)
+  name: Cooldown(Int32, TimeSpan, Enum)
+  href: api/Qmmands.Cooldown.html#Qmmands_Cooldown__ctor_System_Int32_System_TimeSpan_System_Enum_
+  commentId: M:Qmmands.Cooldown.#ctor(System.Int32,System.TimeSpan,System.Enum)
+  fullName: Qmmands.Cooldown.Cooldown(System.Int32, System.TimeSpan, System.Enum)
+  nameWithType: Cooldown.Cooldown(Int32, TimeSpan, Enum)
 - uid: Qmmands.Cooldown.#ctor*
   name: Cooldown
   href: api/Qmmands.Cooldown.html#Qmmands_Cooldown__ctor_
