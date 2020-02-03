@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum CooldownMeasure
+    <title>Delegate ValueTaskCommandCallbackDelegate
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum CooldownMeasure
+    <meta name="title" content="Delegate ValueTaskCommandCallbackDelegate
    ">
     <meta name="generator" content="docfx 2.48.1.0">
     
@@ -68,57 +68,54 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Qmmands.CooldownMeasure">
+            <article class="content wrap" id="_content" data-uid="Qmmands.Delegates.ValueTaskCommandCallbackDelegate">
   
   
-  <h1 id="Qmmands_CooldownMeasure" data-uid="Qmmands.CooldownMeasure" class="text-break">Enum CooldownMeasure
+  <h1 id="Qmmands_Delegates_ValueTaskCommandCallbackDelegate" data-uid="Qmmands.Delegates.ValueTaskCommandCallbackDelegate" class="text-break">Delegate ValueTaskCommandCallbackDelegate
   </h1>
-  <div class="markdown level0 summary"><p>Represents a time unit to use with the <a class="xref" href="Qmmands.CooldownAttribute.html">CooldownAttribute</a>.</p>
+  <div class="markdown level0 summary"><p>Represents a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a> <a class="xref" href="Qmmands.Command.html">Command</a> callback method.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.html">Qmmands</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Qmmands.Delegates.html">Qmmands.Delegates</a></h6>
   <h6><strong>Assembly</strong>: Qmmands.dll</h6>
-  <h5 id="Qmmands_CooldownMeasure_syntax">Syntax</h5>
+  <h5 id="Qmmands_Delegates_ValueTaskCommandCallbackDelegate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum CooldownMeasure</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate ValueTask ValueTaskCommandCallbackDelegate(CommandContext context);</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Qmmands_CooldownMeasure_Days">Days</td>
-        <td><p>Uses days as the time unit.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Qmmands_CooldownMeasure_Hours">Hours</td>
-        <td><p>Uses hours as the time unit.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Qmmands_CooldownMeasure_Milliseconds">Milliseconds</td>
-        <td><p>Uses milliseconds as the time unit.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Qmmands_CooldownMeasure_Minutes">Minutes</td>
-        <td><p>Uses minutes as the time unit.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Qmmands_CooldownMeasure_Seconds">Seconds</td>
-        <td><p>Uses seconds as the time unit.</p>
+        <td><a class="xref" href="Qmmands.CommandContext.html">CommandContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The <a class="xref" href="Qmmands.CommandContext.html">CommandContext</a> used for execution. </p>
 </td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a></td>
+        <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -127,10 +124,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_CooldownMeasure.md&amp;value=---%0Auid%3A%20Qmmands.CooldownMeasure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Quahu/Qmmands/new/master/apiSpec/new?filename=Qmmands_Delegates_ValueTaskCommandCallbackDelegate.md&amp;value=---%0Auid%3A%20Qmmands.Delegates.ValueTaskCommandCallbackDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Attributes/Commands/Cooldown/CooldownMeasure.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Quahu/Qmmands/blob/master/src/Qmmands/Delegates.cs/#L46" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
