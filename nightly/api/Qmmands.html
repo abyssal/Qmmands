@@ -138,7 +138,7 @@
       <section><p>Represents a configuration to use with the <a class="xref" href="Qmmands.CommandService.html">CommandService</a>.</p>
 </section>
       <h4><a class="xref" href="Qmmands.CommandUtilities.html">CommandUtilities</a></h4>
-      <section><p>Provides some utility for handling commands.</p>
+      <section><p>Provides various utility for commands.</p>
 </section>
       <h4><a class="xref" href="Qmmands.ContainsAttribute.html">ContainsAttribute</a></h4>
       <section><p>Represents a parameter check that ensures the provided string argument contains the provided string value.</p>
@@ -162,11 +162,15 @@
       <section><p>Sets whether the <a class="xref" href="Qmmands.Module.html">Module</a> or <a class="xref" href="Qmmands.Command.html">Command</a> is disabled.</p>
 </section>
       <h4><a class="xref" href="Qmmands.DoNotAddAttribute.html">DoNotAddAttribute</a></h4>
-      <section><p>Prevents <a class="xref" href="Qmmands.CommandService.html#Qmmands_CommandService_AddModules_System_Reflection_Assembly_System_Predicate_System_Reflection_TypeInfo__System_Action_Qmmands_ModuleBuilder__">AddModules(Assembly, Predicate&lt;TypeInfo&gt;, Action&lt;ModuleBuilder&gt;)</a>
+      <section><p>Prevents <see cref="!:CommandService.AddModules(System.Reflection.Assembly, Predicate&lt;System.Reflection.TypeInfo>, Action&lt;ModuleBuilder>)"></see>
 from automatically adding the marked class as a <a class="xref" href="Qmmands.Module.html">Module</a>.</p>
 </section>
       <h4><a class="xref" href="Qmmands.DoNotInjectAttribute.html">DoNotInjectAttribute</a></h4>
       <section><p>Prevents <a class="xref" href="Qmmands.CommandService.html">CommandService</a> from automatically dependency injecting the marked property. </p>
+</section>
+      <h4><a class="xref" href="Qmmands.DummyServiceProvider.html">DummyServiceProvider</a></h4>
+      <section><p>Represents a dummy <see cref="!:IServiceProvider"></see>.
+Returns <span class="xref">null</span> for any service <see cref="!:Type"></see> requested.</p>
 </section>
       <h4><a class="xref" href="Qmmands.EndsWithAttribute.html">EndsWithAttribute</a></h4>
       <section><p>Represents a parameter check that ensures the provided string argument ends with the provided string value.</p>
@@ -235,7 +239,7 @@ from automatically adding the marked class as a <a class="xref" href="Qmmands.Mo
       <section><p>Represents a parameter check that ensures the provided numeric/string argument&apos;s value/length is in the given range.</p>
 </section>
       <h4><a class="xref" href="Qmmands.RegexAttribute.html">RegexAttribute</a></h4>
-      <section><p>Represents a parameter check that ensures the provided string argument matches the provided <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.regularexpressions.regex">Regex</a> pattern.</p>
+      <section><p>Represents a parameter check that ensures the provided string argument matches the provided <see cref="!:System.Text.RegularExpressions.Regex"></see> pattern.</p>
 </section>
       <h4><a class="xref" href="Qmmands.RemainderAttribute.html">RemainderAttribute</a></h4>
       <section><p>Marks the <a class="xref" href="Qmmands.Parameter.html">Parameter</a> as a remainder parameter.</p>
@@ -266,9 +270,6 @@ from automatically adding the marked class as a <a class="xref" href="Qmmands.Mo
       <h4><a class="xref" href="Qmmands.IArgumentParser.html">IArgumentParser</a></h4>
       <section><p>Represents the interface for raw argument parsers.</p>
 </section>
-      <h4><a class="xref" href="Qmmands.ICommandService.html">ICommandService</a></h4>
-      <section><p>Represents the extracted interface from <a class="xref" href="Qmmands.CommandService.html">CommandService</a>.</p>
-</section>
       <h4><a class="xref" href="Qmmands.IResult.html">IResult</a></h4>
       <section><p>The base interface for all results.</p>
 </section>
@@ -287,7 +288,7 @@ from automatically adding the marked class as a <a class="xref" href="Qmmands.Mo
       <section><p>Defines whether the <a class="xref" href="Qmmands.Command.html">Command</a>s should run sequentially or in parallel.</p>
 </section>
       <h4><a class="xref" href="Qmmands.SeparatorRequirement.html">SeparatorRequirement</a></h4>
-      <section><p>Defines whether groups and commands need a separator for pathing.</p>
+      <section><p>Defines the separator requirement for pathing of groups and commands.</p>
 </section>
 </article>
           </div>
