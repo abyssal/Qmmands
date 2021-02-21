@@ -2624,6 +2624,38 @@ references:
   isSpec: "True"
   fullName: Qmmands.ContainsAttribute.Value
   nameWithType: ContainsAttribute.Value
+- uid: Qmmands.ContextTypeMismatchException
+  name: ContextTypeMismatchException
+  href: api/Qmmands.ContextTypeMismatchException.html
+  commentId: T:Qmmands.ContextTypeMismatchException
+  fullName: Qmmands.ContextTypeMismatchException
+  nameWithType: ContextTypeMismatchException
+- uid: Qmmands.ContextTypeMismatchException.ActualType
+  name: ActualType
+  href: api/Qmmands.ContextTypeMismatchException.html#Qmmands_ContextTypeMismatchException_ActualType
+  commentId: P:Qmmands.ContextTypeMismatchException.ActualType
+  fullName: Qmmands.ContextTypeMismatchException.ActualType
+  nameWithType: ContextTypeMismatchException.ActualType
+- uid: Qmmands.ContextTypeMismatchException.ActualType*
+  name: ActualType
+  href: api/Qmmands.ContextTypeMismatchException.html#Qmmands_ContextTypeMismatchException_ActualType_
+  commentId: Overload:Qmmands.ContextTypeMismatchException.ActualType
+  isSpec: "True"
+  fullName: Qmmands.ContextTypeMismatchException.ActualType
+  nameWithType: ContextTypeMismatchException.ActualType
+- uid: Qmmands.ContextTypeMismatchException.ExpectedType
+  name: ExpectedType
+  href: api/Qmmands.ContextTypeMismatchException.html#Qmmands_ContextTypeMismatchException_ExpectedType
+  commentId: P:Qmmands.ContextTypeMismatchException.ExpectedType
+  fullName: Qmmands.ContextTypeMismatchException.ExpectedType
+  nameWithType: ContextTypeMismatchException.ExpectedType
+- uid: Qmmands.ContextTypeMismatchException.ExpectedType*
+  name: ExpectedType
+  href: api/Qmmands.ContextTypeMismatchException.html#Qmmands_ContextTypeMismatchException_ExpectedType_
+  commentId: Overload:Qmmands.ContextTypeMismatchException.ExpectedType
+  isSpec: "True"
+  fullName: Qmmands.ContextTypeMismatchException.ExpectedType
+  nameWithType: ContextTypeMismatchException.ExpectedType
 - uid: Qmmands.Cooldown
   name: Cooldown
   href: api/Qmmands.Cooldown.html
