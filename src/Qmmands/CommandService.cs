@@ -1160,7 +1160,7 @@ namespace Qmmands
 
                 case RunMode.Parallel:
                     _ = Task.Run(() => InternalExecuteCallbackAsync(context));
-                    return new SuccessfulResult();
+                    return new ParallelExecutionResult();
 
                 default:
                     throw new InvalidOperationException("Invalid run mode.");
